@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Camera, HardDrive } from "lucide-react";
-import { Hero } from "@/components/hero";
+import { AccessControlVideo } from "@/components/access-control-video";
 
 const categories = [
   { href: "/illustra-cameras/pro-flex", label: "Illustra Pro and Flex", desc: "AI-powered professional & flexible cameras", Icon: Camera },
@@ -11,7 +11,7 @@ const categories = [
 export default function IllustraCamerasIndex() {
   return (
     <>
-      <Hero title="Welcome to Johnson Controls Illustra Cameras" />
+      <AccessControlVideo src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Cameras-P9OleDVOk2a9430JrmDc7m1RWTqEoe.mp4" />
 
       <section className="mx-auto max-w-[1400px] px-6 py-12">
         <h2 className="text-2xl font-semibold text-foreground">Pick a Category to Build Your Order</h2>
