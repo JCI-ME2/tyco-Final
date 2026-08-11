@@ -1,0 +1,2223 @@
+{
+  "Software": [
+    {
+      "Part Nymber": "E-SPE-V8",
+      "Category": "Server Software On USB",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Basic level",
+      "Description": "EntraPass v8 Special Edition Multi-language Software (English, French, German, Spanish, Italian, Dutch Turkish & Portuguese). Manuals are in pdf format on the USB"
+    },
+    {
+      "Part Nymber": "E-SPE-LIC",
+      "Category": "Server Software",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Basic level",
+      "Description": "EntraPass Special Edition License Only - Latest Version"
+    },
+    {
+      "Part Nymber": "E-SPE-UPG-V6-LIC",
+      "Category": "Server Upgrade",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Upgrade",
+      "Description": "EntraPass Special Edition upgrade from v3.18 to v6.0, License Only"
+    },
+    {
+      "Part Nymber": "E-SPE-GLY",
+      "Category": "Integration License",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Honeywell Intruder Alarm",
+      "Description": "EntraPass Special Edition v5 Licence enabling integration with the Honeywell Intruder Alarm Panel. (EntraPass Special Edition can manage up to 5 integrated Honeywell intrusion panels)"
+    },
+    {
+      "Part Nymber": "E-SPE-DOOR-1",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Wireless Lock (1)",
+      "Description": "Wireless integration License Special Edition, 1 additional door"
+    },
+    {
+      "Part Nymber": "E-SPE-DOOR-4",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Wireless Lock (4)",
+      "Description": "Wireless integration License Special Edition, 4 additional doors"
+    },
+    {
+      "Part Nymber": "E-SPE-DOOR-8",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Wireless Lock (8)",
+      "Description": "Wireless integration License Special Edition, 8 additional doors"
+    },
+    {
+      "Part Nymber": "E-SPE-DOOR-24",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Wireless Lock (24)",
+      "Description": "Wireless integration License Special Edition, 24 additional doors"
+    },
+    {
+      "Part Nymber": "E-SPE-DOOR-48",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Wireless Lock (48)",
+      "Description": "Wireless integration License Special Edition, 48 additional doors"
+    },
+    {
+      "Part Nymber": "E-SPE-DOOR-96",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Special Edition",
+      "Doors / Limitations": "256 Doors / 1 Workstation",
+      "Integration Type": "Wireless Lock (96)",
+      "Description": "Wireless integration License Special Edition, 96 additional doors"
+    },
+    {
+      "Part Nymber": "E-COR-V9",
+      "Category": "Server Software On USB",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Corporate Level",
+      "Description": "EntraPass v9 Corporate Edition Multi-language Software, including 2 additional workstation licenses, elevator control, badging, remote site management. Manuals are in pdf format on the USB"
+    },
+    {
+      "Part Nymber": "E-COR-LIC",
+      "Category": "Server Software",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Corporate Level",
+      "Description": "EntraPass Corporate Edition License Only - Latest Version"
+    },
+    {
+      "Part Nymber": "E-COR-UPG-V6-LIC",
+      "Category": "Server Upgrade",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Upgrade",
+      "Description": "EntraPass Corporate Edition upgrade from v3.18 to v6.0, License Only"
+    },
+    {
+      "Part Nymber": "E-COR-WS1",
+      "Category": "Workstation License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Workstation (1)",
+      "Description": "EntraPass Corporate Edition, license for 1 additional workstations (v3.xx and higher). Email delivery"
+    },
+    {
+      "Part Nymber": "E-COR-WS6",
+      "Category": "Workstation License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Workstation (6)",
+      "Description": "EntraPass Corporate Edition, license for 6 additional workstations (v3.xx and higher). Email delivery"
+    },
+    {
+      "Part Nymber": "E-COR-COM",
+      "Category": "Gateway License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Gateway (40)",
+      "Description": "EntraPass Corporate Edition, license for 40 additional Multi-Site gateways (v3.xx and higher). Email delivery"
+    },
+    {
+      "Part Nymber": "E-COR-CONNECT",
+      "Category": "Integration License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "3rd Party (1)",
+      "Description": "Entrapass Corporate Edition Third Party Integration Option, license for 1 concurrent integration. (version 7.0 or later)"
+    },
+    {
+      "Part Nymber": "E-COR-GLY",
+      "Category": "Integration License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Honeywell Intruder Alarm",
+      "Description": "EntraPass Corporate Edition v5 Licence enabling integration with the Honeywell Intruder Alarm Panel"
+    },
+    {
+      "Part Nymber": "E-COR-RDN",
+      "Category": "Redundancy License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Server Redundancy",
+      "Description": "License for Redundancy Server"
+    },
+    {
+      "Part Nymber": "E-COR-LDAP",
+      "Category": "Integration License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "LDAP Active Directory",
+      "Description": "EntraPass Corporate Edition option, license for one Active Directory (LDAP). Import/synchronize EntraPass operators and users (cardholder), operator Single Sign On with EntraPass Workstation, (v7.10 and higher). Email delivery"
+    },
+    {
+      "Part Nymber": "E-COR-SQL",
+      "Category": "Integration License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "SQL / Oraclce",
+      "Description": "License for Oracle/MS-SQL HR Interface"
+    },
+    {
+      "Part Nymber": "E-COR-VVM",
+      "Category": "Integration License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Video Vault",
+      "Description": "Video Vault option: When ordered you receive a certificate with serial number that unlock this features."
+    },
+    {
+      "Part Nymber": "E-COR-WEB-1",
+      "Category": "Web Station License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Webstation (1)",
+      "Description": "License for 1 concurrent connection for EntraPass Web Station for EntraPass Corporate Edition v4.xx and higher"
+    },
+    {
+      "Part Nymber": "E-COR-WEB-3",
+      "Category": "Web Station License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Webstation (3)",
+      "Description": "License for 3 concurrent connections for EntraPass Web station for EntraPass Corporate Edition v4.xx and higher."
+    },
+    {
+      "Part Nymber": "E-COR-WEB-10",
+      "Category": "Web Station License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Webstation (10)",
+      "Description": "License for 10 concurrent connections for EntraPass Web station for EntraPass Corporate Edition v4.xx and higher."
+    },
+    {
+      "Part Nymber": "E-COR-WEB-25",
+      "Category": "Web Station License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Webstation (25)",
+      "Description": "License for 25 concurrent connections for EntraPass Web station for EntraPass Corporate Edition v4.xx and higher"
+    },
+    {
+      "Part Nymber": "E-COR-DVR-1",
+      "Category": "Integration License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "3rd Party DVR (1)",
+      "Description": "EntraPass Corporate Edition option license for single 3rd party recorder (v5.02 and higher)."
+    },
+    {
+      "Part Nymber": "E-COR-DOOR-1",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Lock (1)",
+      "Description": "Wireless integration License Corporate Edition, 1 additional door"
+    },
+    {
+      "Part Nymber": "E-COR-DOOR-4",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Lock (4)",
+      "Description": "Wireless integration License Corporate Edition, 4 additional doors"
+    },
+    {
+      "Part Nymber": "E-COR-DOOR-8",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Lock (8)",
+      "Description": "Wireless integration License Corporate Edition, 8 additional doors"
+    },
+    {
+      "Part Nymber": "E-COR-DOOR-24",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Lock (24)",
+      "Description": "Wireless integration License Corporate Edition, 24 additional doors"
+    },
+    {
+      "Part Nymber": "E-COR-DOOR-48",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Lock (48)",
+      "Description": "Wireless integration License Corporate Edition, 48 additional doors"
+    },
+    {
+      "Part Nymber": "E-COR-DOOR-96",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Lock (96)",
+      "Description": "Wireless integration License Corporate Edition, 96 additional doors"
+    },
+    {
+      "Part Nymber": "E-COR-SALTO-1",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Salto (1)",
+      "Description": "Salto lock license for 1 additional Door for EntraPass Corporate Edition (v9.00 and higher). Mandatory active KAP.  Email delivery."
+    },
+    {
+      "Part Nymber": "E-COR-SALTO-5",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Salto (5)",
+      "Description": "Salto lock license for 5 additional Door for EntraPass Corporate Edition (v9.00 and higher). Mandatory active KAP.Email delivery."
+    },
+    {
+      "Part Nymber": "E-COR-SALTO-10",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Salto (10)",
+      "Description": "Salto lock license for 10 additional Door for EntraPass Corporate Edition (v9.00 and higher). Mandatory active KAP. Email delivery."
+    },
+    {
+      "Part Nymber": "E-COR-SALTO-50",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Salto (50)",
+      "Description": "Salto lock license for 50 additional Door for EntraPass Corporate Edition (v9.00 and higher). Mandatory active KAP.Email delivery."
+    },
+    {
+      "Part Nymber": "E-COR-SALTO-100",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "Wireless Salto (100)",
+      "Description": "Salto lock license for 100 additional Door for EntraPass Corporate Edition (v9.00 and higher). Mandatory active KAP.Email delivery."
+    },
+    {
+      "Part Nymber": "E-COR-PASS-10",
+      "Category": "Mobile Credential",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "10 Mobile Credentials",
+      "Description": "Pack of 10 EntraPass GO PASS credentials for Corporate Edition (v8 and higher)."
+    },
+    {
+      "Part Nymber": "E-COR-PASS-50",
+      "Category": "Mobile Credential",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "50 Mobile Credentials",
+      "Description": "Pack of 50 EntraPass GO PASS credentials for Corporate Edition (v7.10 and higher)."
+    },
+    {
+      "Part Nymber": "E-COR-PASS-100",
+      "Category": "Mobile Credential",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "100 Mobile Credentials",
+      "Description": "Pack of 100 EntraPass GO PASS credentials for Corporate Edition (v7.10 and higher)."
+    },
+    {
+      "Part Nymber": "E-COR-PASS-500",
+      "Category": "Mobile Credential",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "500 Mobile Credentials",
+      "Description": "Pack of 500 EntraPass GO PASS credentials for Corporate Edition (v7.10 and higher)."
+    },
+    {
+      "Part Nymber": "E-COR-KTK-1",
+      "Category": "Token License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "1 Token",
+      "Description": "1 Kantech token for EntraPass Corporate Edition"
+    },
+    {
+      "Part Nymber": "E-COR-KTK-2",
+      "Category": "Token License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "2 Tokens",
+      "Description": "2 Kantech tokens for EntraPass Corporate Edition"
+    },
+    {
+      "Part Nymber": "E-COR-KTK-3",
+      "Category": "Token License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "3 Tokens",
+      "Description": "3 Kantech tokens for EntraPass Corporate Edition"
+    },
+    {
+      "Part Nymber": "E-COR-KTK-5",
+      "Category": "Token License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "5 Tokens",
+      "Description": "5 Kantech tokens for EntraPass Corporate Edition"
+    },
+    {
+      "Part Nymber": "E-COR-KTK-10",
+      "Category": "Token License",
+      "Software Level": "Corporate Edition",
+      "Doors / Limitations": "10,000 Doors /  21 Workstations",
+      "Integration Type": "10 Tokens",
+      "Description": "10 Kantech tokens for EntraPass Corporate Edition"
+    },
+    {
+      "Part Nymber": "E-GLO-V9",
+      "Category": "Server Software On USB",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Global Level",
+      "Description": "EntraPass v9 Global Edition Multi-language Software, including one server license, one workstation on server, four additional workstations license, Integrated Badging, Elevator Control. Manuals are in pdf format on the USB"
+    },
+    {
+      "Part Nymber": "E-GLO-LIC",
+      "Category": "Server Software",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Global Level",
+      "Description": "EntraPass Global Edition License Only - Latest Version"
+    },
+    {
+      "Part Nymber": "E-GLO-UPG-V6-LIC",
+      "Category": "Server Upgrade",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Upgrade",
+      "Description": "EntraPass Global Edition upgrade from v3.18 to v6.0, License Only"
+    },
+    {
+      "Part Nymber": "E-GLO-WS1",
+      "Category": "Workstation License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Workstation (1)",
+      "Description": "License for 1 additional workstation option."
+    },
+    {
+      "Part Nymber": "E-GLO-WS8",
+      "Category": "Workstation License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Workstation (8)",
+      "Description": "License for 8 additional workstations option."
+    },
+    {
+      "Part Nymber": "E-GLO-COM-WIN",
+      "Category": "Gateway License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Gateway (16)",
+      "Description": "License for 16 additional Global Gateways (Windows NCC)."
+    },
+    {
+      "Part Nymber": "E-GLO-CORCOM",
+      "Category": "Gateway License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Gateway (40)",
+      "Description": "License for 40 additional Corporate Gateways."
+    },
+    {
+      "Part Nymber": "E-GLO-CONNECT",
+      "Category": "Integration License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "3rd Party (1)",
+      "Description": "Entrapass Global Edition Third Party Integration Option, license for 1 concurrent integration. (version 7.0 or later)"
+    },
+    {
+      "Part Nymber": "E-GLO-CORCOMRDN",
+      "Category": "Redundancy License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Gateway Redundancy",
+      "Description": "Redundancy Gateway License"
+    },
+    {
+      "Part Nymber": "E-GLO-GLY",
+      "Category": "Integration License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Honeywell Intruder Alarm",
+      "Description": "EntraPass Global Edition v5 Licence enabling integration with the Honeywell Intruder Alarm Panel"
+    },
+    {
+      "Part Nymber": "E-GLO-RDN",
+      "Category": "Redundancy License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Server Redundancy",
+      "Description": "Redundancy server option for EntraPass Global Edition."
+    },
+    {
+      "Part Nymber": "E-GLO-LDAP",
+      "Category": "Integration License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "LDAP Active Directory",
+      "Description": "EntraPass Global Edition option, license for one Active Directory (LDAP). Import/synchronize EntraPass operators and users (cardholder), operator Single Sign On with EntraPass Workstation, (v7.10 and higher). Email delivery"
+    },
+    {
+      "Part Nymber": "E-GLO-SQL",
+      "Category": "Integration License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "SQL / Oraclce",
+      "Description": "License for Oracle/MS-SQL HR interface option."
+    },
+    {
+      "Part Nymber": "E-GLO-VVM",
+      "Category": "Integration License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Video Vault",
+      "Description": "License for EntraPass Video Vault."
+    },
+    {
+      "Part Nymber": "E-GLO-WEB-1",
+      "Category": "Web Station License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Webstation (1)",
+      "Description": "License for 1 concurrent connection for EntraPass Web Station for EntraPass Global Edition v4.xx and higher"
+    },
+    {
+      "Part Nymber": "E-GLO-WEB-3",
+      "Category": "Web Station License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Webstation (3)",
+      "Description": "License for 3 concurrent connections for EntraPass Web station for EntraPass Global Edition v4.xx and higher."
+    },
+    {
+      "Part Nymber": "E-GLO-WEB-10",
+      "Category": "Web Station License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Webstation (10)",
+      "Description": "License for 10 concurrent connections for EntraPass Web station for EntraPass Global Edition v4.xx and higher."
+    },
+    {
+      "Part Nymber": "E-GLO-WEB-25",
+      "Category": "Web Station License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Webstation (25)",
+      "Description": "License for 25 concurrent connections for EntraPass Web station for EntraPass Global Edition v4.xx and higher."
+    },
+    {
+      "Part Nymber": "E-GLO-WEB-50",
+      "Category": "Web Station License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Webstation (50)",
+      "Description": "License for 50 concurrent connections for EntraPass Web station for EntraPass Global Edition v4.xx and higher."
+    },
+    {
+      "Part Nymber": "E-GLO-DVR-1",
+      "Category": "Integration License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "3rd Party DVR (1)",
+      "Description": "EntraPass Global Edition option license for single 3rd party recorder (v5.02 and higher)."
+    },
+    {
+      "Part Nymber": "E-GLO-DVR-UNL",
+      "Category": "Integration License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "3rd Party DVR Unlimited",
+      "Description": "EntraPass Global Edition option license for unlimited 3rd party recorder (v5.02 and higher)."
+    },
+    {
+      "Part Nymber": "E-GLO-DOOR-1",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Lock (1)",
+      "Description": "Wireless integration License Global Edition, 1 additional door"
+    },
+    {
+      "Part Nymber": "E-GLO-DOOR-4",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Lock (4)",
+      "Description": "Wireless integration License Global Edition, 4 additional doors"
+    },
+    {
+      "Part Nymber": "E-GLO-DOOR-8",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Lock (8)",
+      "Description": "Wireless integration License Global Edition, 8 additional doors"
+    },
+    {
+      "Part Nymber": "E-GLO-DOOR-24",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Lock (24)",
+      "Description": "Wireless integration License Global Edition, 24 additional doors"
+    },
+    {
+      "Part Nymber": "E-GLO-DOOR-48",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Lock (48)",
+      "Description": "Wireless integration License Global Edition, 48 additional doors"
+    },
+    {
+      "Part Nymber": "E-GLO-DOOR-96",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Lock (96)",
+      "Description": "Wireless integration License Global Edition, 96 additional doors"
+    },
+    {
+      "Part Nymber": "E-GLO-SALTO-1",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Salto (1)",
+      "Description": "Salto lock license for 1 additional Door for EntraPass Global Edition (v9.00 and higher). Mandatory active KAP. Email delivery."
+    },
+    {
+      "Part Nymber": "E-GLO-SALTO-5",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Salto (5)",
+      "Description": "Salto lock license for 5 additional Door for EntraPass Global Edition (v9.00 and higher). Mandatory active KAP. Email delivery."
+    },
+    {
+      "Part Nymber": "E-GLO-SALTO-10",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Salto (10)",
+      "Description": "Salto lock license for 10 additional Door for EntraPass Global Edition (v9.00 and higher). Mandatory active KAP.  Email delivery."
+    },
+    {
+      "Part Nymber": "E-GLO-SALTO-50",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Salto (50)",
+      "Description": "Salto lock license for 50 additional Door for EntraPass Global Edition (v9.00 and higher). Mandatory active KAP.  Email delivery."
+    },
+    {
+      "Part Nymber": "E-GLO-SALTO-100",
+      "Category": "Wireless Lock integration",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "Wireless Salto (100)",
+      "Description": "Salto lock license for 100 additional Door for EntraPass Global Edition (v9.00 and higher). Mandatory active KAP.  Email delivery."
+    },
+    {
+      "Part Nymber": "E-GLO-PASS-10",
+      "Category": "Mobile Credential",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "10 Mobile Credentials",
+      "Description": "Pack of 10 EntraPass GO PASS credentials for Global Edition (v8 and higher)."
+    },
+    {
+      "Part Nymber": "E-GLO-PASS-50",
+      "Category": "Mobile Credential",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "50 Mobile Credentials",
+      "Description": "Pack of 50 EntraPass GO PASS credentials for Global Edition (v7.10 and higher)."
+    },
+    {
+      "Part Nymber": "E-GLO-PASS-100",
+      "Category": "Mobile Credential",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "100 Mobile Credentials",
+      "Description": "Pack of 100 EntraPass GO PASS credentials for Global Edition (v7.10 and higher)."
+    },
+    {
+      "Part Nymber": "E-GLO-PASS-500",
+      "Category": "Mobile Credential",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "500 Mobile Credentials",
+      "Description": "Pack of 500 EntraPass GO PASS credentials for Global Edition (v7.10 and higher)."
+    },
+    {
+      "Part Nymber": "E-GLO-KTK-1",
+      "Category": "Token License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "1 Token",
+      "Description": "1 Kantech token for EntraPass Global Edition"
+    },
+    {
+      "Part Nymber": "E-GLO-KTK-2",
+      "Category": "Token License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "2 Tokens",
+      "Description": "2 Kantech tokens for EntraPass Global Edition"
+    },
+    {
+      "Part Nymber": "E-GLO-KTK-3",
+      "Category": "Token License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "3 Tokens",
+      "Description": "3 Kantech tokens for EntraPass Global Edition"
+    },
+    {
+      "Part Nymber": "E-GLO-KTK-5",
+      "Category": "Token License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "5 Tokens",
+      "Description": "5 Kantech tokens for EntraPass Global Edition"
+    },
+    {
+      "Part Nymber": "E-GLO-KTK-10",
+      "Category": "Token License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "10 Tokens",
+      "Description": "10 Kantech tokens for EntraPass Global Edition"
+    },
+    {
+      "Part Nymber": "E-GLO-KTK-20",
+      "Category": "Token License",
+      "Software Level": "Global Edition",
+      "Doors / Limitations": "10,000 Doors /  128 Workstations",
+      "Integration Type": "12 Tokens",
+      "Description": "20 Kantech tokens for EntraPass Global Edition"
+    }
+  ],
+  "Controllers": [
+    {
+      "Part Nymber": "KT-1-EU-PC",
+      "Category": "Controller",
+      "Maximum Doors": "1 Door",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "Plastic Housing",
+      "Description": "KT-1-PCB One door controller PoE, PoE+ or 12Vdc, including: Plastic Housing and 13,8Vdc 3A power Supply"
+    },
+    {
+      "Part Nymber": "KT-1-EU-MET",
+      "Category": "Controller",
+      "Maximum Doors": "1 Door",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "Metal Housing",
+      "Description": "KT-1-PCB One door controller PoE, PoE+ or 12Vdc, including: Metal Housing and 13,8Vdc 3A power Supply"
+    },
+    {
+      "Part Nymber": "KT-1-EU-MET-POE",
+      "Category": "Controller",
+      "Maximum Doors": "1 Door",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "Metal Housing & PoE+ battery charger",
+      "Description": "KT-1 One door controller with PoE+ battery charger is a KIT part of KT-1-PCB + KT-1-CAB-POE"
+    },
+    {
+      "Part Nymber": "KT-1",
+      "Category": "Controller",
+      "Maximum Doors": "1 Door",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing",
+      "Description": "One KT-1, IP Controller Single gang flush Mount, PoE, PoE+ or 12Vdc, (KT-1 only, no PSU)"
+    },
+    {
+      "Part Nymber": "KT-1-M",
+      "Category": "Controller",
+      "Maximum Doors": "1 Door",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "Metal Housing & No PSU",
+      "Description": "One KT-1-PCB, IP Controller PCB with metal cabinet PoE, PoE+ or 12Vdc, including KT-1-PCB and Metal housing, No PSU)"
+    },
+    {
+      "Part Nymber": "KT-1-PCB",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "PCB",
+      "Housing / Add Feature": "No Housing",
+      "Description": "One Door IP Controller ` including connector board (Compatible with KT-1-CAB-M or P)"
+    },
+    {
+      "Part Nymber": "KT-1-CAB-P",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Housing",
+      "Housing / Add Feature": "Plastic Housing",
+      "Description": "Plastic enclosure ONLY for KT-1-PCB"
+    },
+    {
+      "Part Nymber": "KT-1-CAB-M",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Housing",
+      "Housing / Add Feature": "Metal Housing",
+      "Description": "Metal enclosure ONLY for KT-1-PCB"
+    },
+    {
+      "Part Nymber": "KT-1-CAB-PSU",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Housing & PSU",
+      "Housing / Add Feature": "Metal Housing & PSU",
+      "Description": "Metal enclosure with PSU for KT-1-PCB, Switch Mode 12 Volt 2A Power Supply, Mains and Battery Monitoring outputs. A universal mains voltage input (90 to 264 Volts a.c.) Dimensions 275H x 330W x 80D, Space to house a 12V 7Ah Battery"
+    },
+    {
+      "Part Nymber": "KT-1-CAB-POE",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Housing & POE",
+      "Housing / Add Feature": "Metal Housing & PoE+ battery charger",
+      "Description": "Metal enclosure with Battery backup PoE for KT-1-PCB, PoE+ (PoE 802.3at) 16W including battery charge. Supplies battery back-up on loss of PoE power. Dimensions 275H x 330W x 80D, Space to house a 12V 7Ah Battery"
+    },
+    {
+      "Part Nymber": "BAW50T12",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "PSU",
+      "Housing / Add Feature": "No Housing & Max Current 3,6A @ 13,8V",
+      "Description": "Switching power supply for Controllers - Max Current 3,6A @ 13,8V, Dimension :129x98x38mm (LxWxH), input voltage range 85 ~ 264VAC, Protections, Short circuit / Overload / Over voltage\n/ Battery /polarity protections (by fuse)"
+    },
+    {
+      "Part Nymber": "KT-1-CVR",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Cover / Backplate",
+      "Housing / Add Feature": "No Housing",
+      "Description": "Black Replacement cover for KT-1/ Including back box"
+    },
+    {
+      "Part Nymber": "KT-1-PCB-BP",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Backplate",
+      "Housing / Add Feature": "No Housing",
+      "Description": "KT-1-PCB backplate only,  (KT-1 not included)."
+    },
+    {
+      "Part Nymber": "KT-2-EU-MET",
+      "Category": "Controller",
+      "Maximum Doors": "2 Doors",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "Metal Housing",
+      "Description": "KT-2 Two Door Controller kit with KT-2 Metal Cabinet including PSU, 13.8Vdc 4 x 1A:\n1 x KT-2-PCB-EU\n1 x KT-2-CAB-PSU"
+    },
+    {
+      "Part Nymber": "KT-2-CAB-PSU",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Housing",
+      "Housing / Add Feature": "Metal Housing",
+      "Description": "KT-2 Metal Cabinet including PSU, 13.8Vdc 4 x 1A / Front & Rear Tamper / Accommodates 12V 7Ah battery"
+    },
+    {
+      "Part Nymber": "KT-2-PCB-EU",
+      "Category": "Controller",
+      "Maximum Doors": "2 Doors",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing",
+      "Description": "KT-2 Two Door Controller and connector backplate, no cabinet"
+    },
+    {
+      "Part Nymber": "KT-2-BP",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Backplate / Wifi",
+      "Housing / Add Feature": "No Housing With Backplate / Wifi",
+      "Description": "KT-2 controller backplate replacement, Wi-Fi antenna, no cabinet."
+    },
+    {
+      "Part Nymber": "KT-2-MP",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Backplate",
+      "Housing / Add Feature": "No Housing With Backplate",
+      "Description": "Metal mounting plate for migration of KT-300 and KT-200 with KT-2 Controller"
+    },
+    {
+      "Part Nymber": "KT-4-EU",
+      "Category": "Controller",
+      "Maximum Doors": "4 Doors",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "Metal Housing",
+      "Description": "Boxed version of KT-4 four door, (EMEA and APAC )IP ready controller comprising PCB, Housing and 240/16Vac transformer"
+    },
+    {
+      "Part Nymber": "KT-4-POE",
+      "Category": "Controller",
+      "Maximum Doors": "4 Doors",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing With PoE Module",
+      "Description": "KT-4 PCB with PoE Module on board, accessory kit and metal cabinet with lock and keys"
+    },
+    {
+      "Part Nymber": "KT-4-PCB",
+      "Category": "Controller",
+      "Maximum Doors": "4 Doors",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing PCB only",
+      "Description": "KT-4 / KT-4-EU 4 reader controller"
+    },
+    {
+      "Part Nymber": "KT-4-MOD-PoE",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "POE++ Module",
+      "Housing / Add Feature": "No Housing POE++ Module",
+      "Description": "PoE++ module  add-on for KT-4-PCB"
+    },
+    {
+      "Part Nymber": "KT-4-MOD-WiFi",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Wifi Module",
+      "Housing / Add Feature": "No Housing Wifi Module",
+      "Description": "WiFi module and antenna add-on for KT-4-PCB, requires version 8,71 and higher"
+    },
+    {
+      "Part Nymber": "KT-4-CABEU",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Housing",
+      "Housing / Add Feature": "Metal Housing EU Version",
+      "Description": "Black metal cabinet for KT-4-EU. Includes cabinet, detachable door, artwork and camlock. Does not include power supply"
+    },
+    {
+      "Part Nymber": "KT-4-CAB",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Housing",
+      "Housing / Add Feature": "Metal Housing US Version",
+      "Description": "Black metal cabinet for KT-4 (US version). Includes cabinet, detachable door, artwork and camlock. Does not include power supply"
+    },
+    {
+      "Part Nymber": "KT-CON",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Terminal Block",
+      "Housing / Add Feature": "No Housing Terminal Block only",
+      "Description": "Kantech controllers Removable terminal block kit."
+    },
+    {
+      "Part Nymber": "KT-ACC",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Accessory Kit",
+      "Housing / Add Feature": "No Housing Accessory Kit only",
+      "Description": "Accessory kit including: 1.0K ohm (2), 5.6K ohms (10), 120 ohms (2), PCB standoff, lock hole cover, ground wire and screwdriver"
+    },
+    {
+      "Part Nymber": "TR16100-240V",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "PSU",
+      "Housing / Add Feature": "No Housing 240 VAC/ 16 Vac (100 VA)",
+      "Description": "KT-400/KT-4 transformer, wire-in, 240 VAC/ 16 Vac (100 VA), CE approved"
+    },
+    {
+      "Part Nymber": "KT-MOD-IO16",
+      "Category": "Module",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing 16 Input/Output Module",
+      "Description": "RS-485 Input/Output Module for KT-1 and KT-400, 45 mA when AUX+ output is not sourcing any current. 1.6 A max. when AUX+ output is sourcing 1.5 A current. (31.5 x 146 x 82.6 ). \nInput mode: I/Os that are configured as inputs support normally closed (NC) and normally open (NO). contacts. They support no end-of-line, single end-of-line, and double end-of-line zone loops. \nOutput mode: I/Os that are configured as outputs (open-drain outputs) can sink up to 750 mA each. Each module can sink a maximum of 4 A.\nI/Os #9 to #12 that are configured as SPI ports can support a daisy-chained SPI bus that is made up of 8 KT-MOD-REL8 modules. \nEach of these modules can provide 8 Form C relay outputs .firmware field upgradable via RS-485."
+    },
+    {
+      "Part Nymber": "KT-MOD-INP16",
+      "Category": "Module",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing 16 Input Module",
+      "Description": "16-zone, input expansion module with SPI cable (KT-MOD-SPI-16)"
+    },
+    {
+      "Part Nymber": "KT-MOD-OUT16",
+      "Category": "Module",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing 16 Output Module",
+      "Description": "16-zone output expansion module with 40 cm SPI cable (KT-MOD-SPI-16)"
+    },
+    {
+      "Part Nymber": "KT-MOD-REL8",
+      "Category": "Module",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing 8 Relay Module",
+      "Description": "Eight-relay expansion module with SPI cable (KT-MOD-SPI-16)"
+    },
+    {
+      "Part Nymber": "KT-MOD-SPI-16",
+      "Category": "Module",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing Cable 16 inch",
+      "Description": "KT-400 SPI Cable 16 inch"
+    },
+    {
+      "Part Nymber": "KT-MOD-SPI-36",
+      "Category": "Module",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Not Applicable",
+      "Housing / Add Feature": "No Housing able 36 inch",
+      "Description": "KT-400 SPI Cable 36 inch"
+    },
+    {
+      "Part Nymber": "KT-MOD-CABEU",
+      "Category": "Component",
+      "Maximum Doors": "Not Applicable",
+      "Component Type": "Housing",
+      "Housing / Add Feature": "Metal Expansion Module cabinet",
+      "Description": "Expansion Module cabinet, black, with 92 cm SPI cable (KT-MOD-SPI-36) and lock (KT-LOCK)"
+    }
+  ],
+  "Card Readers": [
+    {
+      "Card Reader": "KT-MUL-SC2",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "ioSmart Gen 2 – Mullion Smart Card reader, reading technology: ioSmart Mobile Credential (BLE), ioSmart SSF. 32-bit CSN/UID: Mifare Plus EV1 (ISO-14443A), Mifare Desfire (ISO-14443A), Mifare Desfire EV1 (ISO-14443A), Mifare Classic (ISO-14443A), and ISO-14443B. OSDP: CSN/UID output is 56-bit, Communicating RS-485, Wiegand, OSDP,  Dimensions 1115.8 x 44.6 x 24.7 mm, connector 6 screwless poles, Input voltage 8.5 VDC to 16 VDC"
+    },
+    {
+      "Card Reader": "KT-MUL-SC-KP2",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "ioSmart Gen 2 – Mullion Smart Card reader with Keypad, reading technology: ioSmart Mobile Credential (BLE), ioSmart SSF. 32-bit CSN/UID: Mifare Plus EV1 (ISO-14443A), Mifare Desfire (ISO-14443A), Mifare Desfire EV1 (ISO-14443A), Mifare Classic (ISO-14443A), and ISO-14443B. OSDP: CSN/UID output is 56-bit, Communicating RS-485, Wiegand, OSDP,  Dimensions 115.8 x 44.6 x 24.7 mm, connector 6 screwless poles, Input voltage 8.5 VDC to 16 VDC"
+    },
+    {
+      "Card Reader": "KT-MUL-MT2",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "ioSmart Gen 2 – Mullion Multitech reading technology: ioSmart Mobile Credential (BLE), Kantech ioProx XSF, HID Prox cards, ioSmart SSF. 32-bit CSN/UID: Mifare Plus EV1 (ISO-14443A), Mifare Desfire (ISO-14443A), Mifare Desfire EV1 (ISO-14443A), Mifare Classic (ISO-14443A), and ISO-14443B. OSDP: CSN/UID output is 56-bit, Communicating RS-485, Wiegand, OSDP,  Dimensions 115.8 x 44.6 x 24.7 mm, connector 6 screwless poles, Input voltage 8.5 VDC to 16 VDC"
+    },
+    {
+      "Card Reader": "KT-MUL-MT-KP2",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "ioSmart Gen 2 – Mullion Multitech with keypad, reading technology: ioSmart Mobile Credential (BLE), Kantech ioProx XSF, HID Prox cards, ioSmart SSF. 32-bit CSN/UID: Mifare Plus EV1 (ISO-14443A), Mifare Desfire (ISO-14443A), Mifare Desfire EV1 (ISO-14443A), Mifare Classic (ISO-14443A), and ISO-14443B. OSDP: CSN/UID output is 56-bit, Communicating RS-485, Wiegand, OSDP,  Dimensions 115.8 x 44.6 x 24.7 mm, connector 6 screwless poles, Input voltage 8.5 VDC to 16 VDC"
+    },
+    {
+      "Card Reader": "KT-SG-SC2",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "ioSmart Gen 2 – Single Gang Smart Card reader ,reading technology: ioSmart Mobile Credential (BLE), ioSmart SSF. 32-bit CSN/UID: Mifare Plus EV1 (ISO-14443A), Mifare Desfire (ISO-14443A), Mifare Desfire EV1 (ISO-14443A), Mifare Classic (ISO-14443A), and ISO-14443B. OSDP: CSN/UID output is 56-bit, Communicating RS-485, Wiegand, OSDP,  Dimensions 115.8 x 71.5 x 24.7, connector 6 screwless poles, Input voltage 8.5 VDC to 16 VDC"
+    },
+    {
+      "Card Reader": "KT-SG-SC-KP2",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "ioSmart Gen 2 – Single Gang Smart Card reader with Keypad, reading technology: ioSmart Mobile Credential (BLE), ioSmart SSF. 32-bit CSN/UID: Mifare Plus EV1 (ISO-14443A), Mifare Desfire (ISO-14443A), Mifare Desfire EV1 (ISO-14443A), Mifare Classic (ISO-14443A), and ISO-14443B. OSDP: CSN/UID output is 56-bit, Communicating RS-485, Wiegand, OSDP,  Dimensions 115.8 x 71.5 x 24.7, connector 6 screwless poles, Input voltage 8.5 VDC to 16 VDC"
+    },
+    {
+      "Card Reader": "KT-SG-MT2",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "ioSmart Gen 2 – Single Gang Multitech reading technology: ioSmart Mobile Credential (BLE), Kantech ioProx XSF, HID Prox cards, ioSmart SSF. 32-bit CSN/UID: Mifare Plus EV1 (ISO-14443A), Mifare Desfire (ISO-14443A), Mifare Desfire EV1 (ISO-14443A), Mifare Classic (ISO-14443A), and ISO-14443B. OSDP: CSN/UID output is 56-bit, Communicating RS-485, Wiegand, OSDP,  Dimensions 115.8 x 71.5 x 24.7, connector 6 screwless poles, Input voltage 8.5 VDC to 16 VDC"
+    },
+    {
+      "Card Reader": "KT-SG-MT-KP2",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "ioSmart Gen 2 – Single Gang Multitech with keypad, reading technology: ioSmart Mobile Credential (BLE), Kantech ioProx XSF, HID Prox cards, ioSmart SSF. 32-bit CSN/UID: Mifare Plus EV1 (ISO-14443A), Mifare Desfire (ISO-14443A), Mifare Desfire EV1 (ISO-14443A), Mifare Classic (ISO-14443A), and ISO-14443B. OSDP: CSN/UID output is 56-bit, Communicating RS-485, Wiegand, OSDP,  Dimensions 115.8 x 71.5 x 24.7, connector 6 screwless poles, Input voltage 8.5 VDC to 16 VDC"
+    },
+    {
+      "Card Reader": "ARC1SR31BBT1JC11",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand Only",
+      "Additional Feature": "NA",
+      "Description": "ARC1S Blue - 13.56 MHz + BLE mullion reader - Wiegand - JC1, Terminal Connector, reading default CSN/UID Mifare, DESfire Evx, iClass SE and JCI High Secure Encrypted DESFIRE EV3 Cards. BLE greencard (CSN)"
+    },
+    {
+      "Card Reader": "ARCSR31ABT1JC11",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand Only",
+      "Additional Feature": "NA",
+      "Description": "ARCS-A Blue - 13.56 MHz + BLE standard reader -  Wiegand- JC1,Terminal Connector, reading default CSN/UID Mifare, DESfire Evx, iClass SE and JCI High Secure Encrypted DESFIRE EV3 Cards. BLE greencard (CSN)"
+    },
+    {
+      "Card Reader": "ARCSR31BBT1JC11",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand Only",
+      "Additional Feature": "Keypad",
+      "Description": "ARCS-B Blue - 13.56 MHz + BLE keypad reader (4bits) -  Wiegand - JC1, Terminal Connector, reading default CSN/UID Mifare, DESfire Evx, iClass SE and JCI High Secure Encrypted DESFIRE EV3 Cards. BLE greencard (CSN)"
+    },
+    {
+      "Card Reader": "ARCSR31AQBT1JC11",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand Only",
+      "Additional Feature": "QR Reader",
+      "Description": "ARCS-AQ Blue - 13,56 MHz + BLE + QR Code -  Wiegand - JC1,Terminal Connector, reading default CSN/UID Mifare, DESfire Evx, iClass SE and JCI High Secure Encrypted DESFIRE EV3 Cards. BLE greencard (CSN)"
+    },
+    {
+      "Card Reader": "ARC1SW33BBT1JC11",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "OSDP Only",
+      "Additional Feature": "NA",
+      "Description": "ARC1S Blue - 13.56 MHz + BLE OSDP mullion reader - OSDP - JC1, Terminal Connector, reading default CSN/UID Mifare, DESfire Evx, iClass SE and JCI High Secure Encrypted DESFIRE EV3 Cards. BLE greencard (CSN)"
+    },
+    {
+      "Card Reader": "ARCSW33ABT1JC11",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "OSDP Only",
+      "Additional Feature": "NA",
+      "Description": "ARCS-A Blue - 13.56 MHz + BLE standard reader - OSDP - JC1,Terminal Connector, reading default CSN/UID Mifare, DESfire Evx, iClass SE and JCI High Secure Encrypted DESFIRE EV3 Cards. BLE greencard (CSN)"
+    },
+    {
+      "Card Reader": "ARCSW33BBT1JC11",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "OSDP Only",
+      "Additional Feature": "Keypad",
+      "Description": "ARCS-B Blue - 13.56 MHz + BLE keypad reader - OSDP - Terminal Connector, Reading default CSN/UID Mifare, DESfire Evx, iClass SE and JCI High Secure Encrypted DESFIRE EV3 Cards. BLE greencard (CSN)"
+    },
+    {
+      "Card Reader": "ARCSW33AQBT1JC11",
+      "Shape / Mount": "Single Gange",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "OSDP Only",
+      "Additional Feature": "QR Reader",
+      "Description": "ARCS-AQ Blue - 13,56 MHz + BLE + QR Code - OSDP - JC1,Terminal Connector, reading default CSN/UID Mifare, DESfire Evx, iClass SE and JCI High Secure Encrypted DESFIRE EV3 Cards. BLE greencard (CSN)"
+    },
+    {
+      "Card Reader": "20NKS-00-000000",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Pigtail",
+      "Description": "HID Signo 20, Mullion, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "20TKS-00-000000",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "HID Signo 20, Mullion, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "20KNKS-00-000000",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, Pigtail",
+      "Description": "HID Signo 20 Keypad Mullion, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "20KTKS-00-000000",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "HID Signo 20 Keypad Mullion, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "40NKS-00-000000",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Pigtail",
+      "Description": "HID Signo 40 Wall mount, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "40TKS-00-000000",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "HID Signo 40 Wall mount, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "40KNKS-00-000000",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, Pigtail",
+      "Description": "HID Signo 40 Keypad Wall mount, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "40KTKS-00-000000",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "HID Signo 40 Keypad Wall mount, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "20NKS-02-0002BL",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Pigtail",
+      "Description": "HID Signo 20, Mullion, Smart Profile 13.56mHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "20TKS-02-0002BL",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "HID Signo 20, Mullion, Smart Profile 13.56mHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "20KNKS-02-0002BL",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, Pigtail",
+      "Description": "HID Signo 20 Keypad Mullion, Smart Profile 13.56mHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "20KTKS-02-0002BL",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "HID Signo 20 Keypad Mullion, Smart Profile 13.56mHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "40NKS-02-0002BL",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Pigtail",
+      "Description": "HID Signo 40 Wall mount, Smart Profile 13.56mHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "40TKS-02-0002BL",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "HID Signo 40 Wall mount, Smart Profile 13.56mHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "40KNKS-02-0002BL",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, Pigtail",
+      "Description": "HID Signo 40 Keypad Wall mount, Smart Profile 13.56mHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "40KTKS-02-0002BL",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Mifare, iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "HID Signo 40 Keypad Wall mount, Smart Profile 13.56mHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "20NKS-01-00001H",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass (SEOS Profile)",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Pigtail",
+      "Description": "HID Signo 20, Mullion, SEOS Profile, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "20TKS-01-00001H",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass (SEOS Profile)",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "HID Signo 20, Mullion, SEOS Profile, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "20KNKS-01-00001H",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass (SEOS Profile)",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, Pigtail",
+      "Description": "HID Signo 20 Keypad Mullion, SEOS Profile, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "20KTKS-01-00001H",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass (SEOS Profile)",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "HID Signo 20 Keypad Mullion, SEOS Profile, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "40NKS-01-00001H",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass (SEOS Profile)",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Pigtail",
+      "Description": "HID Signo 40 Wall mount, SEOS Profile, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "40TKS-01-00001H",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass (SEOS Profile)",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA",
+      "Description": "HID Signo 40 Wall mount, SEOS Profile, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "40KNKS-01-00001H",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass (SEOS Profile)",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, Pigtail",
+      "Description": "HID Signo 40 Keypad Wall mount, SEOS Profile, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "40KTKS-01-00001H",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass (SEOS Profile)",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad",
+      "Description": "HID Signo 40 Keypad Wall mount, SEOS Profile, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "20NWS-00-000000",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Pigtail, White",
+      "Description": "HID Signo 20, White Colour Mullion, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "20TWS-00-000000",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA, White",
+      "Description": "HID Signo 20, White Colour, Mullion, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "20KNWS-00-000000",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, Pigtail, White",
+      "Description": "HID Signo 20,White Colour, Keypad Mullion, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "20KTWS-00-000000",
+      "Shape / Mount": "Mullion",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, White",
+      "Description": "HID Signo 20, White Colour, Keypad Mullion, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "40NWS-00-000000",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Pigtail, White",
+      "Description": "HID Signo 40 White Colour, Wall mount, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "40TWS-00-000000",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "NA, White",
+      "Description": "HID Signo 40 White Color,Wall mount, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    },
+    {
+      "Card Reader": "40KNWS-00-000000",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, Pigtail, White",
+      "Description": "HID Signo 40 White Colour, Keypad Wall mount, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Pigtail 18\" 0,5m, Mobile Ready"
+    },
+    {
+      "Card Reader": "40KTWS-00-000000",
+      "Shape / Mount": "Wall Mount",
+      "Reading Technolgy": "Prox, Mifare & iClass",
+      "Connectivity": "Wiegand & OSDP",
+      "Additional Feature": "Keypad, White",
+      "Description": "HID Signo 40 White Colour, Keypad Wall mount, Standard Profile 13.56mHz &125kHz, OSDP/Wiegand, Terminal connector, Mobile Ready"
+    }
+  ],
+  "Biometric": [
+    {
+      "Biometric Reader": "SUP-BEW3-DB",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "0",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "NA",
+      "Description": "Multiple Credential, Face Authentication (IR+Visual), MultiCLASS SE and Dual RFID (125kHz EM, HID Prox & 13.56MHz MIFARE, MIFARE Plus, DESFire/EV1/EV2, FeliCa, iCLASS SE/SR/Seos, HID Prox, NFC, BLE), IP67, IK08, PoE"
+    },
+    {
+      "Biometric Reader": "SUP-BEW3-APB",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Prox, Mifare, iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "0",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "PoE",
+      "Description": "Multiple Credential, Face Authentication (IR+Visual), MultiCLASS SE and Dual RFID (125kHz EM, HID Prox & 13.56MHz MIFARE, MIFARE Plus, DESFire/EV1/EV2, FeliCa, iCLASS SE/SR/Seos, HID Prox, NFC, BLE), IP67, IK08, PoE"
+    },
+    {
+      "Biometric Reader": "SUP-BS3-DB",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "0",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display, Videophone",
+      "Description": "Multiple Credential, Face Authentication (IR+Visual), QR/Barcode, Dual RFID(125kHz EM & 13.56MHz MIFARE, MIFARE Plus, DESFire/EV1/EV2/EV3, FeliCa, NFC, BLE), IP65, IK06,\nRTSP, Intercom (SIP)"
+    },
+    {
+      "Biometric Reader": "SUP-BS3-APWB",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Prox, Mifare, iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "0",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "LCD Display, Wifi, Videophone, PoE",
+      "Description": "Multiple Credential, Face Authentication (IR+Visual), QR/Barcode, MultiCLASS SE and Dual RFID (125kHz EM, HID Prox & 13.56MHz MIFARE, MIFARE Plus, DESFire/EV1/EV2/EV3, FeliCa, iCLASS SE/SR/Seos, HID Prox, NFC, BLE), IP65, IK06,\nRTSP, Intercom (SIP), Wifi, PoE+"
+    },
+    {
+      "Biometric Reader": "SUP-FSF2-DB",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "0",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Fusion Face Authentication, Dual RFID(125kHz EM & 13.56MHz MIFARE, MIFARE Plus, DESFire EV1/EV2, FeliCa, NFC, BLE)"
+    },
+    {
+      "Biometric Reader": "SUP-FSF2-AB",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Prox, Mifare, iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "0",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Fusion Face Authentication, MultiCLASS SE and Dual RFID (125kHz EM & 13.56MHz MIFARE, MIFARE Plus, DESFire/EV1/EV2, FeliCa, iCLASS SE/SR/Seos, NFC, BLE)"
+    },
+    {
+      "Biometric Reader": "SUP-FSF2-ODB",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Fusion Face+Fingerprint Authentication(Multimodal), Dual RFID(125kHz EM & 13.56MHz MIFARE, MIFARE Plus, DESFire EV1/EV2, FeliCa, NFC, BLE)"
+    },
+    {
+      "Biometric Reader": "SUP-BS2A-ODPB",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Deep-Learning Fingerprint reader/controller, Dual RFID(125kHz EM & 13.56MHz MIFARE, MIFARE Plus, DESFire, DESFire/EV1/EV2/EV3, FeliCa, NFC, BLE),\nOptical Sensor(OP6), PoE, IP65"
+    },
+    {
+      "Biometric Reader": "SUP-BS2A-OAPWB",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare, iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "LCD Display, Wifi",
+      "Description": "Deep-Learning Fingerprint reader/controller, MultiCLASS SE and Dual RFID (125kHz EM &\n13.56Mhz MIFARE, MIFARE Plus, DESFire, DESFire/EV1/EV2/EV3, iClass SE/SR/Seos, HID Prox, FeliCa, NFC, BLE), Optical Sensor(OP6), PoE, Wi-Fi, IP65"
+    },
+    {
+      "Biometric Reader": "SUP-BEW2-ODPB",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "PoE",
+      "Description": "BioEntry W2 Fingerprint Biometric Reader, Dual RFID (125kHz EM & 13.56Mhz MIFARE, DESFire/EV1, FeliCa, NFC, ISO14443A/B, ISO15693), Optical Sensor (OP5), PoE, Live Finger Detection, IP67, IK08, BLE"
+    },
+    {
+      "Biometric Reader": "SUP-BEW2-OHPB",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "PoE",
+      "Description": "BioEntry W2 Fingerprint Biometric Reader, RFID (125kHz HID Prox), Optical Sensor (OP5), PoE, Live Finger Detection, IP67, IK08, BLE"
+    },
+    {
+      "Biometric Reader": "SUP-BEW2-OAPB",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare, iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "PoE",
+      "Description": "BioEntry W2 Fingerprint Biometric Reader, MultiCLASS SE and Dual RFID (125kHz EM, HID Prox & 13.56Mhz MIFARE, DESFire/EV1, FeliCa, iCLASS SE/SR, NFC, ISO14443A/B, ISO15693), Optical Sensor (OP5), PoE, Live Finger Detection, IP67, IK08, UL 294,BLE"
+    },
+    {
+      "Biometric Reader": "SUP-BEP2-OD",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "NA",
+      "Description": "BioEntry Plus 2 Mifare Biometric Fingerprint Reader, Dual RFID (125kHz EM & 13.56Mhz MIFARE, DESFire/EV1, FeliCa, NFC, ISO14443A/B, ISO15693), Optical Sensor (OP6)"
+    },
+    {
+      "Biometric Reader": "SUP-BEP2-OA",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare, iClass",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "NA",
+      "Description": "BioEntry Plus 2 MultiClass Biometric Fingerprint Reader, MultiCLASS SE and Dual RFID (125kHz EM, HID Prox &13.56Mhz MIFARE, DESFire/EV1, FeliCa, iCLASS SE/SR, NFC, ISO14443A/B,ISO15693), Optical Sensor (OP6)"
+    },
+    {
+      "Biometric Reader": "SUP-BLN2-ODB",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Fingerprint reader/controller, Dual RFID(125kHz EM & 13.56MHz MIFARE, MIFARE Plus,\nDESFire/EV1), 2.4GHz BLE, Optical Sensor(OP6), IP67"
+    },
+    {
+      "Biometric Reader": "SUP-BLN2-OAB",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox, Mifare, iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "1",
+      "Idemia": "0",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Fingerprint reader/controller, MultiCLASS SE and Dual RFID (125kHz EM, HID Prox &\n13.56Mhz MIFARE, MIFARE Plus, DESFire/EV1, FeliCa, iCLASS SE/SR, NFC), 2.4GHz BLE,\nOptical Sensor(OP6), IP67"
+    },
+    {
+      "Biometric Reader": "MOR-293744571",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "0",
+      "IRIS": "0",
+      "Prox": "0",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Vision Pass MD, Idemia Facial recognition reader with MIFARE/DESFire and PIN Code support\nInternal storage capacity: 20,000 user records extendable up to 40,000 with license 250,000 IDs in authorized user list, 1 Million transaction logs, Wide angle detection for persons of all sizes\n(1.20-2.00m) and side approach, Wiegand input and Output and OSDP support, require external power supply 12-24V. (3A @12V),IP65 rated"
+    },
+    {
+      "Biometric Reader": "MOR-293744604",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Prox, Mifare, iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "1",
+      "Finger": "0",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "1",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Vision Pass MDPI, Idemia Facial recognition reader with Prox, iClass  and PIN Code support\nInternal storage capacity: 20,000 user records extendable up to 40,000 with license 250,000 IDs in authorized user list, 1 Million transaction logs, Wide angle detection for persons of all sizes\n(1.20-2.00m) and side approach, Wiegand input and Output and OSDP support, require external power supply 12-24V. (3A @12V),IP65 rated"
+    },
+    {
+      "Biometric Reader": "MOR-293678615",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "No Card Reader",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "0",
+      "Mifare": "0",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "PoE",
+      "Description": "MorphoAccess® SIGMA Lite provides 1:500 User Biometric Identification (2 Finger + 1 Duress), Fake Finger Detection, 2.8\" LED Indicator, Buzzer, IP65 Rated and FBI Certified IQS Optical Sensor"
+    },
+    {
+      "Biometric Reader": "MOR-293638877",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "0",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display, PoE, Videophone",
+      "Description": "MorphoAccess® WR SIGMA Multi 1:3000 Biometric Identification, NFC, MIFARE® & DESFire® Card Reader, 5\" Colour Touchscreen, Videophone, FBI PIV IQS Certified Optical Sensor, Weather Resistant IP65 Rated"
+    },
+    {
+      "Biometric Reader": "MOR-293638856",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "0",
+      "Mifare": "0",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "LCD Display, PoE, Videophone",
+      "Description": "MorphoAccess® WR SIGMA iClass 1:3000 Biometric Identification, HID iClass® Card Reader, 5\" Colour Touchscreen, Videophone Function, FBI PIV IQS Certified Optical Sensor, Weather Resistant IP65 Rated"
+    },
+    {
+      "Biometric Reader": "MOR-293673665",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "0",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "PoE",
+      "Description": "MorphoAccess® SIGMA Lite with Prox Card Reader provides 1:500 User Biometric Identification, Fake Finger Detection, 2.8\" LED Indicator, Buzzer, IP65 Rated, FBI Certified IQS Optical Sensor"
+    },
+    {
+      "Biometric Reader": "MOR-293678636",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "0",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "PoE",
+      "Description": "MorphoAccess® SIGMA Lite incl. Mifare/Desfire/NFC Reader, provides 1:500 User Biometric Identification, Fake Finger Detection, 2.8\" LED Indicator, Buzzer, IP65 Rated, FBI Certified IQS Optical Sensor"
+    },
+    {
+      "Biometric Reader": "MOR-293678628",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "0",
+      "Mifare": "0",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "PoE",
+      "Description": "MorphoAccess® SIGMA Lite with iClass Card Reader provides 1:500 User Biometric Identification, Fake Finger Detection, 2.8\" LED Indicator, Buzzer, IP65 Rated, FBI Certified IQS Optical Sensor"
+    },
+    {
+      "Biometric Reader": "MOR-293678678",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Prox",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "1",
+      "Mifare": "0",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display, PoE",
+      "Description": "MorphoAccess® SIGMA Lite+ Prox Card Reader, 1:500 User Biometric Identification (2 Finger + 1 Duress), Fake Finger Detection, 2.8\" Touchscreen, Buzzer, IP65 Rated, FBI Certified IQS Optical Sensor"
+    },
+    {
+      "Biometric Reader": "MOR-293678660",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "Mifare",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "0",
+      "Mifare": "1",
+      "HID_iClass": "0",
+      "PoE / Additional Features": "LCD Display, PoE",
+      "Description": "MorphoAccess® SIGMA Lite+ Multi Card Reader, 1:500 User Biometric Identification (2 Finger + 1 Duress), Fake Finger Detection, 2.8\" Touchscreen, Buzzer, IP65 Rated, FBI Certified IQS Optical Sensor"
+    },
+    {
+      "Biometric Reader": "MOR-293673644",
+      "Biometric Type": "Fingerprint",
+      "Reading Technolgy": "iClass",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "0",
+      "Idemia": "1",
+      "Eyelock": "0",
+      "Face": "0",
+      "Finger": "1",
+      "IRIS": "0",
+      "Prox": "0",
+      "Mifare": "0",
+      "HID_iClass": "1",
+      "PoE / Additional Features": "LCD Display, PoE",
+      "Description": "MorphoAccess® SIGMA Lite+ iClass Card Reader, 1:500 User Biometric Identification (2 Finger + 1 Duress), Fake Finger Detection, 2.8\" Touchscreen, Buzzer, IP65 Rated, FBI Certified IQS Optical Sensor"
+    },
+    {
+      "Biometric Reader": "EYEM-NIXT3",
+      "Biometric Type": "IRIS",
+      "Reading Technolgy": "Mifare",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "",
+      "Idemia": "",
+      "Eyelock": "",
+      "Face": "",
+      "Finger": "",
+      "IRIS": "",
+      "Prox": "",
+      "Mifare": "",
+      "HID_iClass": "",
+      "PoE / Additional Features": "LCD Display",
+      "Description": "Indoors Iris Identity Authentication System. Dual function (enrollment & authentication). MIFARE DESFire embedded card reader (EV1/EV2/EV3). Includes one EyeLock Identity Suite (EIS) license. One-year manufacturer warranty."
+    },
+    {
+      "Biometric Reader": "EYEM-NEXT2",
+      "Biometric Type": "IRIS",
+      "Reading Technolgy": "No Card Reader",
+      "Indoor / Outdoor": "Outdoor",
+      "Suprema": "",
+      "Idemia": "",
+      "Eyelock": "",
+      "Face": "",
+      "Finger": "",
+      "IRIS": "",
+      "Prox": "",
+      "Mifare": "",
+      "HID_iClass": "",
+      "PoE / Additional Features": "NA",
+      "Description": "Outdoors Iris Identity Authentication System. Single function (authentication). Includes one EyeLock Identity Suite (EIS) license. One-year manufacturer warranty."
+    },
+    {
+      "Biometric Reader": "EYEM-FXT",
+      "Biometric Type": "IRIS & Face",
+      "Reading Technolgy": "Mifare",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "",
+      "Idemia": "",
+      "Eyelock": "",
+      "Face": "",
+      "Finger": "",
+      "IRIS": "",
+      "Prox": "",
+      "Mifare": "",
+      "HID_iClass": "",
+      "PoE / Additional Features": "PoE+",
+      "Description": "Multimodal (Iris+Face) Identity Authentication System. Dual function (enrollment & authentication). MIFARE DESFire embedded card reader (EV1/EV2/EV3). Power over Internet (POE+). Includes one EyeLock Identity Suite (EIS) license. One-year manufacturer warranty."
+    },
+    {
+      "Biometric Reader": "EYEM-FXTH",
+      "Biometric Type": "IRIS & Face",
+      "Reading Technolgy": "iClass",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "",
+      "Idemia": "",
+      "Eyelock": "",
+      "Face": "",
+      "Finger": "",
+      "IRIS": "",
+      "Prox": "",
+      "Mifare": "",
+      "HID_iClass": "",
+      "PoE / Additional Features": "PoE+",
+      "Description": "Multimodal (Iris+Face) Identity Authentication System. Dual function (enrollment & authentication). HID Omnikey embedded chipset for iClass cards. Power over Internet (POE+). Includes one EyeLock Identity Suite (EIS) license. One-year manufacturer warranty."
+    },
+    {
+      "Biometric Reader": "EYEM-NFACE2N",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Mifare",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "",
+      "Idemia": "",
+      "Eyelock": "",
+      "Face": "",
+      "Finger": "",
+      "IRIS": "",
+      "Prox": "",
+      "Mifare": "",
+      "HID_iClass": "",
+      "PoE / Additional Features": "NA",
+      "Description": "Indoors Face Identity Authentication System. Dual function (enrollment & authentication). MIFARE DESFire embedded card reader (EV1/EV2/EV3). Includes one EyeLock Identity Suite (EIS) license. One-year manufacturer warranty."
+    },
+    {
+      "Biometric Reader": "EYEM-NFACE2NP",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "Mifare",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "",
+      "Idemia": "",
+      "Eyelock": "",
+      "Face": "",
+      "Finger": "",
+      "IRIS": "",
+      "Prox": "",
+      "Mifare": "",
+      "HID_iClass": "",
+      "PoE / Additional Features": "PoE",
+      "Description": "Indoors Face Identity Authentication System. Dual function (enrollment & authentication). MIFARE DESFire embedded card reader (EV1/EV2/EV3). Power over Internet (POE). Includes one EyeLock Identity Suite (EIS) license. One-year manufacturer warranty."
+    },
+    {
+      "Biometric Reader": "EYEM-NFACE2NH",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "iClass",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "",
+      "Idemia": "",
+      "Eyelock": "",
+      "Face": "",
+      "Finger": "",
+      "IRIS": "",
+      "Prox": "",
+      "Mifare": "",
+      "HID_iClass": "",
+      "PoE / Additional Features": "NA",
+      "Description": "Indoors Face Identity Authentication System. Dual function (enrollment & authentication). HID Omnikey embedded chipset for iClass cards. Includes one EyeLock Identity Suite (EIS) license. One-year manufacturer warranty."
+    },
+    {
+      "Biometric Reader": "EYEM-NFACE2NHP",
+      "Biometric Type": "Face Recognition",
+      "Reading Technolgy": "iClass",
+      "Indoor / Outdoor": "Indoor",
+      "Suprema": "",
+      "Idemia": "",
+      "Eyelock": "",
+      "Face": "",
+      "Finger": "",
+      "IRIS": "",
+      "Prox": "",
+      "Mifare": "",
+      "HID_iClass": "",
+      "PoE / Additional Features": "PoE",
+      "Description": "Indoors Face Identity Authentication System. Dual function (enrollment & authentication). HID Omnikey embedded chipset for iClass cards. Power over Internet (POE). Includes one EyeLock Identity Suite (EIS) license. One-year manufacturer warranty."
+    }
+  ],
+  "MagLocks": [
+    {
+      "Magnetic Locks": "ICS-A10001",
+      "Type": "Magentic Lock",
+      "Lock Type": "Mini Magnet",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "Single Unmonitored Mini Magnet, 272 Kg holding force. Fail-Safe, 12 or 24 Vdc Operating voltage ( Dimensions: 250x26x 42 )"
+    },
+    {
+      "Magnetic Locks": "ICS-A10002",
+      "Type": "Magentic Lock",
+      "Lock Type": "Mini Magnet",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Monitored",
+      "Description": "Single Monitored Mini Magnet, 272 Kg holding force. Fail-Safe, with green and red Status LEDs. 12 or 24 Vdc Operating voltage ( Dimensions: 250x26x 42 )"
+    },
+    {
+      "Magnetic Locks": "ICS-A10004",
+      "Type": "Magentic Lock",
+      "Lock Type": "Mini Magnet",
+      "Door Type / Mount": "Double Door",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "Unmonitored Double mini Magnet, 2x 272 Kg holding force. Fail-Safe, 12 or 24 Vdc Operating voltage \n( Dimensions: 500 x 26 x 42 )"
+    },
+    {
+      "Magnetic Locks": "ICS-A10005",
+      "Type": "Magentic Lock",
+      "Lock Type": "Mini Magnet",
+      "Door Type / Mount": "Double Door",
+      "Monitored / Add Feature": "Monitored",
+      "Description": "Double Monitored mini Magnet, 2x 272 Kg holding force. Fail-Safe, with green and red Status LEDs. 12 or 24 Vdc Operating voltage ( Dimensions: 500 x 26 x 42 )"
+    },
+    {
+      "Magnetic Locks": "ICS-A10010",
+      "Type": "Magentic Lock",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "Unmonitored Standard Magnet, 544 Kg holding force. Fail-Safe, 12 or 24 Vdc Operating voltage \n( Dimensions: 268 x40x 67 )"
+    },
+    {
+      "Magnetic Locks": "ICS-A10020",
+      "Type": "Magentic Lock",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Monitored",
+      "Description": "Single Monitored Standard  Magnet, 544 Kg holding force. Fail-Safe, with green and red Status LEDs. 12 or 24 Vdc Operating voltage ( Dimensions: 268x 40 x 67 )"
+    },
+    {
+      "Magnetic Locks": "ICS-A10040",
+      "Type": "Magentic Lock",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "Double Door",
+      "Monitored / Add Feature": "Monitored",
+      "Description": "Monitored Double Standard Magnet, 2x 544 Kg holding force. Fail-Safe, with green and red Status LEDs. 12 or 24 Vdc Operating voltage ( Dimensions: 532 x 40 x 67 )"
+    },
+    {
+      "Magnetic Locks": "ICS-A10060",
+      "Type": "Magentic Lock",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "Double Door",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "Unmonitored Double Standard Magnet, 2x 544 Kg holding force. Fail-Safe, 12 or 24 Vdc Operating voltage ( Dimensions: 532 x 40 x 67 )"
+    },
+    {
+      "Magnetic Locks": "ICS-A10000R",
+      "Type": "Magentic Lock",
+      "Lock Type": "Mortice Magnet",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Monitored",
+      "Description": "Mortice Magnet Lock"
+    },
+    {
+      "Magnetic Locks": "ICS-AGL120NTBR",
+      "Type": "Magentic Lock",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "External Gate",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "External gate magnet lock"
+    },
+    {
+      "Magnetic Locks": "ICS-GL1800F-10TB",
+      "Type": "Magentic Lock",
+      "Lock Type": "High Security",
+      "Door Type / Mount": "Sliding Door",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "High Security Stainless Steel Magnet, Suitable for prison or high security gate. Face mount on sliding doors, IP67 and Vandal Resistant. Holding force 818Kg (1800lbs). 12 or 24 Vdc"
+    },
+    {
+      "Magnetic Locks": "ICS-Z1800",
+      "Type": "Bracket",
+      "Lock Type": "High Security",
+      "Door Type / Mount": "Sliding Door",
+      "Monitored / Add Feature": "NA",
+      "Description": "Z Bracket for High Security Stainless Steel Magnet ICS-GL1800F-10TB"
+    },
+    {
+      "Magnetic Locks": "ICS-SL500",
+      "Type": "Shear Lock",
+      "Lock Type": "High Security",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "Mini shearlock"
+    },
+    {
+      "Magnetic Locks": "ICS-300ZLDC",
+      "Type": "Bracket",
+      "Lock Type": "Mini Magnet",
+      "Door Type / Mount": "Single / Double",
+      "Monitored / Add Feature": "NA",
+      "Description": "Covered Z & L Bracket for mini magnets"
+    },
+    {
+      "Magnetic Locks": "ICS-500ZLDC",
+      "Type": "Bracket",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "Single / Double",
+      "Monitored / Add Feature": "NA",
+      "Description": "Covered Z & L Bracket for standard magnets"
+    },
+    {
+      "Magnetic Locks": "ICS-500ZLW",
+      "Type": "Bracket",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "Single / Double",
+      "Monitored / Add Feature": "External",
+      "Description": "External  Z & L Bracket"
+    },
+    {
+      "Magnetic Locks": "ICS-300CL",
+      "Type": "Bracket",
+      "Lock Type": "Mini Magnet",
+      "Door Type / Mount": "Single / Double",
+      "Monitored / Add Feature": "Covered",
+      "Description": "Covered L bracket for Mini Magnet"
+    },
+    {
+      "Magnetic Locks": "ICS-500CL",
+      "Type": "Bracket",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "Single / Double",
+      "Monitored / Add Feature": "Covered",
+      "Description": "Covered L bracket for Standard Magnets"
+    },
+    {
+      "Magnetic Locks": "ICS-10412",
+      "Type": "Bolt Lock",
+      "Lock Type": "High Security",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "Solenoid Bolt 12VDC"
+    },
+    {
+      "Magnetic Locks": "ICS-10412SH",
+      "Type": "Bracket",
+      "Lock Type": "High Security",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "NA",
+      "Description": "Surface box for ICS10412"
+    },
+    {
+      "Magnetic Locks": "ICS-GK310LS",
+      "Type": "Strike Lock",
+      "Lock Type": "High Security",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Unmonitored",
+      "Description": "Fail secure electric strike"
+    },
+    {
+      "Magnetic Locks": "ICS-EB300VGL",
+      "Type": "Bolt Lock",
+      "Lock Type": "Standard Magnet",
+      "Door Type / Mount": "Glass door",
+      "Monitored / Add Feature": "Monitored",
+      "Description": "Electric Dropbolt for glass doors, Operating voltage 12Vdc, Fail-Safe (Power to Lock) with a Auto-relocking timer delay preset  0, 3, 6 and 9 seconds. Current draw, Pull in 0.9A, Holding 0.3A"
+    },
+    {
+      "Magnetic Locks": "ICS-GS200M",
+      "Type": "Shear Lock",
+      "Lock Type": "High Security",
+      "Door Type / Mount": "Single Door",
+      "Monitored / Add Feature": "Monitored",
+      "Description": "Monitored shear lock, Operating voltage 12~24Vdc, Holding force up to 1500lbs\n(680Kg) in shear , Current draw: 500mA at 12Vdc, 250mA at 24Vdc"
+    },
+    {
+      "Magnetic Locks": "ACA001",
+      "Type": "Push Button",
+      "Lock Type": "NA",
+      "Door Type / Mount": "Surface Mount",
+      "Monitored / Add Feature": "Plastic",
+      "Description": "Request to exit Button"
+    },
+    {
+      "Magnetic Locks": "PB-EXIT",
+      "Type": "Push Button",
+      "Lock Type": "NA",
+      "Door Type / Mount": "Flush Mount",
+      "Monitored / Add Feature": "Stainless Steel",
+      "Description": "Push button exit control, large size green button"
+    },
+    {
+      "Magnetic Locks": "DRB-IR",
+      "Type": "Touch Free PB",
+      "Lock Type": "NA",
+      "Door Type / Mount": "Flush Mount",
+      "Monitored / Add Feature": "Stainless Steel",
+      "Description": "Touch Free\" Infra Red Switch (85x85x30) Flush mount. Stainless steel flush mounted IR unit with hand symbol."
+    },
+    {
+      "Magnetic Locks": "DRB-IR-S",
+      "Type": "Touch Free PB",
+      "Lock Type": "NA",
+      "Door Type / Mount": "Surface Mount",
+      "Monitored / Add Feature": "Stainless Steel",
+      "Description": "Touch Free\" Infra Red Switch (85x85x30)  Surface mount  . Stainless Steel surface mounted IR unit with hand symbol"
+    },
+    {
+      "Magnetic Locks": "MCP3A-G000SF-13",
+      "Type": "Green Call Points",
+      "Lock Type": "NA",
+      "Door Type / Mount": "Surface Mount",
+      "Monitored / Add Feature": "Single Pole",
+      "Description": "Green Call Points for Access Control Systems. Single pole changeover contact in resettable operation mode. Indoor use. Ingress protection IP24D."
+    },
+    {
+      "Magnetic Locks": "MCP4A-G000SF-13",
+      "Type": "Green Call Points",
+      "Lock Type": "NA",
+      "Door Type / Mount": "Surface Mount",
+      "Monitored / Add Feature": "Double Pole",
+      "Description": "Green Call Points for Access Control Systems. Double pole changeover contact in resettable operation mode. Indoor use. Ingress protection IP24D."
+    },
+    {
+      "Magnetic Locks": "M8A-G000SF-K013-11",
+      "Type": "Green Call Points",
+      "Lock Type": "NA",
+      "Door Type / Mount": "Surface Mount",
+      "Monitored / Add Feature": "Triple Pole",
+      "Description": "Green Call Points for Access Control Systems. Triple pole changeover contact in resettable operation mode. Indoor use. Ingress protection IP24D."
+    }
+  ]
+}

@@ -1,0 +1,381 @@
+export type Question =
+  | { id: number; type: "single"; prompt: string; options: string[]; answer: number }
+  | { id: number; type: "multi"; prompt: string; options: string[]; answer: number[] };
+
+export const questions: Question[] = [
+  // ============ True / False ============
+  {
+    id: 1,
+    type: "single",
+    prompt: "The A-Series is a mid-to-enterprise level NVR that is typically available in a rackmount form factor.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 2,
+    type: "single",
+    prompt: "Q-Series NVRs are restricted to a maximum of 16 IP cameras.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 3,
+    type: "single",
+    prompt: "X-Series NVRs are restricted to a maximum of 4 Terabytes of internal storage.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 4,
+    type: "single",
+    prompt: "A-Series models with RAID 5 capabilities can continue recording even if a single hard drive fails.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 5,
+    type: "single",
+    prompt:
+      "The X-Series is designed for high-end enterprise applications requiring massive storage and channel counts exceeding 128 cameras.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 6,
+    type: "single",
+    prompt: "All exacqVision X-Series models come pre-configured with RAID 6 arrays for maximum data redundancy.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 7,
+    type: "single",
+    prompt: "The maximum number of IP channels an A-Series NVR can support is lower than the limit of a standard G-Series NVR.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 8,
+    type: "single",
+    prompt: "Hybrid models of the A-Series require an expansion card to support IP cameras.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 9,
+    type: "single",
+    prompt: 'Storage capacities in exacqVision NVRs are often designated in part numbers, such as "-2TB" or "-16TB".',
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 10,
+    type: "single",
+    prompt: "Some enterprise X-Series models feature redundant power supplies.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 11,
+    type: "single",
+    prompt: "IP cameras connect to the NVR via coaxial cable, while analog cameras connect via an Ethernet network.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 12,
+    type: "single",
+    prompt: "exacqVision Edge runs directly on an IP camera and stores video to an SD card in the camera.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 13,
+    type: "single",
+    prompt: "exacqVision licensing is based on the number of servers in your system, not the number of camera channels.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 14,
+    type: "single",
+    prompt: "Per-camera minimum and maximum retention settings are available in exacqVision Edge, but not in Edge Plus.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 15,
+    type: "single",
+    prompt:
+      "Enterprise camera management and LDAP/Active Directory integration are features included with exacqVision Professional.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 16,
+    type: "single",
+    prompt: "For server-side installations, both exacqVision Professional and Enterprise support up to 200 cameras per server.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 17,
+    type: "single",
+    prompt: "An exacqVision server can support up to 512 simultaneous client connections.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 18,
+    type: "single",
+    prompt:
+      "exacqVision Enterprise includes a Health Dashboard for NVRs and cameras, NVR failover, and VideoPush video wall — features not included in Professional.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 19,
+    type: "single",
+    prompt:
+      "If your system has 10 cameras or fewer and you want the VMS to run directly on the cameras, you need an Edge Plus server license.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 20,
+    type: "single",
+    prompt:
+      "You can upgrade an Edge license to Edge Plus at any time, and you can also transfer Edge or Edge Plus licenses to another Edge device.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 21,
+    type: "single",
+    prompt:
+      "It is not possible to upgrade a Professional camera license to an Enterprise license — you must purchase Enterprise from scratch.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 22,
+    type: "single",
+    prompt: "exacqVision Enterprise failover servers should have the same number of licenses as any amount in the main NVRs.",
+    options: ["True", "False"],
+    answer: 1,
+  },
+  {
+    id: 23,
+    type: "single",
+    prompt: "Edge Plus, Professional, and Enterprise systems all come with one year of SSA by default.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+  {
+    id: 24,
+    type: "single",
+    prompt:
+      "Server-based systems (Professional and Enterprise) can come with 5 years of SSA when purchased together with an exacqVision server.",
+    options: ["True", "False"],
+    answer: 0,
+  },
+
+  // ============ Multiple Choice ============
+  {
+    id: 25,
+    type: "multi",
+    prompt: "What hardware does exacqVision provide?",
+    options: [
+      "Only client workstations",
+      "NVRs and Hybrid NVRs",
+      "Network Video Storages and Enterprise Management servers",
+      "Only analog cameras",
+    ],
+    answer: [1, 2],
+  },
+  {
+    id: 26,
+    type: "multi",
+    prompt: "How can you select a suitable NVR for your solution?",
+    options: [
+      "Based on the number of channels",
+      "Based on usable storage",
+      "Based on the type of the chassis",
+      "Based on the brand of the monitor",
+    ],
+    answer: [0, 1],
+  },
+  {
+    id: 27,
+    type: "multi",
+    prompt: "What is the channel range for G-Series NVRs?",
+    options: [
+      "Starts with 1 channel",
+      "Maximum of 16 channels",
+      "Maximum of 64 channels",
+      "Starts with 8 IP cameras",
+    ],
+    answer: [1, 3],
+  },
+  {
+    id: 28,
+    type: "single",
+    prompt: "What is the maximum usable storage for A-Series NVRs?",
+    options: ["24 Terabytes", "264 Terabytes", "48 Terabytes", "288 Terabytes"],
+    answer: 1,
+  },
+  {
+    id: 29,
+    type: "single",
+    prompt: 'In an exacqVision part number, what does the number following "IP" (such as 08 or 16) mean?',
+    options: [
+      "The number of hard drives included",
+      "The number of licenses that come with the NVR",
+      "The maximum power consumption in watts",
+      "The number of USB ports",
+    ],
+    answer: 1,
+  },
+  {
+    id: 30,
+    type: "multi",
+    prompt: "How do you change the operating system to Windows and upgrade licenses to Enterprise on certain models?",
+    options: [
+      'Change the last letter from "L" to "W"',
+      'Add "-E" at the end of the part number',
+      "Remove all numbers from the part number",
+      'Change the "G" to an "X"',
+    ],
+    answer: [0, 1],
+  },
+  {
+    id: 31,
+    type: "multi",
+    prompt: "What are the characteristics of Q-Series NVRs?",
+    options: [
+      "Goes up to 64 channels",
+      "Comes only with one channel license initially",
+      "Storage options start at 4TB and end at 48TB",
+      "Maximum usable storage of 288TB",
+    ],
+    answer: [0, 1, 2],
+  },
+  {
+    id: 32,
+    type: "multi",
+    prompt: "What storage and channel features do A-series 2U NVRs offer?",
+    options: [
+      "Up to 64 channels and up to 72 terabytes",
+      "Up to 150 channels with RAID5 and RAID6 options for front-load models",
+      "Maximum of 12 terabytes only",
+      "Up to 200 channels",
+    ],
+    answer: [0, 1],
+  },
+  {
+    id: 33,
+    type: "multi",
+    prompt: "What are the capacities of X-Series NVRs?",
+    options: [
+      "1U can have up to 170 channels and max 48 terabytes of usable storage",
+      "2U can handle up to 200 channels and max 264 terabytes of usable storage",
+      "1U has a maximum of 288 terabytes of usable storage",
+      "2U can handle only 16 channels",
+    ],
+    answer: [0, 1],
+  },
+  {
+    id: 34,
+    type: "single",
+    prompt: "What is the fundamental metric used to determine the number of exacqVision VMS licenses required for a system?",
+    options: [
+      "The total storage capacity of the server in Terabytes.",
+      "The number of concurrent client connections monitoring the system.",
+      "The total number of video channels (cameras) used in the system.",
+      "The number of physical server racks housing the NVRs.",
+    ],
+    answer: 2,
+  },
+  {
+    id: 35,
+    type: "single",
+    prompt: 'Under what condition is a system deployment referred to specifically as "exacqVision Edge"?',
+    options: [
+      "When the VMS software runs directly on an IP camera and stores video to an internal SD card.",
+      "When the VMS server is deployed at the physical edge of a local corporate firewall.",
+      "When the system is configured to stream video directly to cloud storage endpoints only.",
+      "When the VMS client software is installed exclusively on edge mobile devices.",
+    ],
+    answer: 0,
+  },
+  {
+    id: 36,
+    type: "single",
+    prompt: "Which of the following advanced features is introduced when a user deploys or upgrades to exacqVision Edge Plus?",
+    options: [
+      "Analog camera physical loop-through connections.",
+      "Automatic pixel modification for privacy masking.",
+      "Enterprise camera management and LDAP Active Directory integration.",
+      "Direct integration with third-party analog matrix switchers.",
+    ],
+    answer: 2,
+  },
+  {
+    id: 37,
+    type: "single",
+    prompt: "What is the maximum number of simultaneous cameras per client supported by the exacqVision Edge Plus edition?",
+    options: [
+      "Up to 50 simultaneous cameras",
+      "Up to 200 simultaneous cameras",
+      "Up to 512 simultaneous cameras",
+      "Up to 1,000 simultaneous cameras",
+    ],
+    answer: 3,
+  },
+  {
+    id: 38,
+    type: "single",
+    prompt:
+      "For standard server-side installations, what is the maximum number of cameras supported per individual server by both Professional and Enterprise editions?",
+    options: ["Up to 10 cameras", "Up to 64 cameras", "Up to 200 cameras", "Up to 1,000 cameras"],
+    answer: 2,
+  },
+  {
+    id: 39,
+    type: "single",
+    prompt:
+      "What is the maximum number of simultaneous client connections supported by a single exacqVision Professional or Enterprise server?",
+    options: [
+      "Up to 16 client connections",
+      "Unlimited client connections",
+      "Up to 512 client connections",
+      "Up to 200 client connections",
+    ],
+    answer: 2,
+  },
+  {
+    id: 40,
+    type: "single",
+    prompt: "Which of the following software features is exclusively available on exacqVision Enterprise servers and not on Professional servers?",
+    options: [
+      "Multi-display client software setups.",
+      "Health Dashboard of NVRs and cameras, along with VideoPush Video Wall.",
+      "Basic scheduling for camera frame rate adjustments.",
+      "Support for third-party IP camera streams.",
+    ],
+    answer: 1,
+  },
+  {
+    id: 41,
+    type: "single",
+    prompt:
+      "In an exacqVision Enterprise architecture, what is a mandatory rule regarding the channel licensing structure of a Failover NVR server?",
+    options: [
+      "It requires a standard Edge license for every camera it monitors.",
+      "It must have the same number of licenses as the maximum channel capacity of the main NVRs.",
+      "It uses a dynamic cloud-based subscription that does not require a local license file.",
+      "It requires twice the number of licenses used by the primary recording server.",
+    ],
+    answer: 1,
+  },
+];

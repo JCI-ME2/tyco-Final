@@ -1,0 +1,1858 @@
+{
+  "mainSoftware": [
+    {
+      "Part Number": "ADVASC01",
+      "License Category": "Server",
+      "System Level": "Professional",
+      "License Type": "Server",
+      "Description": "victor Professional Software License, includes: victor Application Server, 1 concurrent victor Unified Client connection, 1 concurrent victor Web client connection & 1 concurrent victor Go client connection (Base). Includes software application plus Microsoft SQL Express Edition database engine. From version 5.4 mapping, health monitoring and Record on Surveillance is included as standard. In an installation of less than 100 cameras, victor site manager and victor unified client can run on the same workstation.\nNotes:\nSupports VideoEdge NVR (v4.0 and later), Intellex (v3.2 and later) and HDVR (v1.4 and later), ExacqVision, ADTVR and Holis Recorders plus the MegaPower MP3200 and MP48 matrices\nFirst year SSA is included in this cost"
+    },
+    {
+      "Part Number": "ADVASC01ADD",
+      "License Category": "Client",
+      "System Level": "Professional",
+      "License Type": "Client Wokstation",
+      "Description": "victor Professional Software License, 1 Concurrent Client Connection Add-on"
+    },
+    {
+      "Part Number": "ADVASC25ADD",
+      "License Category": "Client",
+      "System Level": "Professional",
+      "License Type": "Clients (25 Bundle)",
+      "Description": "victor Professional Software License, 25 Concurrent Client Connections Add-on"
+    },
+    {
+      "Part Number": "ADVWCC01",
+      "License Category": "Web",
+      "System Level": "Pro / ENT",
+      "License Type": "Web (base)",
+      "Description": "Standalone victor web server base license (1 web client connection)"
+    },
+    {
+      "Part Number": "ADVC-VWC01",
+      "License Category": "Web",
+      "System Level": "Pro / ENT",
+      "License Type": "Web (additional)",
+      "Description": "victor web single web concurrent connection client license"
+    },
+    {
+      "Part Number": "ADVC-VGOAPP01",
+      "License Category": "Web",
+      "System Level": "Pro / ENT",
+      "License Type": "VictorGo",
+      "Description": "victor Professional victorGo App one (1) concurrent client license connection\nIncludes the victor web services license.\nSold per application server"
+    },
+    {
+      "Part Number": "ADVCC01ADD",
+      "License Category": "Client",
+      "System Level": "Professional",
+      "License Type": "Command Center",
+      "Description": "Victor Command Centre, Client to Client Display push, Event Monitoring Window and 1 concurrent victor agent connection to victor application server."
+    },
+    {
+      "Part Number": "ADVC-POS",
+      "License Category": "Integration",
+      "System Level": "Professional",
+      "License Type": "Point of Sale",
+      "Description": "victor POS text stream integration (requires victor version 4.4 or higher)"
+    },
+    {
+      "Part Number": "ADVC-VCVMK",
+      "License Category": "Integration",
+      "System Level": "Professional",
+      "License Type": "Keyboard / Vmatrix",
+      "Description": "victor Professional Matrix Keyboard connectivity & Virtual Matrix license, sold one per victor Application Server"
+    },
+    {
+      "Part Number": "ADVC-CCUREINT",
+      "License Category": "Integration",
+      "System Level": "Professional",
+      "License Type": "CCURE9000",
+      "Description": "Victor Integration C-Cure 9000 Access Control. (Does Not Unify Application Servers.)"
+    },
+    {
+      "Part Number": "ADVC-CENTLIC",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "Server",
+      "Description": "victor Professional central license management for VideoEdge"
+    },
+    {
+      "Part Number": "ADVC-VECAM",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "IP Camera",
+      "Description": "victor Professional centrally managed VideoEdge IP camera connection license - single camera licence"
+    },
+    {
+      "Part Number": "ADVC-VEVIRT",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "Virtual NVR",
+      "Description": "VideoEdge Virtual NVR. Centralised License For VideoEdge NVR Software For Virtualisation Platforms."
+    },
+    {
+      "Part Number": "ADVC-VEVA",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "Video Analytics",
+      "Description": "VideoEdge IP Camera Video Intelligence Analytics License, Single Channel, Victor Professional Centrally Managed"
+    },
+    {
+      "Part Number": "ADVC-VELPR",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "LPR",
+      "Description": "VideoEdge IP Camera License Plate Recognition (LRP), Single Channel, Victor Professional Centrally Managed"
+    },
+    {
+      "Part Number": "ADVC-TYCREID01",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "Search Person",
+      "Description": "VideoEdge Advanced Intelligent Search (Person) Analytics License, Single Channel, Victor Professional Centrally Managed - Compatible with victor/VideoEdge V5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVC-VEFET1",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "Face (25)",
+      "Description": "Face Rec. W Enrolment Database Less Than 25 Identities. Sold 1 Per Cam Stream. Centralised License. Compatible with victor/VideoEdge V5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVC-VEFET2",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "Face (100)",
+      "Description": "Face Rec. W Enrolment Database Less Than 100 Identities. Sold 1 Per Cam Stream. Centralised License. Compatible with victor/VideoEdge V5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVC-VEFET3",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "Face (1,000)",
+      "Description": "Face Rec. W Enrolment Database Less Than 1000 Identities. Sold 1 Per Cam Stream. Centralised License. Compatible with victor/VideoEdge V5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVC-VEFET4",
+      "License Category": "Centralized",
+      "System Level": "Professional",
+      "License Type": "Face (10,000)",
+      "Description": "Face Rec. W Enrolment Database Less Than 10,000 Identities. Sold 1 Per Cam Stream. Centralised License. Compatible with victor/VideoEdge V5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVSAS",
+      "License Category": "Client",
+      "System Level": "Enterprise",
+      "License Type": "Client (base)",
+      "Description": "VICTOR ENTERPRISE SAS, 1 CONCURRENT CLIENT CONNECTION (BASE)"
+    },
+    {
+      "Part Number": "ADVC-APPSERVER",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "Upgrade to SAS",
+      "Description": "VICTOR ENTERPRISE - APPLICATION SERVER UPGRADE TO SATELLITE APPLICATION SERVER LICENSE"
+    },
+    {
+      "Part Number": "ADVC-VSASCC9",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "Upgrade to Unified",
+      "Description": "VICTOR ENTERPRISE-APP SERVER UPGRADE- VICTOR ENTERPRISE SAS TO UNIFIED VICTOR/CCURE ENTERPRISE SAS"
+    },
+    {
+      "Part Number": "ADVSASC01ADD",
+      "License Category": "Client",
+      "System Level": "Enterprise",
+      "License Type": "Client (SAS)",
+      "Description": "VICTOR ENTERPRISE SAS ADD-ON LICENSE, 1 CONCURRENT CLIENT CONNECTION ADD-ON"
+    },
+    {
+      "Part Number": "ADVSASC25ADD",
+      "License Category": "Client",
+      "System Level": "Enterprise",
+      "License Type": "Clients (25 Bundle) (SAS)",
+      "Description": "VICTOR ENTERPRISE SAS ADD-ON LICENSE, 25 CONCURRENT CLIENT CONNECTIONS ADD-ON"
+    },
+    {
+      "Part Number": "ADVSASCC01ADD",
+      "License Category": "Client",
+      "System Level": "Enterprise",
+      "License Type": "Command Center",
+      "Description": "VICTOR ENTERPRISE SAS ADD-ON LICENSE, VICTOR VIDEO WALL AGENT. INCLUDES 1 VIDEO WALL AGENT"
+    },
+    {
+      "Part Number": "ADVC-SASLDAP",
+      "License Category": "Integration",
+      "System Level": "Enterprise",
+      "License Type": "LDAP",
+      "Description": "VICTOR ENTERPRISE SAS ADD-ON LICENSE, LDAP USERS"
+    },
+    {
+      "Part Number": "ADVC-SASVMK",
+      "License Category": "Integration",
+      "System Level": "Enterprise",
+      "License Type": "Keyboard / Vmatrix",
+      "Description": "VICTOR ENTERPRISE SAS ADD-ON LICENSE, VICTOR CLIENT VIRTUAL MATRIX PTZ KEYBOARD CONTROL"
+    },
+    {
+      "Part Number": "ADVC-SASPOS",
+      "License Category": "Integration",
+      "System Level": "Enterprise",
+      "License Type": "Point of Sale",
+      "Description": "VICTOR ENTERPRISE SAS ADD-ON LICENSE, POINT OF SALE DATA IMPORT"
+    },
+    {
+      "Part Number": "ADVC-SASCENTLIC",
+      "License Category": "Centralized",
+      "System Level": "Enterprise",
+      "License Type": "Server (SAS)",
+      "Description": "VICTOR ENTERPRISE SAS CENTRAL LICENSE MANAGEMENT FOR VIDEOEDGE"
+    },
+    {
+      "Part Number": "ADVC-SASVECAM",
+      "License Category": "Centralized",
+      "System Level": "Enterprise",
+      "License Type": "IP Camera",
+      "Description": "VICTOR ENTERPRISE SAS CENTRALLY MANAGED VIDEOEDGE IP CAMERA CONNECTION LICENSE-SINGLE CAMERA LIC"
+    },
+    {
+      "Part Number": "ADVC-SASVEVA",
+      "License Category": "Centralized",
+      "System Level": "Enterprise",
+      "License Type": "Video Analytics",
+      "Description": "VICTOR ENTERPRISE SAS CENTRALLY MANAGED VIDEOEDGE IP CAMERA VIDEO ANALYTICS LICENSE - 1 CAMERA LIC"
+    },
+    {
+      "Part Number": "ADVC-SASVELPR",
+      "License Category": "Centralized",
+      "System Level": "Enterprise",
+      "License Type": "LPR",
+      "Description": "VICTOR ENTERPRISE CENTRALLY MANAGED VIDEOEDGE NVR LPR VIDEO ANALYTIC CHANNEL ADD-ON, 1 IP CAM LICENSE"
+    },
+    {
+      "Part Number": "ADVMAS-10",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "10 SAS",
+      "Description": "VICTOR ENTERPRISE MAS, 1 CONCURRENT CLIENT CONNECTION (BASE), SUPPORTS UP TO 10 SAT APP SERVERS"
+    },
+    {
+      "Part Number": "ADVMAS-20",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "20 SAS",
+      "Description": "VICTOR ENTERPRISE MAS, 1 CONCURRENT CLIENT CONNECTION (BASE), SUPPORTS UP TO 20 SAT APP SERVERS"
+    },
+    {
+      "Part Number": "ADVMAS-40",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "40 SAS",
+      "Description": "VICTOR ENTERPRISE MAS, 1 CONCURRENT CLIENT CONNECTION (BASE), SUPPORTS UP TO 40 SAT APP SERVERS"
+    },
+    {
+      "Part Number": "ADVC-VMASCC9",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "Upgrade to Unified (MAS)",
+      "Description": "VICTOR ENTERPRISE - APPLICATION SERVER UPGRADE TO SATELLITE APPLICATION SERVER LICENSE FOR C-CURE MAS UPGRADING TO VICTOR UNFIRED MAS"
+    },
+    {
+      "Part Number": "ADVMASC01ADD",
+      "License Category": "Client",
+      "System Level": "Enterprise",
+      "License Type": "Client (MAS)",
+      "Description": "VICTOR ENTERPRISE MAS ADD-ON LICENSE, 1 CONCURRENT CLIENT CONNECTION ADD-ON"
+    },
+    {
+      "Part Number": "ADVMASC25ADD",
+      "License Category": "Client",
+      "System Level": "Enterprise",
+      "License Type": "Clients (25 Bundle) (MAS)",
+      "Description": "VICTOR ENTERPRISE MAS ADD-ON LICENSE, 25 CONCURRENT CLIENT CONNECTIONS ADD-ON"
+    },
+    {
+      "Part Number": "ADVMASCC01ADD",
+      "License Category": "Client",
+      "System Level": "Enterprise",
+      "License Type": "Command Center (MAS)",
+      "Description": "VICTOR ENTERPRISE MAS ADD-ON LICENSE, VICTOR VIDEO WALL AGENT. INCLUDES 1 VIDEO WALL AGENT"
+    },
+    {
+      "Part Number": "ADVC-MASLDAP",
+      "License Category": "Integration",
+      "System Level": "Enterprise",
+      "License Type": "LDAP (MAS)",
+      "Description": "VICTOR ENTERPRISE MAS ADD-ON LICENSE, VICTOR APPLICATION SERVER LDAP"
+    },
+    {
+      "Part Number": "ADVC-MASVMK",
+      "License Category": "Integration",
+      "System Level": "Enterprise",
+      "License Type": "Keyboard / Vmatrix (MAS)",
+      "Description": "VICTOR ENTERPRISE MAS ADD-ON LICENSE, VICTOR CLIENT VIRTUAL MATRIX PTZ KEYBOARD CONTROL"
+    },
+    {
+      "Part Number": "ADVC-SURGARD",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "Description": "victor integration with DSC SURGARD Alarm Receiver"
+    },
+    {
+      "Part Number": "ADVC-MZX",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Fire",
+      "Description": "victor integration with MZX Fire Panels (requires victor version 4.4 or higher)"
+    },
+    {
+      "Part Number": "ADVC-FIRECLASS",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Fire",
+      "Description": "victor integration with FIRECLASS PANELS"
+    },
+    {
+      "Part Number": "ADVC-4100U",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Fire",
+      "Description": "victor integration with Simplex 4100U/ES (requires victor version 4.4 or higher)"
+    },
+    {
+      "Part Number": "ADVC-BOSCHREC",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "Description": "victor integration with Bosch D6600 Alarm Receiver"
+    },
+    {
+      "Part Number": "ADVC-CASTEL",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intercom",
+      "Description": "victor integration with CASTEL INTERCOM"
+    },
+    {
+      "Part Number": "ADVC-COMMEND",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intercom",
+      "Description": "victor integration with COMMEND"
+    },
+    {
+      "Part Number": "ADVC-EAS",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Shop Alarm",
+      "Description": "victor integration option with EAS Retail"
+    },
+    {
+      "Part Number": "ADVC-TOA",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Public Address",
+      "Description": "victor integration with TOA"
+    },
+    {
+      "Part Number": "ADVC-ITV2",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "Description": "victor integration with INTRUSION DSC"
+    },
+    {
+      "Part Number": "ADVC-WEBSERVICE",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Web Service",
+      "Description": "victor integration with WEB SERVICE"
+    },
+    {
+      "Part Number": "ADVC-ENTRAPASS",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "Description": "victor integration with EntraPass\nThe victor KANTECH EntraPass integration is only supported when running victor & KANTECH in English language on an English language operating system."
+    },
+    {
+      "Part Number": "ADVC-LDAP",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "Description": "victor integration with LDAP"
+    },
+    {
+      "Part Number": "ADVC-LENEL",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "Description": "victor integration with Lenel"
+    },
+    {
+      "Part Number": "ADVC-BACNET",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "BacNET",
+      "Description": "victor integration with BACNET"
+    },
+    {
+      "Part Number": "ADVC-DSC",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "Description": "victor integration with DSC"
+    },
+    {
+      "Part Number": "ADVC-GALAXY",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "Description": "victor integration with GALAXY"
+    },
+    {
+      "Part Number": "ADVC-KONE",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Elevator",
+      "Description": "victor integration with KONE"
+    },
+    {
+      "Part Number": "ADVC-OTIS",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Elevator",
+      "Description": "victor integration with OTIS"
+    },
+    {
+      "Part Number": "ADVC-TKRUPP",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Elevator",
+      "Description": "victor integration with THYSEEN-KRUPP"
+    },
+    {
+      "Part Number": "ADVC-SCHINDLER",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Elevator",
+      "Description": "victor integration with SCHINDLER"
+    },
+    {
+      "Part Number": "ADVC-SATEL",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intercom",
+      "Description": "victor integration with SATEL"
+    },
+    {
+      "Part Number": "ADVC-AMAG",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "Description": "victor - AMAG integration"
+    },
+    {
+      "Part Number": "ADVC-CEM",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "Description": "VICTOR INTEGRATION ACCESS CEM"
+    },
+    {
+      "Part Number": "ADAI-TYCPPL01",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Area Occupancy",
+      "Description": "Area Occupancy Counting"
+    },
+    {
+      "Part Number": "ADAI-TYCCC01",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Crowd Counting",
+      "Description": "Tyco AI server add-on, 1 crowd counting license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYCOBJ01",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Object Classification",
+      "Description": "Tyco AI server add-on, 1 object classification license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYCPERM01",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Intelligent Perimeter",
+      "Description": "Tyco AI server add-on, 1 intelligent perimeter license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYCSOCD01",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Social Distancing",
+      "Description": "Tyco AI server add-on, 1 social distancing license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYFAL01",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Fall Detection",
+      "Description": "Tyco AI server add-on, 1 fall detection license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYCFACE01",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Face Recognition",
+      "Description": "Face Recognition"
+    },
+    {
+      "Part Number": "ADAI-TYCMASK01",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Mask Wearing",
+      "Description": "Mask Wearing Detection"
+    },
+    {
+      "Part Number": "ADVESWADDG",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "NVR Machine",
+      "Description": "One (1) VideoEdge NVR Server software"
+    },
+    {
+      "Part Number": "ADVEVIRT",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "NVR Virtual Machine",
+      "Description": "VideoEdge Virtual NVR. Local License For VideoEdge NVR Software For Virtualisation Platforms."
+    },
+    {
+      "Part Number": "ADVEC01",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "IP Camera",
+      "Description": "One (1) Additional Camera License for VideoEdge NVR v4.0 and later"
+    },
+    {
+      "Part Number": "ADVEVAC01",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Video Analytics",
+      "Description": "VideoEdge NVR Add-on for one (1) Video Analytic Channel"
+    },
+    {
+      "Part Number": "ADVELPRC01",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "LPR",
+      "Description": "VideoEdge 1 Camera Analytic Channel for License Plate Recognition"
+    },
+    {
+      "Part Number": "ADVE-TYCREID01",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Search Person",
+      "Description": "VideoEdge, 1 Add-On Intelligent Search (Person) License, per channel - Compatible with VideoEdge V5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVE-FET1",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Face (25)",
+      "Description": "Face Rec. W Enrolment Database Less Than 25 Identities. Sold 1 Per Cam Stream. Local NVR License. Compatible with VideoEdge 5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVE-FET2",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Face (100)",
+      "Description": "Face Rec. W Enrolment Database Less Than 100 Identities. Sold 1 Per Cam Stream. Local NVR License. Compatible with VideoEdge 5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVE-FET3",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Face (1,000)",
+      "Description": "Face Rec. W Enrolment Database Less Than 1000 Identities. Sold 1 Per Cam Stream. Local NVR License. Compatible with VideoEdge 5.4.2 and newer"
+    },
+    {
+      "Part Number": "ADVE-FET4",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Face (10,000)",
+      "Description": "Face Rec. W Enrolment Database Less Than 10,000 Identities. Sold 1 Per Cam Stream. Local NVR License. Compatible with VideoEdge 5.4.2 and newer"
+    }
+  ],
+  "ssa": [
+    {
+      "Part Number": "ADNSCEN-PKG-MA",
+      "License Category": "Server",
+      "System Level": "Pro / ENT",
+      "License Type": "Centralized",
+      "License Validity": "1 Year",
+      "Description": "Software Support Agreement, Centralized Package"
+    },
+    {
+      "Part Number": "ADVS1SSA",
+      "License Category": "Server",
+      "System Level": "Professional",
+      "License Type": "Site Manager",
+      "License Validity": "1 Year",
+      "Description": "ONE (1) YEAR SSA FOR VICTOR SITE MANAGER\nONE ADVS1SSA IS REQUIRED PER USER INTERFACE CONNECTION LICENSE"
+    },
+    {
+      "Part Number": "ADVS2SSA",
+      "License Category": "Server",
+      "System Level": "Professional",
+      "License Type": "Site Manager",
+      "License Validity": "2 Years",
+      "Description": "TWO (2) YEAR SSA FOR VICTOR SITE MANAGER\nONE ADVS2SSA IS REQUIRED PER USER INTERFACE CONNECTION LICENSE"
+    },
+    {
+      "Part Number": "ADVS3SSA",
+      "License Category": "Server",
+      "System Level": "Professional",
+      "License Type": "Site Manager",
+      "License Validity": "3 Years",
+      "Description": "THREE (3) YEAR SSA FOR VICTOR SITE MANAGER\nONE ADVS3SSA IS REQUIRED PER USER INTERFACE CONNECTION LICENSE"
+    },
+    {
+      "Part Number": "ADVS4SSA",
+      "License Category": "Server",
+      "System Level": "Professional",
+      "License Type": "Site Manager",
+      "License Validity": "4 Years",
+      "Description": "FOUR (4) YEAR SSA FOR VICTOR SITE MANAGER\nONE ADVS4SSA IS REQUIRED PER USER INTERFACE CONNECTION LICENSE"
+    },
+    {
+      "Part Number": "ADVS5SSA",
+      "License Category": "Server",
+      "System Level": "Professional",
+      "License Type": "Site Manager",
+      "License Validity": "5 Years",
+      "Description": "FIVE (5) YEAR SSA FOR VICTOR SITE MANAGER\nONE ADVS5SSA IS REQUIRED PER USER INTERFACE CONNECTION LICENSE"
+    },
+    {
+      "Part Number": "ADVMASSSA",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "MAS",
+      "License Validity": "1 Year",
+      "Description": "SSA VICTOR ENTERPRISE MAS/CONCURRENT PER CLIENT LICENSE 1 ADDITIONAL YEAR"
+    },
+    {
+      "Part Number": "ADVMASSSA2",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "MAS",
+      "License Validity": "2 Years",
+      "Description": "SSA VICTOR ENTERPRISE MAS/CONCURRENT PER CLIENT LICENSE 2 ADDITIONAL YEARS"
+    },
+    {
+      "Part Number": "ADVMASSSA3",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "MAS",
+      "License Validity": "3 Years",
+      "Description": "SSA VICTOR ENTERPRISE MAS/CONCURRENT PER CLIENT LICENSE 3 ADDITIONAL YEARS"
+    },
+    {
+      "Part Number": "ADVMASSSA4",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "MAS",
+      "License Validity": "4 Years",
+      "Description": "SSA VICTOR ENTERPRISE MAS/CONCURRENT PER CLIENT LICENSE 4 ADDITIONAL YEARS"
+    },
+    {
+      "Part Number": "ADVMASSSA5",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "MAS",
+      "License Validity": "5 Years",
+      "Description": "SSA VICTOR ENTERPRISE MAS/CONCURRENT PER CLIENT LICENSE 5 ADDITIONAL YEARS"
+    },
+    {
+      "Part Number": "ADVSASSSA",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "SAS",
+      "License Validity": "1 Year",
+      "Description": "SSA VICTOR ENTERPRISE SAS CONCURRENT PER CLIENT LICENSE 1 ADDITIONAL YEAR"
+    },
+    {
+      "Part Number": "ADVSASSSA2",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "SAS",
+      "License Validity": "2 Years",
+      "Description": "SSA VICTOR ENTERPRISE SAS CONCURRENT PER CLIENT LICENSE 2 ADDITIONAL YEARS"
+    },
+    {
+      "Part Number": "ADVSASSSA3",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "SAS",
+      "License Validity": "3 Years",
+      "Description": "SSA VICTOR ENTERPRISE SAS CONCURRENT PER CLIENT LICENSE 3 ADDITIONAL YEARS"
+    },
+    {
+      "Part Number": "ADVSASSSA4",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "SAS",
+      "License Validity": "4 Years",
+      "Description": "SSA VICTOR ENTERPRISE SAS CONCURRENT PER CLIENT LICENSE 4 ADDITIONAL YEARS"
+    },
+    {
+      "Part Number": "ADVSASSSA5",
+      "License Category": "Server",
+      "System Level": "Enterprise",
+      "License Type": "SAS",
+      "License Validity": "5 Years",
+      "Description": "SSA VICTOR ENTERPRISE SAS /CONCURRENT PER CLIENT LICENSE 5 ADDITIONAL YEARS"
+    },
+    {
+      "Part Number": "ADVE1SSA",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Per Camera",
+      "License Validity": "1 Year",
+      "Description": "1yr VideoEdge NVR SSA, Per Connected IP Camera"
+    },
+    {
+      "Part Number": "ADVE2SSA",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Per Camera",
+      "License Validity": "2 Years",
+      "Description": "2yr VideoEdge NVR SSA, Per Connected IP Camera"
+    },
+    {
+      "Part Number": "ADVE3SSA",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Per Camera",
+      "License Validity": "3 Years",
+      "Description": "3yr VideoEdge NVR SSA, Per Connected IP Camera"
+    },
+    {
+      "Part Number": "ADVE4SSA",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Per Camera",
+      "License Validity": "4 Years",
+      "Description": "4yr VideoEdge NVR SSA, Per Connected IP Camera"
+    },
+    {
+      "Part Number": "ADVE5SSA",
+      "License Category": "VideoEdge",
+      "System Level": "Pro / ENT",
+      "License Type": "Per Camera",
+      "License Validity": "5 Years",
+      "Description": "5yr VideoEdge NVR SSA, Per Connected IP Camera"
+    },
+    {
+      "Part Number": "ADNSNVR-RR",
+      "License Category": "Reinstatement",
+      "System Level": "Pro / ENT",
+      "License Type": "1 NVR",
+      "License Validity": "1 Year",
+      "Description": "Reinstatement Relapse VideoEdge SSA Coverage, per NVR appliance, with 17+ IP Camera count, no Discount"
+    },
+    {
+      "Part Number": "ADVER-RR",
+      "License Category": "Reinstatement",
+      "System Level": "Pro / ENT",
+      "License Type": "1 NVR (up to 16 Ch)",
+      "License Validity": "1 Year",
+      "Description": "Reinstatement Relapse VideoEdge SSA Coverage for NVR appliance, with up to 16 IP Camera count and all VideoEdge Hybrid appliances, no discount"
+    },
+    {
+      "Part Number": "ADVC-MZX-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Fire",
+      "License Validity": "1 Year",
+      "Description": "victor integration with MZX Fire Panels SSA"
+    },
+    {
+      "Part Number": "ADVC-FIREC-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Fire",
+      "License Validity": "1 Year",
+      "Description": "victor integration with FIRECLASS PANELS SSA"
+    },
+    {
+      "Part Number": "ADVC-4100U-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Fire",
+      "License Validity": "1 Year",
+      "Description": "victor integration with Simplex 4100U/ES SSA"
+    },
+    {
+      "Part Number": "ADVC-BOS-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "License Validity": "1 Year",
+      "Description": "victor integration with Bosch D6600 Alarm Receiver SSA"
+    },
+    {
+      "Part Number": "ADVC-CEM-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "License Validity": "1 Year",
+      "Description": "victor integration with CEM SSA"
+    },
+    {
+      "Part Number": "ADVC-TOA-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Public Address",
+      "License Validity": "1 Year",
+      "Description": "victor integration with TOA SSA"
+    },
+    {
+      "Part Number": "ADVC-CASTEL-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intercom",
+      "License Validity": "1 Year",
+      "Description": "victor integration with CASTEL SSA"
+    },
+    {
+      "Part Number": "ADVC-COM-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intercom",
+      "License Validity": "1 Year",
+      "Description": "victor integration with COMMEND SSA"
+    },
+    {
+      "Part Number": "ADVC-EAS-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Shop Alarm",
+      "License Validity": "1 Year",
+      "Description": "victor integration option with EAS Retail SSA"
+    },
+    {
+      "Part Number": "ADVC-ITV2-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "License Validity": "1 Year",
+      "Description": "victor integration with INTRUSION DSC SSA"
+    },
+    {
+      "Part Number": "ADVC-WEBSVC-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Web Service",
+      "License Validity": "1 Year",
+      "Description": "victor integration with WEB SERVICE SSA"
+    },
+    {
+      "Part Number": "ADVC-ENTRAPASS-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "License Validity": "1 Year",
+      "Description": "victor integration with ENTRAPASS SSA"
+    },
+    {
+      "Part Number": "ADVC-LDAP-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "LDAP",
+      "License Validity": "1 Year",
+      "Description": "victor integration with LDAP SSA"
+    },
+    {
+      "Part Number": "ADVC-LENEL-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "License Validity": "1 Year",
+      "Description": "victor integration with Lenel SSA"
+    },
+    {
+      "Part Number": "ADVC-BACNET-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "BacNET",
+      "License Validity": "1 Year",
+      "Description": "victor integration with BACNET SSA"
+    },
+    {
+      "Part Number": "ADVC-DSC-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "License Validity": "1 Year",
+      "Description": "victor integration with DSC SSA"
+    },
+    {
+      "Part Number": "ADVC-GALAXY-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "License Validity": "1 Year",
+      "Description": "victor integration with GALAXY SSA"
+    },
+    {
+      "Part Number": "ADVC-KONE-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Elevator",
+      "License Validity": "1 Year",
+      "Description": "victor integration with KONE SSA"
+    },
+    {
+      "Part Number": "ADVC-OTIS-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Elevator",
+      "License Validity": "1 Year",
+      "Description": "victor integration with OTIS SSA"
+    },
+    {
+      "Part Number": "ADVC-TKRUPP-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Elevator",
+      "License Validity": "1 Year",
+      "Description": "victor integration with THYSEEN-KRUPP SSA"
+    },
+    {
+      "Part Number": "ADVC-SATEL-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intercom",
+      "License Validity": "1 Year",
+      "Description": "victor integration with SATEL SSA"
+    },
+    {
+      "Part Number": "ADVC-AMAG-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Access Control",
+      "License Validity": "1 Year",
+      "Description": "victor integration with AMAG SSA"
+    },
+    {
+      "Part Number": "ADVC-SUR-S",
+      "License Category": "Integration",
+      "System Level": "Pro / ENT",
+      "License Type": "Intrusion",
+      "License Validity": "1 Year",
+      "Description": "victor integration with DSC SURGARD Alarm Receiver SSA"
+    },
+    {
+      "Part Number": "ADAI-TYCPPLSSA",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Area Occupancy",
+      "License Validity": "1 Year",
+      "Description": "1yr Additional SSA, Area Occupancy Counting"
+    },
+    {
+      "Part Number": "ADAI-TYCCC01SSA",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Crowd Counting",
+      "License Validity": "1 Year",
+      "Description": "Tyco AI server add-on, 1 crowd counting SSA license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYCOBJ01SSA",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Object Classification",
+      "License Validity": "1 Year",
+      "Description": "Tyco AI server add-on, 1 object classification SSA license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYCPER01SSA",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Intelligent Perimeter",
+      "License Validity": "1 Year",
+      "Description": "Tyco AI server add-on, 1 intelligent perimeter SSA license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYCSOC01SSA",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Social Distancing",
+      "License Validity": "1 Year",
+      "Description": "Tyco AI server add-on, 1 social distancing SSA license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYFAL01SSA",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Fall Detection",
+      "License Validity": "1 Year",
+      "Description": "Tyco AI server add-on, 1 fall detection SSA license, per camera"
+    },
+    {
+      "Part Number": "ADAI-TYCFACSSA",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Face Recognition",
+      "License Validity": "1 Year",
+      "Description": "1yr Additional SSA, Face Recognition"
+    },
+    {
+      "Part Number": "ADAI-TYCMASSSA",
+      "License Category": "Tyco AI",
+      "System Level": "Pro / ENT",
+      "License Type": "Mask Wearing",
+      "License Validity": "1 Year",
+      "Description": "1yr Additional SSA, Mask Wearing Detection"
+    }
+  ],
+  "recorders": [
+    {
+      "Part Number": "ADVEM00N0NP8AH",
+      "Recorder type": "NVR",
+      "Channels": "8CH",
+      "Raw Storage": "0TB",
+      "Form Factor": "Micro",
+      "OS HDD on RAID": "NA",
+      "Feature": "8PoE",
+      "Description": "VideoEdge Micro NVR, 8CH, 0TB Storage, PoE 8CH"
+    },
+    {
+      "Part Number": "ADVEM06N0NP8AH",
+      "Recorder type": "NVR",
+      "Channels": "8CH",
+      "Raw Storage": "6TB",
+      "Form Factor": "Micro",
+      "OS HDD on RAID": "NA",
+      "Feature": "8PoE",
+      "Description": "VideoEdge Micro NVR, 8CH, 6TB Storage, PoE 8CH"
+    },
+    {
+      "Part Number": "ADVEM12N0NP8AH",
+      "Recorder type": "NVR",
+      "Channels": "8CH",
+      "Raw Storage": "12TB",
+      "Form Factor": "Micro",
+      "OS HDD on RAID": "NA",
+      "Feature": "8PoE",
+      "Description": "VideoEdge Micro NVR, 8CH, 12TB Storage, PoE 8CH"
+    },
+    {
+      "Part Number": "ADVER00N0NP16G",
+      "Recorder type": "NVR",
+      "Channels": "32CH",
+      "Raw Storage": "0TB",
+      "Form Factor": "1U",
+      "OS HDD on RAID": "NA",
+      "Feature": "16PoE, JBOD",
+      "Description": "VIDEOEDGE 1U NVR, 0TB JBOD, 16 POE PORTS, 2 NIC"
+    },
+    {
+      "Part Number": "ADVER00N0NP16H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "0TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "16PoE, JBOD or SW RAID",
+      "Description": "VideoEdge 2U NVR, 0TB JBOD or Software RAID, 16 PoE ports, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER04N0NP16H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "4TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "16PoE, JBOD or SW RAID",
+      "Description": "VideoEdge 2U NVR, 4TB JBOD or Software RAID, 16 PoE ports, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER08N0NP16H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "8TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "16PoE, JBOD or SW RAID",
+      "Description": "VideoEdge 2U NVR, 8TB JBOD or Software RAID, 16 PoE ports, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER12N0NP16H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "12TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "16PoE, JBOD or SW RAID",
+      "Description": "VideoEdge 2U NVR, 12TB JBOD or Software RAID, 16 PoE ports, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER24N0NP16H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "24TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "16PoE, JBOD or SW RAID",
+      "Description": "VideoEdge 2U NVR, 24TB JBOD or Software RAID, 16 PoE ports, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER36N0NP16H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "36TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "16PoE, JBOD or SW RAID",
+      "Description": "VideoEdge 2U NVR, 36TB JBOD or Software RAID, 16 PoE ports, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER48N0NP16H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "48TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "16PoE, JBOD or SW RAID",
+      "Description": "VideoEdge 2U NVR, 48TB JBOD or Software RAID, 16 PoE ports, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVED00N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "0TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 0TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVED04N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "4TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 4TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVED08N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "8TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 8TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVED12N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "12TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 12TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVED16N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "16TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 16TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVED20N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "20TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 20TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVED24N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "24TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 24TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVED32N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "32TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 32TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVED40N0N5H",
+      "Recorder type": "NVR",
+      "Channels": "50CH",
+      "Raw Storage": "40TB",
+      "Form Factor": "Desktop",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge Desktop NVR, 40TB JBOD, (2) 2.5GbE"
+    },
+    {
+      "Part Number": "ADVER00N0N2J",
+      "Recorder type": "NVR",
+      "Channels": "75CH",
+      "Raw Storage": "0TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge 2U NVR, 0TB, JBOD, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER12N0N2J",
+      "Recorder type": "NVR",
+      "Channels": "75CH",
+      "Raw Storage": "12TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge 2U NVR, 12TB, JBOD, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER24N0N2J",
+      "Recorder type": "NVR",
+      "Channels": "75CH",
+      "Raw Storage": "24TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge 2U NVR, 24TB, JBOD, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER36N0N2J",
+      "Recorder type": "NVR",
+      "Channels": "75CH",
+      "Raw Storage": "36TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge 2U NVR, 36TB, JBOD, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER48N0N2J",
+      "Recorder type": "NVR",
+      "Channels": "75CH",
+      "Raw Storage": "48TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge 2U NVR, 48TB, JBOD, (2) 2.5GbE, (2) 1GbE"
+    },
+    {
+      "Part Number": "ADVER00RN2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "0TB RAID",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID Ctrl, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 0TB, RAID Ctrl, (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER12R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "16TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 12TB RAID 5 (16TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER16R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "20TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 16TB RAID 5 (20TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER24R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "32TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 24TB RAID 5 (32TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER36R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "48TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 36TB RAID 5 (48TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER48R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "60TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 48TB RAID 5 (60TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER60R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "72TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 60TB RAID 5 (72TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER80R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "96TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 80TB RAID 5 (96TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER96R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "112TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 96TB RAID 5 (112TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER112R5N2J",
+      "Recorder type": "NVR",
+      "Channels": "100CH",
+      "Raw Storage": "128TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U NVR, 112TB RAID 5 (128TB Raw), (2) 2.5GbE, (2) 1GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER00RN2K",
+      "Recorder type": "NVR",
+      "Channels": "175CH",
+      "Raw Storage": "0TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID Ctrl, Dual PSU",
+      "Description": "VideoEdge 2U HC NVR, 0TB, RAID Ctrl, (2) 10GbE, (2) 2.5GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER96R5N2K",
+      "Recorder type": "NVR",
+      "Channels": "175CH",
+      "Raw Storage": "112TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U HC NVR, 96TB RAID 5 (112TB Raw), (2) 10GbE, (2) 2.5GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER112R5N2K",
+      "Recorder type": "NVR",
+      "Channels": "175CH",
+      "Raw Storage": "128TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge 2U HC NVR, 112TB RAID 5 (128TB Raw), (2) 10GbE, (2) 2.5GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER128R6N2K",
+      "Recorder type": "NVR",
+      "Channels": "175CH",
+      "Raw Storage": "160TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge 2U HC NVR, 128TB RAID 6 (160TB Raw), (2) 10GbE, (2) 2.5GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER144R6N2K",
+      "Recorder type": "NVR",
+      "Channels": "175CH",
+      "Raw Storage": "176TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge 2U HC NVR, 144TB RAID 6 (176TB Raw), (2) 10GbE, (2) 2.5GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER160R6N2K",
+      "Recorder type": "NVR",
+      "Channels": "175CH",
+      "Raw Storage": "200TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge 2U HC NVR, 160TB RAID 6 (200TB Raw), (2) 10GbE, (2) 2.5GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER180R6N2K",
+      "Recorder type": "NVR",
+      "Channels": "175CH",
+      "Raw Storage": "220TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge 2U HC NVR, 180TB RAID 6 (220TB Raw), (2) 10GbE, (2) 2.5GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER200R6N2K",
+      "Recorder type": "NVR",
+      "Channels": "175CH",
+      "Raw Storage": "240TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge 2U HC NVR, 200TB RAID 6 (240TB Raw), (2) 10GbE, (2) 2.5GbE, Dual PSU, RAID 1 OS"
+    },
+    {
+      "Part Number": "ADVER02RDL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "2TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID Ctrl, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 2TB, RAID Controller, (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER24R5DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "36TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 24TB RAID 5 (Total 36TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER36R5DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "48TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 36TB RAID 5 (Total 48TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER48R5DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "64TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 48TB RAID 5 (Total 64TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER64R5DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "80TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 64TB RAID 5 (Total 80TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER96R5DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "112TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID5, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 96TB RAID 5 (Total 112TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER112R5DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "128TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 112TB RAID 5 (Total 128TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER128R6DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "160TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 128TB RAID 6 (Total 160TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER144R6DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "176TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 144TB RAID 6 (Total 176TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER160R6DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "192TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 160TB RAID 6 (Total 192TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER200R6DL",
+      "Recorder type": "NVR",
+      "Channels": "200CH",
+      "Raw Storage": "240TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "RAID 1 OS",
+      "Feature": "RAID6, Dual PSU",
+      "Description": "VideoEdge Rack Mount NVR, 200TB RAID 6 (Total 240TB), (2) 1GbE, (2) 10GbE, Dual PSU"
+    },
+    {
+      "Part Number": "ADVER00N0H3G",
+      "Recorder type": "Hybrid NVR",
+      "Channels": "64CH, 32Analogue",
+      "Raw Storage": "0TB",
+      "Form Factor": "3U",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VIDEOEDGE 3U HYBRID WITH 32 ANALOG CHANNELS, 0TB STORAGE, 2 NIC"
+    },
+    {
+      "Part Number": "ADVER24N0H3H",
+      "Recorder type": "Hybrid NVR",
+      "Channels": "64CH, 32Analogue",
+      "Raw Storage": "24TB",
+      "Form Factor": "3U",
+      "OS HDD on RAID": "NA",
+      "Feature": "JBOD",
+      "Description": "VideoEdge 3U Hybrid with 32 analog channels, 24TB JBOD, 2 NIC"
+    },
+    {
+      "Part Number": "ADFRSR52008P",
+      "Recorder type": "External Storage",
+      "Channels": "Unlimited",
+      "Raw Storage": "240TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "RAID5, 8-Port (2 x SFP+ FC32)",
+      "Description": "AD 32Gb FC 8-Port (2 x SFP+ FC32) RAID5 Storage System, 200TB Usable (240TB Total)"
+    },
+    {
+      "Part Number": "ADIRSR52008P",
+      "Recorder type": "External Storage",
+      "Channels": "Unlimited",
+      "Raw Storage": "240TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "RAID5, 8-Port iSCSI",
+      "Description": "AD 10Gb iSCSI Base-T 8-Port RAID5 Storage System, 200TB Usable (240TB Total)"
+    },
+    {
+      "Part Number": "ADERSR5200",
+      "Recorder type": "External Storage",
+      "Channels": "Unlimited",
+      "Raw Storage": "240TB",
+      "Form Factor": "2U",
+      "OS HDD on RAID": "NA",
+      "Feature": "RAID5, 8-Port SAS Expansion",
+      "Description": "AD 12Gb SAS Expansion RAID5 Storage System, 200TB Usable (240TB Total)"
+    }
+  ],
+  "hardwareAddons": [
+    {
+      "Part Number": "ADVAS-STD",
+      "Hardware Category": "Server",
+      "Compatability": "Any",
+      "Feature": "US power cord",
+      "Description": "victor Application Svr 1U, Win Svr 22, iDRAC9, RAID 1, victor Software and Licences sold separately\nNOTE: supplied with a US power cord"
+    },
+    {
+      "Part Number": "ADVAS-STD-UK",
+      "Hardware Category": "Server",
+      "Compatability": "Any",
+      "Feature": "UK power cord",
+      "Description": "victor Application Svr 1U, Win Svr 22, iDRAC9, RAID 1, victor Software and Licences sold separately\nNOTE: supplied with a UK power cord"
+    },
+    {
+      "Part Number": "ADVAS-STD-EU",
+      "Hardware Category": "Server",
+      "Compatability": "Any",
+      "Feature": "EU power cord",
+      "Description": "victor Application Svr 1U, Win Svr 22, iDRAC9, RAID 1, victor Software and Licences sold separately\nNOTE: supplied with an EU power cord"
+    },
+    {
+      "Part Number": "ADVEW00N0CA",
+      "Hardware Category": "Workstation",
+      "Compatability": "Any",
+      "Feature": "Dual Monitor",
+      "Description": "victor Compact Workstation, Win11, victor Pro Client, Dual Monitor, NBD On-site Support"
+    },
+    {
+      "Part Number": "ADVEW00N0PA",
+      "Hardware Category": "Workstation",
+      "Compatability": "Any",
+      "Feature": "Quad Monitor",
+      "Description": "victor Performance Workstation, Win11, victor Pro Client, Quad Monitor, NBD On-site Suppor"
+    },
+    {
+      "Part Number": "ADACSNETH-E",
+      "Hardware Category": "USB Control Module",
+      "Compatability": "Hybrid",
+      "Feature": "RS422 TO Sensornet",
+      "Description": "USB CONTROL MODULE W/RS422 TO SENSORNET; replaces the ADACSNET and ADACSNETH"
+    },
+    {
+      "Part Number": "ADVE1URACKIT",
+      "Hardware Category": "Rack Mount",
+      "Compatability": "1U",
+      "Feature": "KIT",
+      "Description": "VideoEdge 1U Rack Mount Kit"
+    },
+    {
+      "Part Number": "ADVECDRACKIT",
+      "Hardware Category": "Rack Mount",
+      "Compatability": "Desktop",
+      "Feature": "KIT",
+      "Description": "VideoEdge Compact Desktop NVR Rackmount Kit"
+    },
+    {
+      "Part Number": "ADVEMRACKITA",
+      "Hardware Category": "Rack Mount",
+      "Compatability": "Micro",
+      "Feature": "KIT",
+      "Description": "VideoEdge Micro NVR rackmount ear kit (single unit)"
+    },
+    {
+      "Part Number": "ADVER12TBTHC",
+      "Hardware Category": "Harddrive",
+      "Compatability": "2U HC",
+      "Feature": "12TB w/Tray",
+      "Description": "VideoEdge HDD Kit, Compatible with VideoEdge 2U HC, 12TB Hot Plug HD Kit w/Tray"
+    },
+    {
+      "Part Number": "ADVER10TBTHC",
+      "Hardware Category": "Harddrive",
+      "Compatability": "2U HC",
+      "Feature": "10TB w/Tray",
+      "Description": "VideoEdge HDD Kit, Compatible with VideoEdge 2U HC, 10TB Hot Plug HD Kit w/Tray"
+    },
+    {
+      "Part Number": "ADVER12TBTAD",
+      "Hardware Category": "Harddrive",
+      "Compatability": "2U & 3U",
+      "Feature": "12TB w/Tray",
+      "Description": "VideoEdge HDD Kit, Compatible with VideoEdge 2U or 3U NVR, 12 TB Hot Plug HD Kit w/Tray"
+    },
+    {
+      "Part Number": "ADVER10TBTAD",
+      "Hardware Category": "Harddrive",
+      "Compatability": "2U & 3U",
+      "Feature": "10TB w/Tray",
+      "Description": "VideoEdge HDD Kit, Compatible with VideoEdge 2U or 3U NVR, 10 TB Hot Plug HD Kit w/Tray"
+    },
+    {
+      "Part Number": "ADVER06TBTAD",
+      "Hardware Category": "Harddrive",
+      "Compatability": "1U, 2U & 3U",
+      "Feature": "6TB w/Tray",
+      "Description": "VideoEdge HDD Kit, Compatible with VideoEdge 1U, 2U & 3U NVR's, 6 TB Hot Plug HD Kit w/Tray"
+    },
+    {
+      "Part Number": "ADVER04TBTAD",
+      "Hardware Category": "Harddrive",
+      "Compatability": "1U, 2U & 3U",
+      "Feature": "4TB w/Tray",
+      "Description": "VideoEdge HDD Kit, Compatible with VideoEdge 1U, 2U & 3U NVR's, 4 TB Hot Plug HD Kit w/Tray"
+    },
+    {
+      "Part Number": "ADVE750HD12TBT",
+      "Hardware Category": "Harddrive",
+      "Compatability": "Rack Mount",
+      "Feature": "12TB",
+      "Description": "VideoEdge Rack Mount NVR, 12TB Hot Plug HD Kit"
+    },
+    {
+      "Part Number": "ADVE750HD16TBT",
+      "Hardware Category": "Harddrive",
+      "Compatability": "Rack Mount",
+      "Feature": "16TB",
+      "Description": "VideoEdge Rack Mount NVR, 16TB Hot Plug HD Kit"
+    },
+    {
+      "Part Number": "ADVE750HD20TBT",
+      "Hardware Category": "Harddrive",
+      "Compatability": "Rack Mount",
+      "Feature": "20TB",
+      "Description": "VideoEdge Rack Mount NVR, 20TB Hot Plug HD Kit"
+    },
+    {
+      "Part Number": "ADVER16TBHCHDK",
+      "Hardware Category": "Harddrive",
+      "Compatability": "HC (N2K Models)",
+      "Feature": "16TB w/Tray",
+      "Description": "VideoEdge HC 16TB Hot Plug HDD Kit w/Tray (Compatible with *N2K models)"
+    },
+    {
+      "Part Number": "ADVER20TBHCHDK",
+      "Hardware Category": "Harddrive",
+      "Compatability": "HC (N2K Models)",
+      "Feature": "20TB w/Tray",
+      "Description": "VideoEdge HC 20TB Hot Plug HDD Kit w/Tray (Compatible with *N2K models)"
+    },
+    {
+      "Part Number": "ADVER04TBHDK",
+      "Hardware Category": "Harddrive",
+      "Compatability": "P16H & N2J Models",
+      "Feature": "4TB w/Tray",
+      "Description": "VideoEdge 4TB Hot Plug HDD Kit w/Tray (Compatible with *P16H & *R*N2J models)"
+    },
+    {
+      "Part Number": "ADVER08TBHDK",
+      "Hardware Category": "Harddrive",
+      "Compatability": "P16H & N2J Models",
+      "Feature": "8TB w/Tray",
+      "Description": "VideoEdge 8TB Hot Plug HDD Kit w/Tray (Compatible with *P16H & *R*N2J models)"
+    },
+    {
+      "Part Number": "ADVER12TBHDK",
+      "Hardware Category": "Harddrive",
+      "Compatability": "P16H & N2J Models",
+      "Feature": "12TB w/Tray",
+      "Description": "VideoEdge 12TB Hot Plug HDD Kit w/Tray (Compatible with *P16H & *N2J models)"
+    },
+    {
+      "Part Number": "ADVER16TBHDK",
+      "Hardware Category": "Harddrive",
+      "Compatability": "P16H & N2J Models",
+      "Feature": "16TB w/Tray",
+      "Description": "VideoEdge 16TB Hot Plug HDD Kit w/Tray (Compatible with *P16H & *N2J models)"
+    },
+    {
+      "Part Number": "ADVER20TBHDK",
+      "Hardware Category": "Harddrive",
+      "Compatability": "P16H & N2J Models",
+      "Feature": "20TB w/Tray",
+      "Description": "VideoEdge 20TB Hot Plug HDD Kit w/Tray (Compatible with *P16H & *R*N2J models)"
+    },
+    {
+      "Part Number": "ADVEFHBA740",
+      "Hardware Category": "Accessories",
+      "Compatability": "ADFRSR52008P",
+      "Feature": "FC32 HBA Kit",
+      "Description": "VE Rack Mount NVR 2-Port FC32 HBA Kit"
+    },
+    {
+      "Part Number": "ADAFC32TRX",
+      "Hardware Category": "Accessories",
+      "Compatability": "ADFRSR52008P",
+      "Feature": "2 x SFP+",
+      "Description": "Accessory 2 x SFP+ Optical Transceiver FC 32GBase Kit for ADFRSR52008P"
+    },
+    {
+      "Part Number": "ADAFCC-2M",
+      "Hardware Category": "Accessories",
+      "Compatability": "External Storage",
+      "Feature": "2 Meter",
+      "Description": "VE Ext Stg Multi-Mode Fibre Channel Cable LC-LC 2 Meters"
+    },
+    {
+      "Part Number": "ADAFCC-10M",
+      "Hardware Category": "Accessories",
+      "Compatability": "External Storage",
+      "Feature": "10 Meter",
+      "Description": "VE Ext Stg Multi-Mode Fibre Channel Cable LC-LC 10 Meters"
+    },
+    {
+      "Part Number": "ADESHD20TB",
+      "Hardware Category": "Accessories",
+      "Compatability": "External Storage",
+      "Feature": "HDD Kit",
+      "Description": "Accessory 20TB HD Kit for ADxRSR5200xx"
+    },
+    {
+      "Part Number": "ADVCPTZKEY1",
+      "Hardware Category": "Keyboard",
+      "Compatability": "Any",
+      "Feature": "NA",
+      "Description": "victor Client USB joystick surveillance keyboard"
+    },
+    {
+      "Part Number": "IEN16-1U",
+      "Hardware Category": "Analogue Encoder",
+      "Compatability": "Any",
+      "Feature": "NA",
+      "Description": "Illustra 16-channel Video Encoder, Analogue and HD Analogue camera compatible, H.265, H.264, MJPEG, ONVIF Profile S/T, 4 alarm inputs, 1 output, 4 audio inputs, DC12V/2A"
+    },
+    {
+      "Part Number": "ADVCMONENCV1",
+      "Hardware Category": "Encoder",
+      "Compatability": "Any",
+      "Feature": "NA",
+      "Description": "victor Client Workstation HDMI Monitor Encoder"
+    },
+    {
+      "Part Number": "TYCTRNSCDRA",
+      "Hardware Category": "Transcoder",
+      "Compatability": "Any",
+      "Feature": "20CH",
+      "Description": "Tyco transcoder, adds 20 channels of transcoded video to VideoEdge NVRs"
+    }
+  ]
+}
