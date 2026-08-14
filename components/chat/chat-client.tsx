@@ -53,7 +53,13 @@ export function ChatClient() {
   useEffect(() => { json("/api/chat/session").then((data) => setSession(data.user ? { username: data.user, presence: data.presence } : null)).catch(() => setSession(null)) }, [])
   useEffect(() => { if (session) { loadContacts(); const id = window.setInterval(loadContacts, 15000); return () => window.clearInterval(id) } }, [session, loadContacts])
   useEffect(() => {
-    if (!session || !selected) return
+    if (selected && contacts.length > 0 && !contacts.some((contact) => contact.username === selected)) {
+      setSelected(null)
+      setMessages([])
+    }
+  }, [contacts, selected])
+  useEffect(() => {
+    if (!session || !selected || !contacts.some((contact) => contact.username === selected)) return
     const load = async () => {
       try {
         const data = await json(`/api/chat/messages?peer=${encodeURIComponent(selected)}`)
@@ -79,7 +85,17 @@ export function ChatClient() {
   if (session === undefined) return <div className="flex min-h-screen items-center justify-center bg-background"><MessageCircle className="h-8 w-8 animate-pulse text-jci-blue" /></div>
   if (!session) return <LoginForm onSuccess={(username) => setSession({ username, presence: "Available" })} />
 
-  async function chooseContact(username: string) { setSelected(username); setMobileSidebar(false); await fetch(`/api/chat/messages?peer=${encodeURIComponent(username)}`) }
+  async function chooseContact(username: string) {
+    setSelected(username)
+    setMessages([])
+    setMobileSidebar(false)
+    try {
+      const data = await json(`/api/chat/messages?peer=${encodeURIComponent(username)}`)
+      setMessages(data.messages)
+    } catch {
+      setSelected(null)
+    }
+  }
   async function sendMessage() {
     if (!selected || !draft.trim() || sending) return
     setSending(true)
