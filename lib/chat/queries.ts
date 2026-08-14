@@ -41,24 +41,29 @@ export async function sweepOffline() {
     )
 }
 
-/** Explicitly set a presence value and bump activity. */
+/**
+ * Explicitly set a presence value and bump activity. A user-chosen "Offline"
+ * is sticky (manualOffline = true) so their own heartbeats won't revive it.
+ * Any other status clears the flag.
+ */
 export async function setPresence(username: string, presence: Presence) {
   await db
     .update(chatUsers)
-    .set({ presence, updatedAt: new Date() })
+    .set({ presence, manualOffline: presence === "Offline", updatedAt: new Date() })
     .where(eq(chatUsers.username, username))
 }
 
 /**
  * Register activity: bumps last-activity timestamp. If the user had gone
- * Offline, activity revives them to Available. A manual Busy stays Busy.
+ * Offline only due to inactivity, activity revives them to Available. A
+ * manually-chosen Offline stays Offline, and a manual Busy stays Busy.
  */
 export async function touchActivity(username: string) {
   await db
     .update(chatUsers)
     .set({
       updatedAt: new Date(),
-      presence: sql`CASE WHEN ${chatUsers.presence} = 'Offline' THEN 'Available' ELSE ${chatUsers.presence} END`,
+      presence: sql`CASE WHEN ${chatUsers.presence} = 'Offline' AND ${chatUsers.manualOffline} = false THEN 'Available' ELSE ${chatUsers.presence} END`,
     })
     .where(eq(chatUsers.username, username))
 }

@@ -1,9 +1,10 @@
-import { bigint, index, pgTable, primaryKey, text, timestamp } from "drizzle-orm/pg-core"
+import { bigint, boolean, index, pgTable, primaryKey, text, timestamp } from "drizzle-orm/pg-core"
 
 export const chatUsers = pgTable("chat_users", {
   username: text("username").primaryKey(),
   passwordHash: text("password_hash").notNull(),
   presence: text("presence").notNull().default("Offline"),
+  manualOffline: boolean("manual_offline").notNull().default(false),
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
 })
 
