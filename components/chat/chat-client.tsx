@@ -54,8 +54,17 @@ export function ChatClient() {
   useEffect(() => { if (session) { loadContacts(); const id = window.setInterval(loadContacts, 15000); return () => window.clearInterval(id) } }, [session, loadContacts])
   useEffect(() => {
     if (!session || !selected) return
-    const load = async () => { const data = await json(`/api/chat/messages?with=${encodeURIComponent(selected)}`); setMessages(data.messages) }
-    load(); const id = window.setInterval(load, 4000); return () => window.clearInterval(id)
+    const load = async () => {
+      try {
+        const data = await json(`/api/chat/messages?peer=${encodeURIComponent(selected)}`)
+        setMessages(data.messages)
+      } catch {
+        // Keep the current conversation visible if a refresh request fails.
+      }
+    }
+    void load()
+    const id = window.setInterval(() => void load(), 4000)
+    return () => window.clearInterval(id)
   }, [session, selected])
   useEffect(() => { bottomRef.current?.scrollIntoView({ behavior: "smooth" }) }, [messages])
   useEffect(() => {
@@ -70,7 +79,7 @@ export function ChatClient() {
   if (session === undefined) return <div className="flex min-h-screen items-center justify-center bg-background"><MessageCircle className="h-8 w-8 animate-pulse text-jci-blue" /></div>
   if (!session) return <LoginForm onSuccess={(username) => setSession({ username, presence: "Available" })} />
 
-  async function chooseContact(username: string) { setSelected(username); setMobileSidebar(false); await fetch(`/api/chat/messages?with=${encodeURIComponent(username)}`, { method: "POST" }) }
+  async function chooseContact(username: string) { setSelected(username); setMobileSidebar(false); await fetch(`/api/chat/messages?peer=${encodeURIComponent(username)}`) }
   async function sendMessage() {
     if (!selected || !draft.trim() || sending) return
     setSending(true)
