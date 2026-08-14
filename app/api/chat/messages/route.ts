@@ -10,8 +10,13 @@ export async function GET(request: Request) {
   if (!me) return NextResponse.json({ error: "Not signed in." }, { status: 401 })
 
   const peer = new URL(request.url).searchParams.get("peer")
-  if (!peer || !(await userExists(peer))) {
-    return NextResponse.json({ error: "Unknown conversation." }, { status: 400 })
+  // Degrade gracefully: an unknown/stale peer returns an empty conversation
+  // instead of an error, so background polling never surfaces a runtime error.
+  if (!peer || peer === me || !(await userExists(peer))) {
+    return NextResponse.json(
+      { messages: [], peerPresence: "Offline" },
+      { headers: { "Cache-Control": "no-store" } },
+    )
   }
 
   // Opening/refreshing a conversation marks incoming messages as read.
