@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ShieldCheck, Video, MonitorPlay, Camera, KeyRound } from "lucide-react";
+import { ShieldCheck, Video, MonitorPlay, Camera, KeyRound, MessageCircle } from "lucide-react";
 
 export default function Home() {
   return (
@@ -130,7 +130,17 @@ export default function Home() {
           <p className="text-sm md:text-base text-jci-blue">
             The power behind <span className="font-semibold">your mission</span>
           </p>
-          <Image src="/images/jci-logo.png" alt="Johnson Controls" className="h-10 w-auto object-contain" width={40} height={40} />
+          <div className="flex items-end gap-4">
+            <Link
+              href="/chat"
+              aria-label="Open Tyco Chat"
+              className="inline-flex items-center gap-2 rounded-full bg-jci-blue px-4 py-2 text-sm font-semibold text-primary-foreground shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <MessageCircle className="h-4 w-4" />
+              Chat
+            </Link>
+            <Image src="/images/jci-logo.png" alt="Johnson Controls" className="h-10 w-auto object-contain" width={40} height={40} />
+          </div>
         </div>
         <div className="h-[3px] w-full bg-gradient-to-r from-jci-teal to-jci-blue" />
       </footer>
