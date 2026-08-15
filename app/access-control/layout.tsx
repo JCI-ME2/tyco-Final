@@ -10,7 +10,7 @@ export default function AccessControlLayout({
       <AccessControlHeader />
       <main className="flex-1">{children}</main>
       <footer className="border-t border-border bg-brand py-6 text-center text-xs text-brand-foreground/70">
-        © {new Date().getFullYear()} Johnson Controls — Kantech Access Control
+        Kantech Access Control
       </footer>
     </div>
   );

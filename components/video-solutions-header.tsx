@@ -21,7 +21,7 @@ export function VideoSolutionsHeader() {
         <Link href="/video-solutions" className="flex items-center gap-3">
           <Image src="/images/jci-logo.png" alt="Johnson Controls" className="h-9 w-9 object-contain" width={36} height={36} />
           <span className="text-sm font-semibold tracking-wide text-accent leading-tight">
-            Johnson Controls<br />Exacq
+            Exacq
           </span>
         </Link>
 

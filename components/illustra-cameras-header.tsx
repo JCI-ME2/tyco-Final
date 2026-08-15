@@ -22,7 +22,7 @@ export function IllustraCamerasHeader() {
         <Link href="/illustra-cameras" className="flex items-center gap-3">
           <Image src="/images/jci-logo.png" alt="Johnson Controls" className="h-9 w-9 object-contain" width={36} height={36} />
           <span className="text-sm font-semibold tracking-wide text-accent leading-tight">
-            Johnson Controls<br />Illustra Cameras
+            Illustra Cameras
           </span>
         </Link>
 

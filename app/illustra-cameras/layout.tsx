@@ -10,7 +10,7 @@ export default function IllustraCamerasLayout({
       <IllustraCamerasHeader />
       <main className="flex-1">{children}</main>
       <footer className="border-t border-border bg-brand py-6 text-center text-xs text-brand-foreground/70">
-        © {new Date().getFullYear()} Johnson Controls — Illustra Cameras
+        Illustra Cameras
       </footer>
     </div>
   );
