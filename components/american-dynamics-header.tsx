@@ -23,7 +23,7 @@ export function AmericanDynamicsHeader() {
         <Link href="/american-dynamics" className="flex items-center gap-3">
           <Image src="/images/jci-logo.png" alt="Johnson Controls" className="h-9 w-9 object-contain" width={36} height={36} />
           <span className="text-sm font-semibold tracking-wide text-accent leading-tight">
-            Johnson Controls<br />American Dynamics
+            American Dynamics
           </span>
         </Link>
 
