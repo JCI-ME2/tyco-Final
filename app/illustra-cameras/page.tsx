@@ -1,11 +1,12 @@
 import Link from "next/link";
-import { Camera, HardDrive } from "lucide-react";
+import { Camera, HardDrive, GraduationCap } from "lucide-react";
 import { AccessControlVideo } from "@/components/access-control-video";
 
 const categories = [
   { href: "/illustra-cameras/pro-flex", label: "Illustra Pro and Flex", desc: "AI-powered professional & flexible cameras", Icon: Camera },
   { href: "/illustra-cameras/standard", label: "Illustra Standard", desc: "Standard series cameras with advanced analytics", Icon: Camera },
   { href: "/illustra-cameras/holis-nvr", label: "Holis NVR", desc: "Embedded NVRs with PoE & storage", Icon: HardDrive },
+  { href: "/illustra-cameras/quiz", label: "Quiz", desc: "Test your Illustra cameras knowledge with a shuffled quiz.", Icon: GraduationCap },
 ];
 
 export default function IllustraCamerasIndex() {
@@ -17,7 +18,7 @@ export default function IllustraCamerasIndex() {
         <h2 className="text-2xl font-semibold text-foreground">Pick a Category to Build Your Order</h2>
         <p className="mt-1 text-sm text-muted-foreground">Each category opens a part-number selector with dropdown filters.</p>
 
-        <div className="mt-8 grid gap-5 sm:grid-cols-3 max-w-4xl">
+        <div className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4 max-w-5xl">
           {categories.map(({ href, label, desc, Icon }) => (
             <Link
               key={href}
