@@ -43,7 +43,7 @@ export default function Home() {
                 <Camera className="h-6 w-6" />
               </div>
               <div className="mt-3 text-lg font-bold text-jci-blue text-balance">
-                Illustra Cameras
+                Illustra &amp; Holis
               </div>
               <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
                 IP cameras, domes, bullets &amp; Holis NVR.
