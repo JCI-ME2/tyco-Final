@@ -12,6 +12,7 @@ import { EmojiPicker } from "./emoji-picker"
 import { PresenceSelect } from "./presence-select"
 import { ChangePasswordForm } from "./change-password-form"
 import { presenceDotClass, type Contact, type ChatMessageDTO, type Presence } from "@/lib/chat/types"
+import { playNotificationSound } from "@/lib/chat/notification-sound"
 
 type ChatSession = { username: string; presence: Presence }
 type ChatContact = Contact
@@ -43,12 +44,29 @@ export function ChatClient() {
   const [passwordOpen, setPasswordOpen] = useState(false)
   const [sending, setSending] = useState(false)
   const bottomRef = useRef<HTMLDivElement>(null)
+  // Baselines so the chime only fires on genuinely new incoming messages,
+  // never when a conversation's existing history first loads.
+  const lastMessageIdRef = useRef<number | null>(null)
+  const totalUnreadRef = useRef<number | null>(null)
+  const selectedRef = useRef<string | null>(null)
 
   const loadContacts = useCallback(async () => {
     const data = await json("/api/chat/contacts")
-    setContacts(data.contacts)
+    const contacts: ChatContact[] = data.contacts
+    // Play a sound when unread grows for conversations that aren't open.
+    // The open conversation is excluded — it chimes via message polling.
+    const totalUnread = contacts.reduce(
+      (sum, contact) => (contact.username === selectedRef.current ? sum : sum + contact.unread),
+      0,
+    )
+    if (totalUnreadRef.current !== null && totalUnread > totalUnreadRef.current) {
+      playNotificationSound()
+    }
+    totalUnreadRef.current = totalUnread
+    setContacts(contacts)
   }, [])
 
+  useEffect(() => { selectedRef.current = selected }, [selected])
   useEffect(() => { json("/api/chat/session").then((data) => setSession(data.user ? { username: data.user, presence: data.presence } : null)).catch(() => setSession(null)) }, [])
   useEffect(() => { if (session) { loadContacts(); const id = window.setInterval(loadContacts, 15000); return () => window.clearInterval(id) } }, [session, loadContacts])
   useEffect(() => {
@@ -59,10 +77,23 @@ export function ChatClient() {
   }, [contacts, selected])
   useEffect(() => {
     if (!session || !selected || !contacts.some((contact) => contact.username === selected)) return
+    // Reset the per-conversation baseline; the first load won't chime.
+    lastMessageIdRef.current = null
     const load = async () => {
       try {
         const data = await json(`/api/chat/messages?peer=${encodeURIComponent(selected)}`)
-        setMessages(data.messages)
+        const incoming: ChatMessage[] = data.messages
+        const latest = incoming[incoming.length - 1]
+        if (
+          latest &&
+          lastMessageIdRef.current !== null &&
+          latest.id > lastMessageIdRef.current &&
+          latest.sender !== session.username
+        ) {
+          playNotificationSound()
+        }
+        if (latest) lastMessageIdRef.current = latest.id
+        setMessages(incoming)
       } catch {
         // Keep the current conversation visible if a refresh request fails.
       }
