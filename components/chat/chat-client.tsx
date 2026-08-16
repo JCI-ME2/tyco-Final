@@ -112,7 +112,7 @@ export function ChatClient() {
   const filteredContacts = useMemo(() => contacts.filter((contact) => contact.username.toLowerCase().includes(search.toLowerCase())), [contacts, search])
   const activeContact = contacts.find((contact) => contact.username === selected)
 
-  if (session === undefined) return <div className="flex min-h-screen items-center justify-center bg-background"><MessageCircle className="h-8 w-8 animate-pulse text-jci-blue" /></div>
+  if (session === undefined) return <div className="flex min-h-[100dvh] items-center justify-center bg-background"><MessageCircle className="h-8 w-8 animate-pulse text-jci-blue" /></div>
   if (!session) return <LoginForm onSuccess={(username) => setSession({ username, presence: "Available" })} />
 
   async function chooseContact(username: string) {
@@ -133,7 +133,7 @@ export function ChatClient() {
   }
   async function logout() { await fetch("/api/chat/logout", { method: "POST" }); setSession(null); router.refresh() }
 
-  return <div className="flex h-screen overflow-hidden bg-muted/30">
+  return <div className="flex h-[100dvh] overflow-hidden bg-muted/30">
     <aside className={`${mobileSidebar ? "flex" : "hidden"} absolute inset-y-0 left-0 z-20 w-[min(88vw,360px)] flex-col border-r bg-card md:relative md:flex md:w-80`}>
       <div className="flex items-center justify-between border-b p-4"><div className="flex items-center gap-3"><Avatar username={session.username} presence={session.presence} /><div><p className="font-semibold">{session.username}</p><PresenceSelect value={session.presence} onChange={async (presence: Presence) => { await json("/api/chat/presence", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ presence }) }); setSession({ ...session, presence }); loadContacts() }} /></div></div><Button variant="ghost" size="icon" className="md:hidden" onClick={() => setMobileSidebar(false)}><X /></Button></div>
       <div className="flex items-center gap-2 border-b p-3"><Search className="h-4 w-4 text-muted-foreground" /><Input value={search} onChange={(e) => setSearch(e.target.value)} placeholder="Search contacts" className="border-0 bg-transparent shadow-none focus-visible:ring-0" /></div>
