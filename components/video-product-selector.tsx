@@ -5,6 +5,7 @@ import { Plus, Minus, ShoppingCart, Check, Search, X, FileText } from "lucide-re
 import { addToCart } from "@/lib/cart";
 import data from "@/data/video-solutions/products.json";
 import { illustraPdfLinks } from "@/data/video-solutions/illustraPdfLinks";
+import { datasheetLinks } from "@/data/video-solutions/datasheetLinks";
 import Image from "next/image";
 
 type Row = Record<string, string | number>;
@@ -158,13 +159,19 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
             const pn = String(r["Part Number"]);
             const q = getQty(pn);
             const added = justAdded === pn;
+            const datasheetUrl =
+              sheet === "Illustra"
+                ? illustraPdfLinks[pn.trim()]
+                : sheet === "Holis NVR" || sheet === "Illustra Standard"
+                  ? datasheetLinks[pn.trim()]
+                  : undefined;
             return (
               <div key={pn + i} className="rounded-xl border border-border bg-card p-5 shadow-sm transition-shadow hover:shadow-md">
                 <div className="flex flex-wrap items-start justify-between gap-4">
                   <div className="min-w-0 flex-1">
-                    {sheet === "Illustra" && illustraPdfLinks[pn.trim()] ? (
+                    {datasheetUrl ? (
                       <a
-                        href={illustraPdfLinks[pn.trim()]}
+                        href={datasheetUrl}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
