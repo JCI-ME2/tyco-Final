@@ -3,6 +3,7 @@
 // exist where a matching PDF file is present.
 export const datasheetLinks: Record<string, string> = {
   "HRN-08012S": "/datasheets/HRN-08012S.pdf",
+  "HRN-16022S": "/datasheets/HRN-16022S.pdf",
   "HRN-32082S-R": "/datasheets/HRN-32082S-R.pdf",
   "HRN-128162S-R": "/datasheets/HRN-128162S-R.pdf",
   "HRN-08012S-P": "/datasheets/HRN-08012S-P.pdf",
@@ -50,4 +51,7 @@ export const datasheetLinks: Record<string, string> = {
   "ISA-X04N005SAF": "/datasheets/ISA-X04N005SAF.pdf",
   "ISA-V04M015S-N": "/datasheets/ISA-V04M015S-N.pdf",
   "ISA-B04M015S-N": "/datasheets/ISA-B04M015S-N.pdf",
+  // Linked to the closest available datasheet (part number differs by a version digit).
+  "ISV-F12Z173S-N": "/datasheets/ISV-F12Z172S-N.pdf",
+  "ISE-P04Z252S-N": "/datasheets/ISE-P04Z253S-N.pdf",
 };
