@@ -2,7 +2,10 @@ import { bigint, boolean, index, pgTable, primaryKey, text, timestamp } from "dr
 
 export const chatUsers = pgTable("chat_users", {
   username: text("username").primaryKey(),
-  passwordHash: text("password_hash").notNull(),
+  // Default hash is bcrypt("1234") so new users start with the shared default password.
+  passwordHash: text("password_hash")
+    .notNull()
+    .default("$2b$10$MzzM8Fepfv.E4.54fvWX.Ol/8vWd7LNUG8Zc4jMLzZP9zWQG9E17O"),
   presence: text("presence").notNull().default("Offline"),
   manualOffline: boolean("manual_offline").notNull().default(false),
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
