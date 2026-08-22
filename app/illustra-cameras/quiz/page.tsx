@@ -3,7 +3,12 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { questions as allQuestions, type Question } from "@/data/illustra-cameras/quiz";
-import { ArrowLeft, CheckCircle2, RotateCcw, Trophy } from "lucide-react";
+import { ArrowLeft, CheckCircle2 } from "lucide-react";
+import { ParticipantGate } from "@/components/quiz/participant-gate";
+import { QuizResults } from "@/components/quiz/quiz-results";
+import type { QuizParticipant } from "@/lib/quiz/types";
+
+const QUIZ_TITLE = "Illustra Cameras Quiz";
 
 type Answer = number | number[]; // single -> number, multi -> number[]
 
@@ -32,6 +37,7 @@ export default function QuizPage() {
   const [answers, setAnswers] = useState<Record<number, Answer>>({});
   const [submitted, setSubmitted] = useState<Record<number, boolean>>({});
   const [finished, setFinished] = useState(false);
+  const [participant, setParticipant] = useState<QuizParticipant | null>(null);
 
   useEffect(() => {
     setQuestions(shuffleArray(allQuestions));
@@ -74,6 +80,18 @@ export default function QuizPage() {
     } else {
       setCurrent((c) => c + 1);
     }
+  }
+
+  if (!participant) {
+    return (
+      <ParticipantGate
+        title={QUIZ_TITLE}
+        subtitle="Test your Illustra cameras knowledge"
+        backHref="/illustra-cameras"
+        backLabel="Back to Illustra Cameras"
+        onStart={setParticipant}
+      />
+    );
   }
 
   return (
@@ -166,7 +184,14 @@ export default function QuizPage() {
             </article>
           </>
         ) : (
-          <Results score={score} total={questions.length} onRetry={reset} />
+          <QuizResults
+            score={score}
+            total={questions.length}
+            participant={participant}
+            quizTitle={QUIZ_TITLE}
+            subtitle="Here is how you did on the Illustra quiz."
+            onRetry={reset}
+          />
         )}
       </main>
     </div>
@@ -263,45 +288,3 @@ function MultiChoice({
   );
 }
 
-function Results({ score, total, onRetry }: { score: number; total: number; onRetry: () => void }) {
-  const pct = Math.round((score / total) * 100);
-  const pass = pct >= 70;
-  return (
-    <div className="rounded-xl border border-border bg-card p-8 text-center shadow-sm">
-      <div
-        className={`mx-auto flex h-16 w-16 items-center justify-center rounded-full ${
-          pass ? "bg-brand-accent/20 text-brand-accent" : "bg-destructive/15 text-destructive"
-        }`}
-      >
-        <Trophy className="h-8 w-8" />
-      </div>
-      <h2 className="mt-4 text-2xl font-bold text-foreground">Quiz Complete</h2>
-      <p className="mt-1 text-sm text-muted-foreground">Here is how you did on the Illustra quiz.</p>
-
-      <div className="mt-6 grid grid-cols-3 gap-4">
-        <Stat label="Score" value={`${score} / ${total}`} />
-        <Stat label="Percentage" value={`${pct}%`} />
-        <Stat label="Result" value={pass ? "Passed" : "Try again"} />
-      </div>
-
-      <div className="mt-8">
-        <button
-          onClick={onRetry}
-          className="inline-flex items-center gap-2 rounded-md bg-brand px-6 py-3 text-sm font-semibold text-brand-foreground transition-colors hover:bg-primary"
-        >
-          <RotateCcw className="h-4 w-4" />
-          Retake Quiz
-        </button>
-      </div>
-    </div>
-  );
-}
-
-function Stat({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="rounded-lg border border-border bg-secondary/50 p-4">
-      <div className="text-xs uppercase tracking-wide text-muted-foreground">{label}</div>
-      <div className="mt-1 text-lg font-bold text-foreground">{value}</div>
-    </div>
-  );
-}
