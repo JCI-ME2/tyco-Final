@@ -38,6 +38,7 @@ export default function QuizPage() {
   const [submitted, setSubmitted] = useState<Record<number, boolean>>({});
   const [finished, setFinished] = useState(false);
   const [participant, setParticipant] = useState<QuizParticipant | null>(null);
+  const [baseScore, setBaseScore] = useState(0);
 
   useEffect(() => {
     setQuestions(shuffleArray(allQuestions));
@@ -52,7 +53,17 @@ export default function QuizPage() {
   );
 
   function reset() {
+    setBaseScore(0);
     setQuestions(shuffleArray(allQuestions));
+    setAnswers({});
+    setSubmitted({});
+    setCurrent(0);
+    setFinished(false);
+  }
+
+  function retakeMistakes() {
+    setBaseScore(score);
+    setQuestions(shuffleArray(questions.filter((question) => !isCorrect(question, answers[question.id]))));
     setAnswers({});
     setSubmitted({});
     setCurrent(0);
@@ -185,12 +196,13 @@ export default function QuizPage() {
           </>
         ) : (
           <QuizResults
-            score={score}
-            total={questions.length}
+            score={baseScore + score}
+            total={allQuestions.length}
             participant={participant}
             quizTitle={QUIZ_TITLE}
             subtitle="Here is how you did on the Illustra quiz."
             onRetry={reset}
+            onRetakeMistakes={retakeMistakes}
           />
         )}
       </main>

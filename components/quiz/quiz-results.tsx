@@ -11,6 +11,7 @@ export function QuizResults({
   quizTitle,
   subtitle,
   onRetry,
+  onRetakeMistakes,
 }: {
   score: number;
   total: number;
@@ -18,6 +19,7 @@ export function QuizResults({
   quizTitle: string;
   subtitle: string;
   onRetry: () => void;
+  onRetakeMistakes?: () => void;
 }) {
   const pct = total > 0 ? Math.round((score / total) * 100) : 0;
   const pass = pct >= 70;
@@ -60,6 +62,15 @@ export function QuizResults({
           <RotateCcw className="h-4 w-4" />
           Retake Quiz
         </button>
+        {!pass && onRetakeMistakes && (
+          <button
+            onClick={onRetakeMistakes}
+            className="inline-flex items-center gap-2 rounded-md border border-brand px-6 py-3 text-sm font-semibold text-brand transition-colors hover:bg-brand/10"
+          >
+            <RotateCcw className="h-4 w-4" />
+            Retake Mistaken Questions
+          </button>
+        )}
       </div>
     </div>
   );

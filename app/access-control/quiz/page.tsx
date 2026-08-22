@@ -2,13 +2,14 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import { questions, type Question } from "@/data/access-control/quiz";
+import { questions as allQuestions, type Question } from "@/data/access-control/quiz";
 import { ArrowDown, ArrowLeft, ArrowUp, CheckCircle2 } from "lucide-react";
 import { ParticipantGate } from "@/components/quiz/participant-gate";
 import { QuizResults } from "@/components/quiz/quiz-results";
 import type { QuizParticipant } from "@/lib/quiz/types";
 
 const QUIZ_TITLE = "Kantech Access Control Quiz";
+const TOTAL_QUESTIONS = allQuestions.length;
 
 type Answer = number | number[]; // single -> number, multi -> number[], match -> number[] (index per left row)
 
@@ -26,11 +27,13 @@ function isCorrect(q: Question, a: Answer | undefined): boolean {
 }
 
 export default function QuizPage() {
+  const [questions, setQuestions] = useState<Question[]>(allQuestions);
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<Record<number, Answer>>({});
   const [submitted, setSubmitted] = useState<Record<number, boolean>>({});
   const [finished, setFinished] = useState(false);
   const [participant, setParticipant] = useState<QuizParticipant | null>(null);
+  const [baseScore, setBaseScore] = useState(0);
 
   const q = questions[current];
   const submittedNow = submitted[q.id];
@@ -41,6 +44,16 @@ export default function QuizPage() {
   );
 
   function reset() {
+    setBaseScore(0);
+    setAnswers({});
+    setSubmitted({});
+    setCurrent(0);
+    setFinished(false);
+  }
+
+  function retakeMistakes() {
+    setBaseScore(score);
+    setQuestions(questions.filter((question) => !isCorrect(question, answers[question.id])));
     setAnswers({});
     setSubmitted({});
     setCurrent(0);
@@ -178,12 +191,13 @@ export default function QuizPage() {
           </>
         ) : (
           <QuizResults
-            score={score}
-            total={questions.length}
+            score={baseScore + score}
+            total={TOTAL_QUESTIONS}
             participant={participant}
             quizTitle={QUIZ_TITLE}
             subtitle="Here is how you did on the Kantech quiz."
             onRetry={reset}
+            onRetakeMistakes={retakeMistakes}
           />
         )}
       </main>
