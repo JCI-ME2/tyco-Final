@@ -12,7 +12,7 @@ const categories = [
 export default function IllustraCamerasIndex() {
   return (
     <>
-      <AccessControlVideo src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Cameras-P9OleDVOk2a9430JrmDc7m1RWTqEoe.mp4" />
+      <AccessControlVideo src="/videos/cameras.mp4" />
 
       <section className="mx-auto max-w-[1400px] px-6 py-12">
         <h2 className="text-2xl font-semibold text-foreground">Pick a Category to Build Your Order</h2>
