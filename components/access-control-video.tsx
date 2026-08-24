@@ -1,7 +1,7 @@
 export function AccessControlVideo({ src, youtubeId }: { src?: string; youtubeId?: string }) {
   return (
     <section className="flex w-full justify-center bg-gradient-to-br from-hero-from via-hero-from to-hero-to px-6">
-      <div className="w-full overflow-hidden rounded-sm shadow-sm">
+      <div className="w-full overflow-hidden rounded-sm shadow-sm md:w-[60%]">
         {youtubeId ? (
           <div className="aspect-video w-full">
             <iframe
