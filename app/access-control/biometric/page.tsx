@@ -5,7 +5,7 @@ import { biometric } from "@/data/access-control";
 export default function BiometricPage() {
   return (
     <>
-      <AccessControlVideo src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Biometric-oXgZPsHzn4V4cX9FZ6DQvHSvtOh4CR.mp4" />
+      <AccessControlVideo youtubeId="0qDc7zO7lLo" />
       <ProductSelector
       category="Biometric"
       title="Biometric Readers"

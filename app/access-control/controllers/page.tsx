@@ -5,7 +5,7 @@ import { controllers } from "@/data/access-control";
 export default function ControllersPage() {
   return (
     <>
-      <AccessControlVideo src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Controllers-SDLH5jwSZc0bmGCRg2f3umoQafwKdn.mp4" />
+      <AccessControlVideo youtubeId="BOyCGcTGaVQ" />
       <ProductSelector
       category="Controllers"
       title="Controllers"

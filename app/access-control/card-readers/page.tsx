@@ -5,7 +5,7 @@ import { cardReaders } from "@/data/access-control";
 export default function CardReadersPage() {
   return (
     <>
-      <AccessControlVideo src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/card%20Readers-SWSwKHctAWa3h7jcMmxrShLzOYEC8L.mp4" />
+      <AccessControlVideo youtubeId="8CFmAHK-hRk" />
       <ProductSelector
       category="Card Readers"
       title="Card Readers"
