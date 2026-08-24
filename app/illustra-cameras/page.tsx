@@ -12,7 +12,7 @@ const categories = [
 export default function IllustraCamerasIndex() {
   return (
     <>
-      <AccessControlVideo src="/videos/cameras.mp4" />
+      <AccessControlVideo youtubeId="QVBh5bG4-AI" />
 
       <section className="mx-auto max-w-[1400px] px-6 py-12">
         <h2 className="text-2xl font-semibold text-foreground">Pick a Category to Build Your Order</h2>
