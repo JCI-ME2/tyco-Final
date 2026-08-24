@@ -5,7 +5,7 @@ import { magLocks } from "@/data/access-control";
 export default function MagLocksPage() {
   return (
     <>
-      <AccessControlVideo src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Locks-kGuClCrYFnoEiHSSBsR0R6U8VQXiut.mp4" />
+      <AccessControlVideo youtubeId="yIlEQkDewE0" />
       <ProductSelector
       category="MagLocks"
       title="Magnetic Locks"

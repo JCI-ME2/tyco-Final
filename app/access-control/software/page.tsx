@@ -5,7 +5,7 @@ import { software } from "@/data/access-control";
 export default function SoftwarePage() {
   return (
     <>
-      <AccessControlVideo src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Software-zJHynqsuTWBCTVMtAOKlMHXkNbi7hY.mp4" />
+      <AccessControlVideo youtubeId="36Oc-v3ZEDU" />
       <ProductSelector
       category="Software"
       title="EntraPass Software"

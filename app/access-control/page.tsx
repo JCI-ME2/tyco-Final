@@ -15,7 +15,7 @@ const categories = [
 export default function AccessControlIndex() {
   return (
     <>
-      <AccessControlVideo src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/video-k4sL3Qxb6aHcXumgClVgw5P4eBBaid.mp4" />
+      <AccessControlVideo youtubeId="Ut4sEDLgnlc" />
 
       <section className="mx-auto max-w-[1400px] px-6 py-12">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
