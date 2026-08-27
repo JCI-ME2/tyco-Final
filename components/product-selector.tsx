@@ -6,6 +6,7 @@ import { addToCart } from "@/lib/cart";
 
 const ENTRAPASS_DATASHEET = "/datasheets/EntraPass-Global.pdf";
 const ENTRAPASS_CORPORATE_DATASHEET = "/datasheets/EntraPass-Corporate.pdf";
+const ENTRAPASS_SPECIAL_DATASHEET = "/datasheets/EntraPass-Special.pdf";
 
 export interface SelectorConfig<T extends Record<string, string>> {
   title: string;
@@ -157,7 +158,9 @@ export function ProductSelector<T extends Record<string, string>>({
                   ? ENTRAPASS_DATASHEET
                   : pn.startsWith("E-COR-")
                     ? ENTRAPASS_CORPORATE_DATASHEET
-                    : undefined
+                    : pn.startsWith("E-SPE-")
+                      ? ENTRAPASS_SPECIAL_DATASHEET
+                      : undefined
                 : undefined;
             return (
               <div key={pn + i} className="rounded-xl border border-border bg-card p-5 shadow-sm transition-shadow hover:shadow-md">
@@ -170,7 +173,7 @@ export function ProductSelector<T extends Record<string, string>>({
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
-                          title={`Open ${pn.startsWith("E-COR-") ? "EntraPass Corporate" : "EntraPass Global"} datasheet PDF`}
+                          title={`Open ${pn.startsWith("E-COR-") ? "EntraPass Corporate" : pn.startsWith("E-SPE-") ? "EntraPass Special" : "EntraPass Global"} datasheet PDF`}
                         >
                           {pn}
                           <FileText className="size-4 opacity-70" />
