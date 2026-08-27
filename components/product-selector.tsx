@@ -7,6 +7,42 @@ import { addToCart } from "@/lib/cart";
 const ENTRAPASS_DATASHEET = "/datasheets/EntraPass-Global.pdf";
 const ENTRAPASS_CORPORATE_DATASHEET = "/datasheets/EntraPass-Corporate.pdf";
 const ENTRAPASS_SPECIAL_DATASHEET = "/datasheets/EntraPass-Special.pdf";
+const KANTECH_DATASHEET_BY_MODEL: Record<string, string> = {
+  "KT-1-EU-PC": "/datasheets/KT-1.pdf",
+  "KT-1-EU-MET": "/datasheets/KT-1.pdf",
+  "KT-1-EU-MET-POE": "/datasheets/KT-1.pdf",
+  "KT-1": "/datasheets/KT-1.pdf",
+  "KT-1-M": "/datasheets/KT-1.pdf",
+  "KT-1-PCB": "/datasheets/KT-1.pdf",
+  "KT-1-CAB-P": "/datasheets/KT-1.pdf",
+  "KT-1-CAB-M": "/datasheets/KT-1.pdf",
+  "KT-1-CAB-PSU": "/datasheets/KT-1.pdf",
+  "KT-1-CAB-POE": "/datasheets/KT-1.pdf",
+  "KT-1-CVR": "/datasheets/KT-1.pdf",
+  "KT-1-PCB-BP": "/datasheets/KT-1.pdf",
+  "KT-2-EU-MET": "/datasheets/KT-2.pdf",
+  "KT-2-CAB-PSU": "/datasheets/KT-2.pdf",
+  "KT-2-PCB-EU": "/datasheets/KT-2.pdf",
+  "KT-2-BP": "/datasheets/KT-2.pdf",
+  "KT-2-MP": "/datasheets/KT-2.pdf",
+  "KT-4-EU": "/datasheets/KT-4.pdf",
+  "KT-4-POE": "/datasheets/KT-4.pdf",
+  "KT-4-PCB": "/datasheets/KT-4.pdf",
+  "KT-4-MOD-PoE": "/datasheets/KT-4.pdf",
+  "KT-4-MOD-WiFi": "/datasheets/KT-4.pdf",
+  "KT-4-CABEU": "/datasheets/KT-4.pdf",
+  "KT-4-CAB": "/datasheets/KT-4.pdf",
+  "KT-CON": "/datasheets/KT-4.pdf",
+  "KT-ACC": "/datasheets/KT-4.pdf",
+  "TR16100-240V": "/datasheets/KT-4.pdf",
+  "KT-MOD-INP16": "/datasheets/KT-4.pdf",
+  "KT-MOD-OUT16": "/datasheets/KT-4.pdf",
+  "KT-MOD-REL8": "/datasheets/KT-4.pdf",
+  "KT-MOD-SPI-16": "/datasheets/KT-4.pdf",
+  "KT-MOD-SPI-36": "/datasheets/KT-4.pdf",
+  "KT-MOD-IO16": "/datasheets/KT-MOD.pdf",
+  "KT-MOD-CABEU": "/datasheets/KT-MOD.pdf",
+};
 
 export interface SelectorConfig<T extends Record<string, string>> {
   title: string;
@@ -161,7 +197,9 @@ export function ProductSelector<T extends Record<string, string>>({
                     : pn.startsWith("E-SPE-")
                       ? ENTRAPASS_SPECIAL_DATASHEET
                       : undefined
-                : undefined;
+                : category === "Controllers"
+                  ? KANTECH_DATASHEET_BY_MODEL[pn.trim()]
+                  : undefined;
             return (
               <div key={pn + i} className="rounded-xl border border-border bg-card p-5 shadow-sm transition-shadow hover:shadow-md">
                 <div className="flex flex-wrap items-start justify-between gap-4">
@@ -173,7 +211,7 @@ export function ProductSelector<T extends Record<string, string>>({
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
-                          title={`Open ${pn.startsWith("E-COR-") ? "EntraPass Corporate" : pn.startsWith("E-SPE-") ? "EntraPass Special" : "EntraPass Global"} datasheet PDF`}
+                          title={`Open ${KANTECH_DATASHEET_BY_MODEL[pn.trim()] ? "Kantech" : pn.startsWith("E-COR-") ? "EntraPass Corporate" : pn.startsWith("E-SPE-") ? "EntraPass Special" : "EntraPass Global"} datasheet PDF`}
                         >
                           {pn}
                           <FileText className="size-4 opacity-70" />
