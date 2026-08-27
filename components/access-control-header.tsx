@@ -43,7 +43,7 @@ export function AccessControlHeader() {
         </nav>
 
         <a
-          href="https://drive.google.com/uc?export=download&id=1AIiVm6TKAyh15qdLYmMtVbOqyoRBN4dv"
+          href="/datasheets/KantechAllModels.xlsb"
           target="_blank"
           rel="noopener noreferrer"
           title="Download KantechAllModels.xlsb"
