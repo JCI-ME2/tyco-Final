@@ -5,6 +5,7 @@ import { Search, X, Copy, Check, ShoppingCart, Minus, Plus, FileText } from "luc
 import { addToCart } from "@/lib/cart";
 
 const ENTRAPASS_DATASHEET = "/datasheets/EntraPass-Global.pdf";
+const ENTRAPASS_CORPORATE_DATASHEET = "/datasheets/EntraPass-Corporate.pdf";
 
 export interface SelectorConfig<T extends Record<string, string>> {
   title: string;
@@ -150,7 +151,14 @@ export function ProductSelector<T extends Record<string, string>>({
             const description = descriptionKey ? String(row[descriptionKey] ?? "") : "";
             const q = getQty(pn);
             const isAdded = added === pn;
-            const datasheetUrl = category === "Software" && pn.startsWith("E-GLO-") ? ENTRAPASS_DATASHEET : undefined;
+            const datasheetUrl =
+              category === "Software"
+                ? pn.startsWith("E-GLO-")
+                  ? ENTRAPASS_DATASHEET
+                  : pn.startsWith("E-COR-")
+                    ? ENTRAPASS_CORPORATE_DATASHEET
+                    : undefined
+                : undefined;
             return (
               <div key={pn + i} className="rounded-xl border border-border bg-card p-5 shadow-sm transition-shadow hover:shadow-md">
                 <div className="flex flex-wrap items-start justify-between gap-4">
@@ -162,7 +170,7 @@ export function ProductSelector<T extends Record<string, string>>({
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
-                          title="Open EntraPass Global datasheet PDF"
+                          title={`Open ${pn.startsWith("E-COR-") ? "EntraPass Corporate" : "EntraPass Global"} datasheet PDF`}
                         >
                           {pn}
                           <FileText className="size-4 opacity-70" />
