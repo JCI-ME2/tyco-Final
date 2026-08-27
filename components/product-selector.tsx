@@ -43,6 +43,26 @@ const KANTECH_DATASHEET_BY_MODEL: Record<string, string> = {
   "KT-MOD-IO16": "/datasheets/KT-MOD.pdf",
   "KT-MOD-CABEU": "/datasheets/KT-MOD.pdf",
 };
+const IOSMART_MODELS = new Set([
+  "KT-MUL-SC2", "KT-MUL-SC-KP2", "KT-MUL-MT2", "KT-MUL-MT-KP2",
+  "KT-SG-SC2", "KT-SG-SC-KP2", "KT-SG-MT2", "KT-SG-MT-KP2",
+]);
+const HID_MODELS = new Set([
+  "20NKS-00-000000", "20TKS-00-000000", "20KNKS-00-000000", "20KTKS-00-000000",
+  "40NKS-00-000000", "40TKS-00-000000", "40KNKS-00-000000", "40KTKS-00-000000",
+  "20NKS-02-0002BL", "20TKS-02-0002BL", "20KNKS-02-0002BL", "20KTKS-02-0002BL",
+  "40NKS-02-0002BL", "40TKS-02-0002BL", "40KNKS-02-0002BL", "40KTKS-02-0002BL",
+  "20NKS-01-00001H", "20TKS-01-00001H", "20KNKS-01-00001H", "20KTKS-01-00001H",
+  "40NKS-01-00001H", "40TKS-01-00001H", "40KNKS-01-00001H", "40KTKS-01-00001H",
+  "20NWS-00-000000", "20TWS-00-000000", "20KNWS-00-000000", "20KTWS-00-000000",
+  "40NWS-00-000000", "40TWS-00-000000", "40KNWS-00-000000", "40KTWS-00-000000",
+]);
+const STID_DATASHEET_BY_MODEL: Record<string, string> = {
+  ARC1SR31BBT1JC11: "/datasheets/STID-MUL.pdf", ARC1SW33BBT1JC11: "/datasheets/STID-MUL.pdf",
+  ARCSR31ABT1JC11: "/datasheets/STID-SG.pdf", ARCSW33ABT1JC11: "/datasheets/STID-SG.pdf",
+  ARCSR31BBT1JC11: "/datasheets/STID-KP.pdf", ARCSW33BBT1JC11: "/datasheets/STID-KP.pdf",
+  ARCSR31AQBT1JC11: "/datasheets/STID-QR.pdf", ARCSW33AQBT1JC11: "/datasheets/STID-QR.pdf",
+};
 
 export interface SelectorConfig<T extends Record<string, string>> {
   title: string;
@@ -199,7 +219,13 @@ export function ProductSelector<T extends Record<string, string>>({
                       : undefined
                 : category === "Controllers"
                   ? KANTECH_DATASHEET_BY_MODEL[pn.trim()]
-                  : undefined;
+                  : category === "Card Readers"
+                    ? IOSMART_MODELS.has(pn.trim())
+                      ? "/datasheets/IoSmart.pdf"
+                      : HID_MODELS.has(pn.trim())
+                        ? "/datasheets/hid.pdf"
+                        : STID_DATASHEET_BY_MODEL[pn.trim()]
+                    : undefined;
             return (
               <div key={pn + i} className="rounded-xl border border-border bg-card p-5 shadow-sm transition-shadow hover:shadow-md">
                 <div className="flex flex-wrap items-start justify-between gap-4">
@@ -211,7 +237,7 @@ export function ProductSelector<T extends Record<string, string>>({
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
-                          title={`Open ${KANTECH_DATASHEET_BY_MODEL[pn.trim()] ? "Kantech" : pn.startsWith("E-COR-") ? "EntraPass Corporate" : pn.startsWith("E-SPE-") ? "EntraPass Special" : "EntraPass Global"} datasheet PDF`}
+                          title="Open product datasheet PDF"
                         >
                           {pn}
                           <FileText className="size-4 opacity-70" />
