@@ -63,6 +63,20 @@ const STID_DATASHEET_BY_MODEL: Record<string, string> = {
   ARCSR31BBT1JC11: "/datasheets/STID-KP.pdf", ARCSW33BBT1JC11: "/datasheets/STID-KP.pdf",
   ARCSR31AQBT1JC11: "/datasheets/STID-QR.pdf", ARCSW33AQBT1JC11: "/datasheets/STID-QR.pdf",
 };
+const BIOMETRIC_DATASHEET_BY_MODEL: Record<string, string> = {
+  "SUP-BEW3-DB": "/datasheets/BEW3.pdf", "SUP-BEW3-APB": "/datasheets/BEW3.pdf",
+  "SUP-BS3-DB": "/datasheets/BS3.pdf", "SUP-BS3-APWB": "/datasheets/BS3.pdf",
+  "SUP-FSF2-DB": "/datasheets/FSF2.pdf", "SUP-FSF2-AB": "/datasheets/FSF2.pdf", "SUP-FSF2-ODB": "/datasheets/FSF2.pdf",
+  "SUP-BS2A-ODPB": "/datasheets/BS2A.pdf", "SUP-BS2A-OAPWB": "/datasheets/BS2A.pdf",
+  "SUP-BEW2-ODPB": "/datasheets/BEW2.pdf", "SUP-BEW2-OHPB": "/datasheets/BEW2.pdf", "SUP-BEW2-OAPB": "/datasheets/BEW2.pdf",
+  "SUP-BEP2-OD": "/datasheets/BEP2.pdf", "SUP-BEP2-OA": "/datasheets/BEP2.pdf",
+  "SUP-BLN2-ODB": "/datasheets/BLN2.pdf", "SUP-BLN2-OAB": "/datasheets/BLN2.pdf",
+  "MOR-293744571": "/datasheets/MVP.pdf", "MOR-293744604": "/datasheets/MVP.pdf",
+  "MOR-293678615": "/datasheets/MSL.pdf", "MOR-293638877": "/datasheets/MSW.pdf", "MOR-293638856": "/datasheets/MSW.pdf",
+  "MOR-293673665": "/datasheets/MSL.pdf", "MOR-293676863": "/datasheets/MSL.pdf", "MOR-293678628": "/datasheets/MSL.pdf", "MOR-293678678": "/datasheets/MSL.pdf", "MOR-293678660": "/datasheets/MSL.pdf", "MOR-293673644": "/datasheets/MSL.pdf",
+  "EYEM-NIXT3": "/datasheets/NIXT.pdf", "EYEM-NEXT2": "/datasheets/NEXT.pdf", "EYEM-FXT": "/datasheets/FXT.pdf", "EYEM-FXTH": "/datasheets/FXT.pdf",
+  "EYEM-NFACE2N": "/datasheets/NFACE2N.pdf", "EYEM-NFACE2NP": "/datasheets/NFACE2N.pdf", "EYEM-NFACE2NH": "/datasheets/NFACE2N.pdf", "EYEM-NFACE2NHP": "/datasheets/NFACE2N.pdf",
+};
 
 export interface SelectorConfig<T extends Record<string, string>> {
   title: string;
@@ -219,8 +233,10 @@ export function ProductSelector<T extends Record<string, string>>({
                       : undefined
                 : category === "Controllers"
                   ? KANTECH_DATASHEET_BY_MODEL[pn.trim()]
-                  : category === "Card Readers"
-                    ? IOSMART_MODELS.has(pn.trim())
+                  : category === "Biometric"
+                    ? BIOMETRIC_DATASHEET_BY_MODEL[pn.trim()]
+                    : category === "Card Readers"
+                      ? IOSMART_MODELS.has(pn.trim())
                       ? "/datasheets/IoSmart.pdf"
                       : HID_MODELS.has(pn.trim())
                         ? "/datasheets/hid.pdf"
