@@ -5,6 +5,12 @@ import { Search, X, Copy, Check, ShoppingCart, Minus, Plus, FileText } from "luc
 import { addToCart } from "@/lib/cart";
 
 const ENTRAPASS_DATASHEET = "/datasheets/EntraPass-Global.pdf";
+const MAGLOCK_DATASHEET_MODELS = new Set([
+  "ICS-A10001", "ICS-A10002", "ICS-A10004", "ICS-A10005", "ICS-A10010", "ICS-A10020",
+  "ICS-A10040", "ICS-A10060", "ICS-A10000R", "ICS-AGL120NTBR", "ICS-SL500", "ICS-10412",
+  "ICS-GK310LS", "ACA001", "PB-EXIT", "DRB-IR", "DRB-IR-S", "MCP3A-G000SF-13",
+  "MCP4A-G000SF-13", "M8A-G000SF-K013-11",
+]);
 const ENTRAPASS_CORPORATE_DATASHEET = "/datasheets/EntraPass-Corporate.pdf";
 const ENTRAPASS_SPECIAL_DATASHEET = "/datasheets/EntraPass-Special.pdf";
 const KANTECH_DATASHEET_BY_MODEL: Record<string, string> = {
@@ -231,7 +237,11 @@ export function ProductSelector<T extends Record<string, string>>({
                     : pn.startsWith("E-SPE-")
                       ? ENTRAPASS_SPECIAL_DATASHEET
                       : undefined
-                : category === "Controllers"
+                  : category === "MagLocks"
+                    ? MAGLOCK_DATASHEET_MODELS.has(pn.trim())
+                      ? `/datasheets/${pn.trim()}.pdf`
+                      : undefined
+                  : category === "Controllers"
                   ? KANTECH_DATASHEET_BY_MODEL[pn.trim()]
                   : category === "Biometric"
                     ? BIOMETRIC_DATASHEET_BY_MODEL[pn.trim()]
