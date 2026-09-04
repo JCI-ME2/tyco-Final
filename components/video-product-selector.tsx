@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import { Plus, Minus, ShoppingCart, Check, Search, X, FileText } from "lucide-react";
+import { Plus, Minus, ShoppingCart, Check, Search, X, FileText, Copy } from "lucide-react";
 import { addToCart } from "@/lib/cart";
 import data from "@/data/video-solutions/products.json";
 import { illustraPdfLinks } from "@/data/video-solutions/illustraPdfLinks";
@@ -54,6 +54,7 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
   const [query, setQuery] = useState("");
   const [qty, setQty] = useState<Record<string, number>>({});
   const [justAdded, setJustAdded] = useState<string | null>(null);
+  const [copied, setCopied] = useState<string | null>(null);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -91,6 +92,12 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
     setFilters((prev) => ({ ...prev, [col]: val }));
 
   const getQty = (pn: string) => qty[pn] ?? 1;
+
+  const copyPartNumber = async (pn: string) => {
+    await navigator.clipboard.writeText(pn);
+    setCopied(pn);
+    setTimeout(() => setCopied((current) => (current === pn ? null : current)), 1500);
+  };
 
   const handleAdd = (r: Row) => {
     const pn = String(r["Part Number"]);
@@ -207,6 +214,15 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
                     ) : (
                       <h4 className="font-mono text-base font-bold tracking-wide text-brand">{pn}</h4>
                     )}
+                    <button
+                      type="button"
+                      onClick={() => copyPartNumber(pn)}
+                      className="ml-2 inline-flex align-middle text-muted-foreground hover:text-foreground"
+                      title="Copy part number"
+                      aria-label={`Copy part number ${pn}`}
+                    >
+                      {copied === pn ? <Check className="h-3.5 w-3.5 text-emerald-600" /> : <Copy className="h-3.5 w-3.5" />}
+                    </button>
                     <p className="mt-2 text-sm text-muted-foreground">{String(r["Description"] ?? "")}</p>
 
                     <div className="mt-4 flex flex-wrap gap-2">
