@@ -10,6 +10,30 @@ import Image from "next/image";
 
 type Row = Record<string, string | number>;
 
+const EXACQ_DATASHEET_BY_MODEL: Record<string, string> = {
+  "EVIP-01": "/datasheets/Pro.pdf", "EVENIP-01": "/datasheets/Ent.pdf",
+  "EDGE": "/datasheets/Edge.pdf", "EDGEP": "/datasheets/Edge.pdf", "EVIP-EVENIP": "/datasheets/Ent.pdf",
+  "EDGE-EDGEP": "/datasheets/Edge.pdf", "EDGE-TRANSFER": "/datasheets/Edge.pdf", "EVIP-TRANSFER": "/datasheets/Pro.pdf",
+  "EVEF-64": "/datasheets/Ent.pdf", "EVEF-150": "/datasheets/Ent.pdf", "EVEF-175": "/datasheets/Ent.pdf",
+  "SSA-EDGE-C": "/datasheets/Edge.pdf", "SSA-PRO-C": "/datasheets/Pro.pdf", "SSA-ENT-C": "/datasheets/Ent.pdf",
+  "SSA-EDGE-01": "/datasheets/Edge.pdf", "SSA-EDGEP-01": "/datasheets/Edge.pdf", "SSA-EVIP-01": "/datasheets/Pro.pdf", "SSA-EVENIP-01": "/datasheets/Ent.pdf",
+};
+
+function exacqDatasheet(sheet: Props["sheet"], partNumber: string) {
+  const pn = partNumber.trim();
+  if (sheet === "Exacq SW") return EXACQ_DATASHEET_BY_MODEL[pn];
+  if (sheet !== "Exacq HW") return undefined;
+  if (pn.startsWith("IP08-01T-GML")) return "/datasheets/G-Micro.pdf";
+  if (pn.startsWith("IP08-") && pn.includes("-GPL")) return "/datasheets/G-PoE.pdf";
+  if (pn.startsWith("IP01-") && pn.includes("-1Q")) return "/datasheets/Q-Series.pdf";
+  if (pn.startsWith("IP01-") && pn.includes("-2A")) return "/datasheets/A-Series.pdf";
+  if (pn.startsWith("IP01-") && pn.includes("X")) return "/datasheets/X-Series.pdf";
+  if (pn.startsWith("S-")) return "/datasheets/S-Series.pdf";
+  if (pn.startsWith("250-") || pn.startsWith("2K-")) return "/datasheets/EM-Series.pdf";
+  if (pn.startsWith("C2-")) return "/datasheets/C-Series.pdf";
+  return undefined;
+}
+
 type Props = {
   sheet: "Illustra" | "Illustra Standard" | "Holis NVR" | "Exacq SW" | "Exacq HW";
   category: string;
@@ -164,7 +188,7 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
                 ? illustraPdfLinks[pn.trim()]
                 : sheet === "Holis NVR" || sheet === "Illustra Standard"
                   ? datasheetLinks[pn.trim()]
-                  : undefined;
+                  : exacqDatasheet(sheet, pn);
             return (
               <div key={pn + i} className="rounded-xl border border-border bg-card p-5 shadow-sm transition-shadow hover:shadow-md">
                 <div className="flex flex-wrap items-start justify-between gap-4">
