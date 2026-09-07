@@ -31,6 +31,7 @@ const regions = [
 const finalHeaders = ['Planner', 'CUSTOMER NAME', 'Total', 'ORDER NO.', 'PART NUMBER', 'DESCRIPTION', 'QUANTITY', 'UNIT PRICE', 'Unit Price Total', 'REGION']
 const normalize = (value: unknown) => String(value ?? '').trim().toUpperCase()
 const asNumber = (value: unknown) => { const number = Number(String(value ?? '').replaceAll(',', '')); return Number.isFinite(number) ? number : 0 }
+const withoutDollarSigns = (value: Cell): Cell => typeof value === 'string' ? value.replaceAll('$', '') : value
 
 function transform(workbook: WorkBook, filename: string, selectedRegion?: string): Processed {
   const source = workbook.Sheets[workbook.SheetNames.find((name) => normalize(name) === 'ACVS OPEN SO DATA') ?? workbook.SheetNames[0]]
@@ -44,7 +45,10 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   if (missing.length) throw new Error(`Missing required columns: ${missing.join(', ')}`)
   const rows = matrix.slice(headerIndex + 1).map((row) => needed.map((header) => row[index.get(header)!] ?? null)).filter((row) => row.some((cell) => cell !== null && String(cell).trim() !== '')).filter((row) => !selectedRegion || normalize(row[8]) === normalize(selectedRegion))
   rows.sort((a, b) => String(a[1] ?? '').localeCompare(String(b[1] ?? ''), undefined, { numeric: true }) || String(a[2] ?? '').localeCompare(String(b[2] ?? ''), undefined, { numeric: true }))
-  const output: Cell[][] = [finalHeaders, ...rows.map((row) => [row[0], row[1], null, row[2], row[3], row[4], row[5], row[6], row[7], row[8]])]
+  const output: Cell[][] = [
+    finalHeaders,
+    ...rows.map((row) => [row[0], row[1], null, row[2], row[3], row[4], row[5], row[6], row[7], row[8]].map(withoutDollarSigns)),
+  ]
   let groups = 0
   for (let start = 1; start < output.length;) {
     let end = start
