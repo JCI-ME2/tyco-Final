@@ -7,7 +7,7 @@ import { ArrowDownToLine, Check, FileSpreadsheet, LoaderCircle, Upload, X } from
 type Cell = string | number | null
 type Processed = { workbook: WorkBook; rows: Cell[][]; filename: string; sourceRows: number; groups: number }
 
-const regions = ['UK&I', 'TURKEY', 'GREECE/CYPRUS/ITALY', 'EGYPT', 'ME 2', 'GERMANY/AUSTRIA', 'ME 1', 'GCC 2', 'BALKANS', 'POLAND & BALTICS', 'CENTRAL EUROPE', 'NORDICS', 'BENELUX', 'GCC 1', 'NE AFRICA', 'SW AFRICA', 'FRANCE/SWISS', 'IBERIA', 'ISRAEL']
+const regions = ['EGYPT', 'GCC 1', 'GCC 2', 'ME 1', 'ME 2', 'NE AFRICA', 'SW AFRICA', 'GERMANY/AUSTRIA', 'GREECE/CYPRUS/ITALY', 'FRANCE/SWISS', 'IBERIA', 'ISRAEL', 'NORDICS', 'POLAND & BALTICS', 'TURKEY', 'UK&I', 'BALKANS', 'BENELUX', 'CENTRAL EUROPE']
 const finalHeaders = ['Planner', 'CUSTOMER NAME', 'ORDER NO.', 'ORDER NO.', 'PART NUMBER', 'DESCRIPTION', 'QUANTITY', 'UNIT PRICE', 'Unit Price Total', 'REGION']
 const normalize = (value: unknown) => String(value ?? '').trim().toUpperCase()
 const asNumber = (value: unknown) => { const number = Number(String(value ?? '').replaceAll(',', '')); return Number.isFinite(number) ? number : 0 }
