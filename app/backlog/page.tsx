@@ -49,12 +49,12 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   for (let start = 1; start < output.length;) {
     let end = start
     while (end + 1 < output.length && normalize(output[end + 1][1]) === normalize(output[start][1]) && normalize(output[end + 1][2]) === normalize(output[start][2])) end++
-    if (end > start) { groups++; output[start][2] = `=SUM(I${start + 1}:I${end + 1})`; for (let i = start + 1; i <= end; i++) output[i][2] = null }
+    if (end > start) { groups++ }
     start = end + 1
   }
   const sheet = utils.aoa_to_sheet(output)
   const merges: NonNullable<typeof sheet['!merges']> = []
-  for (const column of [1, 3]) {
+  for (const column of [1, 2, 3]) {
     for (let start = 1; start < output.length;) {
       let end = start
       while (end + 1 < output.length && normalize(output[end + 1][column]) === normalize(output[start][column])) end++
@@ -64,8 +64,6 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   }
   sheet['!merges'] = merges
   sheet['!cols'] = finalHeaders.map((header) => ({ wch: Math.max(12, Math.min(28, header.length + 4)) }))
-  sheet['C1'] = { v: 'Total', t: 's' }
-  for (let start = 1; start < output.length;) { let end = start; while (end + 1 < output.length && normalize(output[end + 1][1]) === normalize(output[start][1]) && normalize(output[end + 1][3]) === normalize(output[start][3])) end++; if (end > start) { const address = utils.encode_cell({ r: start, c: 2 }); sheet[address] = { f: `SUM(I${start + 1}:I${end + 1})`, v: Number(output.slice(start, end + 1).reduce((sum, row) => sum + asNumber(row[8]), 0).toFixed(2)), t: 'n' } } start = end + 1 }
   const range = utils.decode_range(sheet['!ref'] ?? 'A1')
   for (let row = range.s.r; row <= range.e.r; row++) {
     for (let column = range.s.c; column <= range.e.c; column++) {
