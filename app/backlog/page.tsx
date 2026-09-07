@@ -28,7 +28,7 @@ const regions = [
   'BENELUX',
   'CENTRAL EUROPE',
 ] as const
-const finalHeaders = ['Planner', 'CUSTOMER NAME', 'ORDER NO.', 'ORDER NO.', 'PART NUMBER', 'DESCRIPTION', 'QUANTITY', 'UNIT PRICE', 'Unit Price Total', 'REGION']
+const finalHeaders = ['Planner', 'CUSTOMER NAME', 'Total', 'ORDER NO.', 'PART NUMBER', 'DESCRIPTION', 'QUANTITY', 'UNIT PRICE', 'Unit Price Total', 'REGION']
 const normalize = (value: unknown) => String(value ?? '').trim().toUpperCase()
 const asNumber = (value: unknown) => { const number = Number(String(value ?? '').replaceAll(',', '')); return Number.isFinite(number) ? number : 0 }
 
@@ -44,7 +44,7 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   if (missing.length) throw new Error(`Missing required columns: ${missing.join(', ')}`)
   const rows = matrix.slice(headerIndex + 1).map((row) => needed.map((header) => row[index.get(header)!] ?? null)).filter((row) => row.some((cell) => cell !== null && String(cell).trim() !== '')).filter((row) => !selectedRegion || normalize(row[8]) === normalize(selectedRegion))
   rows.sort((a, b) => String(a[1] ?? '').localeCompare(String(b[1] ?? ''), undefined, { numeric: true }) || String(a[2] ?? '').localeCompare(String(b[2] ?? ''), undefined, { numeric: true }))
-  const output: Cell[][] = [finalHeaders, ...rows.map((row) => [row[0], row[1], row[2], row[2], row[3], row[4], row[5], row[6], row[7], row[8]])]
+  const output: Cell[][] = [finalHeaders, ...rows.map((row) => [row[0], row[1], null, row[2], row[3], row[4], row[5], row[6], row[7], row[8]])]
   let groups = 0
   for (let start = 1; start < output.length;) {
     let end = start
@@ -57,9 +57,22 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   for (const column of [1, 2, 3]) {
     for (let start = 1; start < output.length;) {
       let end = start
-      while (end + 1 < output.length && normalize(output[end + 1][column]) === normalize(output[start][column])) end++
+      while (
+        end + 1 < output.length &&
+        (column === 2
+          ? normalize(output[end + 1][1]) === normalize(output[start][1]) && normalize(output[end + 1][3]) === normalize(output[start][3])
+          : normalize(output[end + 1][column]) === normalize(output[start][column]))
+      ) end++
       if (end > start) merges.push({ s: { r: start, c: column }, e: { r: end, c: column } })
       start = end + 1
+    }
+  }
+  for (const merge of merges.filter(({ s }) => s.c === 2)) {
+    const address = utils.encode_cell(merge.s)
+    sheet[address] = {
+      f: `SUM(I${merge.s.r + 1}:I${merge.e.r + 1})`,
+      t: 'n',
+      s: { alignment: { horizontal: 'center', vertical: 'center' } },
     }
   }
   sheet['!merges'] = merges
