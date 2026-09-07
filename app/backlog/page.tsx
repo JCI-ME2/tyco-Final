@@ -66,6 +66,13 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   sheet['!cols'] = finalHeaders.map((header) => ({ wch: Math.max(12, Math.min(28, header.length + 4)) }))
   sheet['C1'] = { v: 'Total', t: 's' }
   for (let start = 1; start < output.length;) { let end = start; while (end + 1 < output.length && normalize(output[end + 1][1]) === normalize(output[start][1]) && normalize(output[end + 1][3]) === normalize(output[start][3])) end++; if (end > start) { const address = utils.encode_cell({ r: start, c: 2 }); sheet[address] = { f: `SUM(I${start + 1}:I${end + 1})`, v: Number(output.slice(start, end + 1).reduce((sum, row) => sum + asNumber(row[8]), 0).toFixed(2)), t: 'n' } } start = end + 1 }
+  const range = utils.decode_range(sheet['!ref'] ?? 'A1')
+  for (let row = range.s.r; row <= range.e.r; row++) {
+    for (let column = range.s.c; column <= range.e.c; column++) {
+      const address = utils.encode_cell({ r: row, c: column })
+      if (sheet[address]) sheet[address].s = { ...(sheet[address].s ?? {}), alignment: { horizontal: 'center', vertical: 'center' } }
+    }
+  }
   const result = utils.book_new(); utils.book_append_sheet(result, sheet, 'ACVS Open SO DATA')
   return { workbook: result, rows: output, filename: `${filename.replace(/\.xlsx?$/i, '')}-processed.xlsx`, sourceRows: rows.length, groups }
 }
