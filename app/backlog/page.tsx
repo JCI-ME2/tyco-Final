@@ -30,7 +30,11 @@ const regions = [
 ] as const
 const finalHeaders = ['Planner', 'CUSTOMER NAME', 'Total', 'ORDER NO.', 'PART NUMBER', 'DESCRIPTION', 'QUANTITY', 'UNIT PRICE', 'Unit Price Total', 'REGION']
 const normalize = (value: unknown) => String(value ?? '').trim().toUpperCase()
-const asNumber = (value: unknown) => { const number = Number(String(value ?? '').replaceAll(',', '')); return Number.isFinite(number) ? number : 0 }
+const asNumber = (value: unknown) => {
+  const cleaned = String(value ?? '').replaceAll(',', '').replaceAll('$', '').trim()
+  const number = Number(cleaned.startsWith('(') && cleaned.endsWith(')') ? `-${cleaned.slice(1, -1)}` : cleaned)
+  return Number.isFinite(number) ? number : 0
+}
 const withoutDollarSigns = (value: Cell): Cell => typeof value === 'string' ? value.replaceAll('$', '') : value
 
 function transform(workbook: WorkBook, filename: string, selectedRegion?: string): Processed {
@@ -47,7 +51,7 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   rows.sort((a, b) => String(a[1] ?? '').localeCompare(String(b[1] ?? ''), undefined, { numeric: true }) || String(a[2] ?? '').localeCompare(String(b[2] ?? ''), undefined, { numeric: true }))
   const output: Cell[][] = [
     finalHeaders,
-    ...rows.map((row) => [row[0], row[1], null, row[2], row[3], row[4], row[5], row[6], row[7], row[8]].map(withoutDollarSigns)),
+    ...rows.map((row) => [row[0], row[1], null, row[2], row[3], row[4], row[5], asNumber(row[6]), asNumber(row[7]), row[8]].map(withoutDollarSigns)),
   ]
   let groups = 0
   for (let start = 1; start < output.length;) {
