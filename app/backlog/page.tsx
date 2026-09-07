@@ -43,7 +43,7 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   const missing = needed.filter((header) => !index.has(header))
   if (missing.length) throw new Error(`Missing required columns: ${missing.join(', ')}`)
   const rows = matrix.slice(headerIndex + 1).map((row) => needed.map((header) => row[index.get(header)!] ?? null)).filter((row) => row.some((cell) => cell !== null && String(cell).trim() !== '')).filter((row) => !selectedRegion || normalize(row[8]) === normalize(selectedRegion))
-  rows.sort((a, b) => String(a[2] ?? '').localeCompare(String(b[2] ?? ''), undefined, { numeric: true }) || String(a[1] ?? '').localeCompare(String(b[1] ?? '')))
+  rows.sort((a, b) => String(a[1] ?? '').localeCompare(String(b[1] ?? ''), undefined, { numeric: true }) || String(a[2] ?? '').localeCompare(String(b[2] ?? ''), undefined, { numeric: true }))
   const output: Cell[][] = [finalHeaders, ...rows.map((row) => [row[0], row[1], row[2], row[2], row[3], row[4], row[5], row[6], row[7], row[8]])]
   let groups = 0
   for (let start = 1; start < output.length;) {
@@ -53,6 +53,16 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
     start = end + 1
   }
   const sheet = utils.aoa_to_sheet(output)
+  const merges: NonNullable<typeof sheet['!merges']> = []
+  for (const column of [1, 3]) {
+    for (let start = 1; start < output.length;) {
+      let end = start
+      while (end + 1 < output.length && normalize(output[end + 1][column]) === normalize(output[start][column])) end++
+      if (end > start) merges.push({ s: { r: start, c: column }, e: { r: end, c: column } })
+      start = end + 1
+    }
+  }
+  sheet['!merges'] = merges
   sheet['!cols'] = finalHeaders.map((header) => ({ wch: Math.max(12, Math.min(28, header.length + 4)) }))
   sheet['C1'] = { v: 'Total', t: 's' }
   for (let start = 1; start < output.length;) { let end = start; while (end + 1 < output.length && normalize(output[end + 1][1]) === normalize(output[start][1]) && normalize(output[end + 1][3]) === normalize(output[start][3])) end++; if (end > start) { const address = utils.encode_cell({ r: start, c: 2 }); sheet[address] = { f: `SUM(I${start + 1}:I${end + 1})`, v: Number(output.slice(start, end + 1).reduce((sum, row) => sum + asNumber(row[8]), 0).toFixed(2)), t: 'n' } } start = end + 1 }
