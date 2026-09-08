@@ -75,7 +75,9 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
       start = end + 1
     }
   }
+  const mergedTotalRows = new Set<number>()
   for (const merge of merges.filter(({ s }) => s.c === 2)) {
+    for (let row = merge.s.r; row <= merge.e.r; row++) mergedTotalRows.add(row)
     const address = utils.encode_cell(merge.s)
     sheet[address] = {
       f: `SUM(I${merge.s.r + 1}:I${merge.e.r + 1})`,
@@ -83,13 +85,25 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
       s: { alignment: { horizontal: 'center', vertical: 'center' } },
     }
   }
+  for (let row = 1; row < output.length; row++) {
+    if (mergedTotalRows.has(row)) continue
+    const address = utils.encode_cell({ r: row, c: 2 })
+    const sourceAddress = utils.encode_cell({ r: row, c: 8 })
+    sheet[address] = { ...(sheet[sourceAddress] ?? { v: output[row][8], t: 'n' }), v: output[row][8], t: 'n' }
+  }
   sheet['!merges'] = merges
   sheet['!cols'] = finalHeaders.map((header) => ({ wch: Math.max(12, Math.min(28, header.length + 4)) }))
   const range = utils.decode_range(sheet['!ref'] ?? 'A1')
   for (let row = range.s.r; row <= range.e.r; row++) {
     for (let column = range.s.c; column <= range.e.c; column++) {
       const address = utils.encode_cell({ r: row, c: column })
-      if (sheet[address]) sheet[address].s = { ...(sheet[address].s ?? {}), alignment: { horizontal: 'center', vertical: 'center' } }
+      if (!sheet[address]) continue
+      const numberFormat = column === 2 || column === 7 || column === 8 ? '#,##0.00' : column === 6 ? '0' : undefined
+      sheet[address].s = {
+        ...(sheet[address].s ?? {}),
+        ...(numberFormat ? { numFmt: numberFormat } : {}),
+        alignment: { horizontal: 'center', vertical: 'center' },
+      }
     }
   }
   const result = utils.book_new(); utils.book_append_sheet(result, sheet, 'ACVS Open SO DATA')
