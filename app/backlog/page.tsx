@@ -89,7 +89,13 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
   for (let row = range.s.r; row <= range.e.r; row++) {
     for (let column = range.s.c; column <= range.e.c; column++) {
       const address = utils.encode_cell({ r: row, c: column })
-      if (sheet[address]) sheet[address].s = { ...(sheet[address].s ?? {}), alignment: { horizontal: 'center', vertical: 'center' } }
+      if (!sheet[address]) continue
+      const numberFormat = column === 2 || column === 7 || column === 8 ? '#,##0.00' : column === 6 ? '0' : undefined
+      sheet[address].s = {
+        ...(sheet[address].s ?? {}),
+        ...(numberFormat ? { numFmt: numberFormat } : {}),
+        alignment: { horizontal: 'center', vertical: 'center' },
+      }
     }
   }
   const result = utils.book_new(); utils.book_append_sheet(result, sheet, 'ACVS Open SO DATA')
