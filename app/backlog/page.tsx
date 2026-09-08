@@ -36,6 +36,12 @@ const asNumber = (value: unknown) => {
   return Number.isFinite(number) ? number : 0
 }
 const withoutDollarSigns = (value: Cell): Cell => typeof value === 'string' ? value.replaceAll('$', '') : value
+const exportFilename = (filename: string, region?: string) => {
+  const base = filename.replace(/\.xlsx?$/i, '')
+  const date = base.match(/(?:-|\s)(\d{2}-\d{2})\s*$/)?.[1] ?? ''
+  if (!region) return `${base}-processed.xlsx`
+  return `Backlog ACVS ${region.replaceAll(' ', '')}${date ? ` ${date}` : ''}.xlsx`
+}
 
 function transform(workbook: WorkBook, filename: string, selectedRegion?: string): Processed {
   const source = workbook.Sheets[workbook.SheetNames.find((name) => normalize(name) === 'ACVS OPEN SO DATA') ?? workbook.SheetNames[0]]
@@ -107,7 +113,7 @@ function transform(workbook: WorkBook, filename: string, selectedRegion?: string
     }
   }
   const result = utils.book_new(); utils.book_append_sheet(result, sheet, 'ACVS Open SO DATA')
-  return { workbook: result, rows: output, filename: `${filename.replace(/\.xlsx?$/i, '')}-processed.xlsx`, sourceRows: rows.length, groups }
+  return { workbook: result, rows: output, filename: exportFilename(filename, selectedRegion), sourceRows: rows.length, groups }
 }
 
 export default function BacklogPage() {
