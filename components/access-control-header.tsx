@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { ShoppingCart, Home, FileSpreadsheet } from "lucide-react";
 import { useCartCount } from "@/lib/cart";
 import Image from "next/image";
+import { OurBrandsMenu } from "@/components/our-brands-menu";
 
 const navItems = [
   { label: "Software", href: "/access-control/software" },
@@ -21,12 +22,10 @@ export function AccessControlHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-6">
-        <Link href="/access-control" className="flex items-center gap-3">
+        <Link href="/access-control" className="flex items-center">
           <Image src="/images/jci-logo-pages.png" alt="Johnson Controls" className="h-9 w-auto object-contain" width={140} height={40} />
-          <span className="text-sm font-semibold tracking-wide text-accent leading-tight">
-            Kantech
-          </span>
         </Link>
+        <OurBrandsMenu />
 
         <nav className="ml-4 hidden items-center gap-1 lg:flex">
           {navItems.map((n) => (

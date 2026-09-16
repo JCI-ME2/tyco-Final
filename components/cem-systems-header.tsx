@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { ShoppingCart, Home } from "lucide-react";
 import { useCartCount } from "@/lib/cart";
 import Image from "next/image";
+import { OurBrandsMenu } from "@/components/our-brands-menu";
 
 const navItems = [
   { label: "Main Software", href: "/cem-systems/main-software" },
@@ -22,7 +23,7 @@ export function CemSystemsHeader() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-6">
-        <Link href="/cem-systems" className="flex items-center gap-3 shrink-0">
+        <Link href="/cem-systems" className="flex items-center shrink-0">
           <Image
             src="/images/jci-logo-pages.png"
             alt="Johnson Controls"
@@ -30,10 +31,8 @@ export function CemSystemsHeader() {
             width={140}
             height={40}
           />
-          <span className="text-sm font-semibold tracking-wide text-accent leading-tight">
-            CEM Systems<br />AC2000
-          </span>
         </Link>
+        <OurBrandsMenu />
 
         <nav className="ml-4 hidden items-center gap-1 lg:flex overflow-x-auto">
           {navItems.map((n) => (
