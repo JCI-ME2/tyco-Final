@@ -1,8 +1,5 @@
-"use client";
-
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
-import { usePathname } from "next/navigation";
 
 const brands = [
   { label: "Exacq", href: "/video-solutions" },
@@ -13,8 +10,6 @@ const brands = [
 ];
 
 export function OurBrandsMenu() {
-  const pathname = usePathname();
-
   return (
     <details className="relative shrink-0">
       <summary className="flex cursor-pointer list-none items-center gap-1 rounded-md px-2 py-2 text-sm font-semibold tracking-wide text-accent hover:bg-secondary [&::-webkit-details-marker]:hidden">
@@ -26,7 +21,7 @@ export function OurBrandsMenu() {
           <Link
             key={brand.href}
             href={brand.href}
-            className={`block rounded-md px-3 py-2 text-sm text-foreground hover:bg-secondary ${pathname.startsWith(brand.href) ? "bg-secondary font-medium" : ""}`}
+            className="block rounded-md px-3 py-2 text-sm text-foreground hover:bg-secondary"
           >
             {brand.label}
           </Link>
