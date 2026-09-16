@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/tyco-Final',
+  basePath: process.env.GITHUB_ACTIONS === 'true' ? '/tyco-Final' : '',
+  trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,
   },
