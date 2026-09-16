@@ -1,4 +1,5 @@
 import { AmericanDynamicsHeader } from "@/components/american-dynamics-header";
+import { InsidePageFooter } from "@/components/inside-page-footer";
 
 export default function AmericanDynamicsLayout({
   children,
@@ -6,12 +7,10 @@ export default function AmericanDynamicsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div id="top" className="flex min-h-screen flex-col bg-background">
       <AmericanDynamicsHeader />
       <main className="flex-1">{children}</main>
-      <footer className="border-t border-border bg-brand py-6 text-center text-xs text-brand-foreground/70">
-        American Dynamics
-      </footer>
+      <InsidePageFooter />
     </div>
   );
 }

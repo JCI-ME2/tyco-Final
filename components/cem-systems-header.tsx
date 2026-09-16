@@ -67,7 +67,7 @@ export function CemSystemsHeader() {
           </Link>
         </div>
       </div>
-      <div className="h-[3px] w-full bg-gradient-to-r from-accent via-brand-accent to-accent" />
+      <div className="h-[3px] w-full bg-jci-blue" />
     </header>
   );
 }

@@ -30,15 +30,17 @@
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
 
-  --brand: oklch(0.28 0.14 262);
-  --brand-foreground: oklch(0.99 0 0);
-  --brand-accent: oklch(0.72 0.18 145);
-  --hero-from: oklch(0.22 0.12 265);
-  --hero-to: oklch(0.32 0.16 270);
+  --brand: #152ea9;
+  --brand-foreground: #ffffff;
+  --brand-accent: #32c858;
+  --hero-from: #000070;
+  --hero-to: #152ea9;
 
-  /* JCI corporate blue from reference */
-  --jci-blue: oklch(0.48 0.16 245);
-  --jci-teal: oklch(0.72 0.13 180);
+  --jci-blue: #152ea9;
+  --jci-teal: #00adff;
+  --jci-green: #32c858;
+  --jci-orange: #f58835;
+  --jci-cool-grey: #333740;
   
   --sidebar: oklch(0.985 0 0);
   --sidebar-foreground: oklch(0.145 0 0);
@@ -86,8 +88,8 @@
 }
 
 @theme inline {
-  --font-sans: 'Geist', 'Geist Fallback';
-  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --font-sans: 'Noto Sans', Arial, sans-serif;
+  --font-mono: 'Noto Sans Mono', monospace;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
@@ -131,6 +133,9 @@
   --color-hero-to: var(--hero-to);
   --color-jci-blue: var(--jci-blue);
   --color-jci-teal: var(--jci-teal);
+  --color-jci-green: var(--jci-green);
+  --color-jci-orange: var(--jci-orange);
+  --color-jci-cool-grey: var(--jci-cool-grey);
 }
 
 @layer base {
