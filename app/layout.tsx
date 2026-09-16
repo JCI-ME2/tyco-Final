@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   description: 'Robust, scalable and integrated security solutions — choose Access Control or Video Solutions to begin.',
   generator: 'v0.app',
   icons: {
-    icon: `${basePath}/icon.png`,
-    shortcut: `${basePath}/icon.png`,
+    icon: `${basePath}/JCI_logo.png`,
+    shortcut: `${basePath}/JCI_logo.png`,
     apple: `${basePath}/apple-icon.png`,
   },
 }
