@@ -1,4 +1,5 @@
 import { IllustraCamerasHeader } from "@/components/illustra-cameras-header";
+import { InsidePageFooter } from "@/components/inside-page-footer";
 
 export default function IllustraCamerasLayout({
   children,
@@ -6,12 +7,10 @@ export default function IllustraCamerasLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div id="top" className="flex min-h-screen flex-col bg-background">
       <IllustraCamerasHeader />
       <main className="flex-1">{children}</main>
-      <footer className="border-t border-border bg-brand py-6 text-center text-xs text-brand-foreground/70">
-        Illustra Cameras
-      </footer>
+      <InsidePageFooter />
     </div>
   );
 }

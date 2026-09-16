@@ -1,4 +1,5 @@
 import { VideoSolutionsHeader } from "@/components/video-solutions-header";
+import { InsidePageFooter } from "@/components/inside-page-footer";
 
 export default function VideoSolutionsLayout({
   children,
@@ -6,12 +7,10 @@ export default function VideoSolutionsLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-screen flex-col bg-background">
+    <div id="top" className="flex min-h-screen flex-col bg-background">
       <VideoSolutionsHeader />
       <main className="flex-1">{children}</main>
-      <footer className="border-t border-border bg-brand py-6 text-center text-xs text-brand-foreground/70">
-        ExacqVision
-      </footer>
+      <InsidePageFooter />
     </div>
   );
 }
