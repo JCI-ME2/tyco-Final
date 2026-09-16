@@ -108,7 +108,7 @@ export default function ProjectRegistrationPage() {
       <header className="border-b border-slate-200 bg-white px-6 py-4">
         <div className="mx-auto max-w-[1200px]">
           <Image
-            src="/images/jci-logo-pages.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/jci-logo-pages.png`}
             alt="Johnson Controls"
             width={140}
             height={40}
