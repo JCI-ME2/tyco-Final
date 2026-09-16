@@ -8,7 +8,9 @@ export default function Home() {
       {/* Title */}
       <header className="mx-auto w-full max-w-6xl px-6 pt-4 md:pt-6">
         <h1 className="text-3xl md:text-5xl font-light leading-tight text-jci-blue text-center">
-          JCI Security Solutions – Illustra Exacq Kantech and more
+          JCI Security Solutions
+          <br />
+          Illustra Exacq Kantech and more
         </h1>
       </header>
 
