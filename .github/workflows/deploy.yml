@@ -36,10 +36,10 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build static export
+      - name: Build with Next.js
         env:
           NEXT_PUBLIC_BASE_PATH: /tyco-Final
-        run: pnpm build
+        run: pnpm exec next build
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
