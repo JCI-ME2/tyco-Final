@@ -25,7 +25,7 @@ export default function Home() {
             muted={false}
           >
             <source
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Recording%20with%20BG%20%281%29-5Wn1C5T6RzB0VpfBSb2bfkwktuuV16.mp4"
+              src="/videos/Recording%20with%20BG%20%281%29.mp4"
               type="video/mp4"
             />
             Your browser does not support the video tag.
