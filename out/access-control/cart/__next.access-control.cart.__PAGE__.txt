@@ -2,5 +2,5 @@
 2:I[9499,["/_next/static/chunks/0p8o-off0oonx.js","/_next/static/chunks/05izgir7-~l0v.js","/_next/static/chunks/060qv5wf_on5c.js","/_next/static/chunks/0z_0~yp69i05k.js"],"CartView"]
 3:I[96237,["/_next/static/chunks/0p8o-off0oonx.js","/_next/static/chunks/05izgir7-~l0v.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"backHref":"/access-control","title":"My Kantech Cart"}],[["$","script","script-0",{"src":"/_next/static/chunks/0z_0~yp69i05k.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"i3fFQYQ1PNj4DlN8fOBAc"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"backHref":"/access-control","title":"My Kantech Cart"}],[["$","script","script-0",{"src":"/_next/static/chunks/0z_0~yp69i05k.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"VzDyJvHafZ6Oc6byA1Tde"}
 5:null

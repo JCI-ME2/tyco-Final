@@ -1,27 +1,15 @@
 /** @type {import('next').NextConfig} */
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true'
+
 const nextConfig = {
-  output: 'export',
-  basePath: process.env.GITHUB_ACTIONS === 'true' ? '/tyco-Final' : '',
+  ...(process.env.NODE_ENV === 'production' && { output: 'export' }),
+
   trailingSlash: true,
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  basePath: isGithubActions ? '/tyco-Final' : '',
+  assetPrefix: isGithubActions ? '/tyco-Final/' : undefined,
+
   images: {
     unoptimized: true,
-  },
-  async headers() {
-    return [{
-      source: "/(.*)",
-      headers: [
-        { key: "X-Content-Type-Options", value: "nosniff" },
-        { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
-        { key: "X-Frame-Options", value: "SAMEORIGIN" },
-        { key: "Permissions-Policy", value: "camera=(), microphone=(), geolocation=()" },
-      ],
-    }]
   },
 }
 
