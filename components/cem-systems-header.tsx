@@ -24,11 +24,11 @@ export function CemSystemsHeader() {
       <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-6">
         <Link href="/cem-systems" className="flex items-center gap-3 shrink-0">
           <Image
-            src="/images/jci-logo.png"
+            src="/images/jci-logo-pages.png"
             alt="Johnson Controls"
-            className="h-9 w-9 object-contain"
-            width={36}
-            height={36}
+            className="h-9 w-auto object-contain"
+            width={140}
+            height={40}
           />
           <span className="text-sm font-semibold tracking-wide text-accent leading-tight">
             CEM Systems<br />AC2000
