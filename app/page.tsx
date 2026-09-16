@@ -8,7 +8,7 @@ export default function Home() {
       {/* Title */}
       <header className="mx-auto w-full max-w-6xl px-6 pt-4 md:pt-6">
         <h1 className="text-3xl md:text-5xl font-light leading-tight text-jci-blue text-center">
-          Tyco Solutions – Exacq, Kantech, CEM &amp; Illustra
+          JCI Security Solutions – Exacq, Kantech, CEM &amp; Illustra
         </h1>
       </header>
 

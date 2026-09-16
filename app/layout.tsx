@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Tyco Solutions – Exacq, Kantech & Illustra',
+  title: 'JCI Security Solutions – Exacq, Kantech & Illustra',
   description: 'Robust, scalable and integrated security solutions — choose Access Control or Video Solutions to begin.',
   generator: 'v0.app',
   icons: {
