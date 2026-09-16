@@ -25,7 +25,7 @@ export default function Home() {
             muted={false}
           >
             <source
-              src="/videos/Recording%20with%20BG%20%281%29.mp4"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/videos/Recording%20with%20BG%20%281%29.mp4`}
               type="video/mp4"
             />
             Your browser does not support the video tag.
@@ -133,7 +133,7 @@ export default function Home() {
             The power behind <span className="font-semibold">your mission</span>
           </p>
           <div className="flex items-end gap-4">
-<Image src="/images/jci-logo.png" alt="Johnson Controls" className="h-10 w-auto object-contain" width={40} height={40} />
+<Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/jci-logo.png`} alt="Johnson Controls" className="h-10 w-auto object-contain" width={40} height={40} />
           </div>
         </div>
         <div className="h-[3px] w-full bg-gradient-to-r from-jci-teal to-jci-blue" />

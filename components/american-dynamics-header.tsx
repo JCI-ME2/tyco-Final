@@ -22,7 +22,7 @@ export function AmericanDynamicsHeader() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-6">
         <Link href="/american-dynamics" className="flex items-center">
-          <Image src="/images/jci-logo-pages.png" alt="Johnson Controls" className="h-9 w-auto object-contain" width={140} height={40} />
+          <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/jci-logo-pages.png`} alt="Johnson Controls" className="h-9 w-auto object-contain" width={140} height={40} />
         </Link>
         <OurBrandsMenu />
 

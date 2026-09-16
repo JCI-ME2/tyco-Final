@@ -116,7 +116,7 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
       {showBanner && (
         <section className="w-full">
           <Image
-            src="/images/illustra-banner.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/illustra-banner.png`}
             alt="Select your camera — filter by features below"
             className="w-full h-auto block"
             width={1600}

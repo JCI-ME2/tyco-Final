@@ -25,7 +25,7 @@ export function CemSystemsHeader() {
       <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-6">
         <Link href="/cem-systems" className="flex items-center shrink-0">
           <Image
-            src="/images/jci-logo-pages.png"
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/jci-logo-pages.png`}
             alt="Johnson Controls"
             className="h-9 w-auto object-contain"
             width={140}

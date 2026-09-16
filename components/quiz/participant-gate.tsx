@@ -45,7 +45,7 @@ export function ParticipantGate({
         <div className="overflow-hidden rounded-xl border border-border bg-card shadow-sm">
           <div className="flex items-center gap-3 bg-brand px-6 py-5">
             <Image
-              src="/images/jci-logo-pages.png"
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/jci-logo-pages.png`}
               alt="Johnson Controls"
               width={40}
               height={40}
