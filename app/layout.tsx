@@ -5,15 +5,16 @@ import './globals.css'
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 export const metadata: Metadata = {
-  title: 'JCI Security Solutions | Illustra Exacq Kantech and more',
+  title: 'JCI Security Solutions',
   description: 'Robust, scalable and integrated security solutions — choose Access Control or Video Solutions to begin.',
   generator: 'v0.app',
   icons: {
-    icon: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/JCI_logo.png`,
-    shortcut: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/JCI_logo.png`,
-    apple: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/JCI_logo.png`,
+    icon: `${basePath}/icon.png`,
+    shortcut: `${basePath}/icon.png`,
+    apple: `${basePath}/apple-icon.png`,
   },
 }
 
