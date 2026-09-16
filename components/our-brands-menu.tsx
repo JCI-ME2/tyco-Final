@@ -2,17 +2,17 @@ import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 
 const brands = [
+  { label: "Illustra", href: "/illustra-cameras" },
   { label: "Exacq", href: "/video-solutions" },
   { label: "Kantech", href: "/access-control" },
-  { label: "CEM Systems", href: "/cem-systems" },
-  { label: "Illustra", href: "/illustra-cameras" },
   { label: "American Dynamics", href: "/american-dynamics" },
+  { label: "CEM Systems", href: "/cem-systems" },
 ];
 
 export function OurBrandsMenu() {
   return (
     <details className="relative shrink-0">
-      <summary className="flex cursor-pointer list-none items-center gap-1 rounded-md px-2 py-2 text-sm font-semibold tracking-wide text-accent hover:bg-secondary [&::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer list-none items-center gap-1 rounded-md px-2 py-2 text-sm font-semibold tracking-wide text-black hover:bg-secondary [&::-webkit-details-marker]:hidden">
         Our Brands
         <ChevronDown className="h-4 w-4" aria-hidden="true" />
       </summary>
