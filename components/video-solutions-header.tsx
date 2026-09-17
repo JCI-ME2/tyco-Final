@@ -30,7 +30,7 @@ export function VideoSolutionsHeader() {
             <Link
               key={n.label}
               href={n.href}
-              className={`px-4 py-2 text-[15px] font-normal text-[#333740] transition-colors hover:text-jci-blue ${
+              className={`px-4 py-2 text-[12px] font-normal text-[#333740] transition-colors hover:text-jci-blue ${
                 pathname === n.href ? "border-b-2 border-jci-blue text-jci-blue" : ""
               }`}
             >
