@@ -10,6 +10,10 @@ import Image from "next/image";
 
 type Row = Record<string, string | number>;
 
+function withBasePath(url: string) {
+  return url.startsWith("/") ? `${process.env.NEXT_PUBLIC_BASE_PATH || ""}${url}` : url;
+}
+
 const EXACQ_DATASHEET_BY_MODEL: Record<string, string> = {
   "EVIP-01": "/datasheets/Pro.pdf", "EVENIP-01": "/datasheets/Ent.pdf",
   "EDGE": "/datasheets/Edge.pdf", "EDGEP": "/datasheets/Edge.pdf", "EVIP-EVENIP": "/datasheets/Ent.pdf",
@@ -202,7 +206,7 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
                   <div className="min-w-0 flex-1">
                     {datasheetUrl ? (
                       <a
-                        href={datasheetUrl}
+                        href={withBasePath(datasheetUrl)}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"

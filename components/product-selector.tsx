@@ -4,6 +4,10 @@ import { useMemo, useState } from "react";
 import { Search, X, Copy, Check, ShoppingCart, Minus, Plus, FileText } from "lucide-react";
 import { addToCart } from "@/lib/cart";
 
+function withBasePath(url: string) {
+  return url.startsWith("/") ? `${process.env.NEXT_PUBLIC_BASE_PATH || ""}${url}` : url;
+}
+
 const ENTRAPASS_DATASHEET = "/datasheets/EntraPass-Global.pdf";
 const MAGLOCK_DATASHEET_MODELS = new Set([
   "ICS-A10001", "ICS-A10002", "ICS-A10004", "ICS-A10005", "ICS-A10010", "ICS-A10020",
@@ -260,7 +264,7 @@ export function ProductSelector<T extends Record<string, string>>({
                     <div className="flex items-center gap-2">
                       {datasheetUrl ? (
                         <a
-                          href={datasheetUrl}
+                          href={withBasePath(datasheetUrl)}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
