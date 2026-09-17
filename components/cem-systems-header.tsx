@@ -35,7 +35,8 @@ export function CemSystemsHeader() {
         <OurBrandsMenu />
 
         <nav className="ml-4 hidden items-center gap-1 lg:flex overflow-x-auto">
-          {navItems.map((n) => (
+          {navItems.map((n, index) => (
+            <span key={n.label} className="flex items-center">
             <Link
               key={n.label}
               href={n.href}
@@ -45,6 +46,8 @@ export function CemSystemsHeader() {
             >
               {n.label}
             </Link>
+            {index < navItems.length - 1 && <span aria-hidden="true" className="px-1 text-jci-blue">|</span>}
+            </span>
           ))}
         </nav>
 

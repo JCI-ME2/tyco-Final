@@ -27,7 +27,8 @@ export function AmericanDynamicsHeader() {
         <OurBrandsMenu />
 
         <nav className="ml-4 hidden items-center gap-1 lg:flex">
-          {navItems.map((n) => (
+          {navItems.map((n, index) => (
+            <span key={n.label} className="flex items-center">
             <Link
               key={n.label}
               href={n.href}
@@ -37,6 +38,8 @@ export function AmericanDynamicsHeader() {
             >
               {n.label}
             </Link>
+            {index < navItems.length - 1 && <span aria-hidden="true" className="px-1 text-jci-blue">|</span>}
+            </span>
           ))}
         </nav>
 
