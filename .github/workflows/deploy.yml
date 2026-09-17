@@ -38,7 +38,7 @@ jobs:
 
       - name: Build with Next.js
         env:
-          NEXT_PUBLIC_BASE_PATH: /tyco-Final
+          NEXT_PUBLIC_BASE_PATH: /tyco-presales
         run: pnpm exec next build
 
       - name: Upload Pages artifact

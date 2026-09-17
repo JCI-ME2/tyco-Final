@@ -4,7 +4,7 @@ const isGithubActions = process.env.GITHUB_ACTIONS === 'true'
 const nextConfig = {
   output: 'export',
   trailingSlash: false,
-  basePath: isGithubActions ? '/tyco-Final' : '',
+  basePath: isGithubActions ? '/tyco-presales' : '',
   images: {
     unoptimized: true,
   },
