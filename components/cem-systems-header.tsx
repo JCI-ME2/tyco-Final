@@ -35,16 +35,19 @@ export function CemSystemsHeader() {
         <OurBrandsMenu />
 
         <nav className="ml-4 hidden items-center gap-1 lg:flex overflow-x-auto">
-          {navItems.map((n) => (
+          {navItems.map((n, index) => (
+            <span key={n.label} className="flex items-center">
             <Link
               key={n.label}
               href={n.href}
-              className={`whitespace-nowrap rounded-md px-3 py-2 text-sm font-medium text-foreground/80 hover:bg-secondary hover:text-foreground ${
-                pathname === n.href ? "bg-secondary text-foreground" : ""
+              className={`whitespace-nowrap px-4 py-2 text-[12px] font-normal text-[#333740] transition-colors hover:text-jci-blue ${
+                pathname === n.href ? "border-b-2 border-jci-blue text-jci-blue" : ""
               }`}
             >
               {n.label}
             </Link>
+            {index < navItems.length - 1 && <span aria-hidden="true" className="px-1 text-jci-blue">|</span>}
+            </span>
           ))}
         </nav>
 
