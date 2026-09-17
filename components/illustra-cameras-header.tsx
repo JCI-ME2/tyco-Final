@@ -30,8 +30,8 @@ export function IllustraCamerasHeader() {
             <Link
               key={n.label}
               href={n.href}
-              className={`rounded-md px-3 py-2 text-sm font-medium text-foreground/80 hover:bg-secondary hover:text-foreground ${
-                pathname === n.href ? "bg-secondary text-foreground" : ""
+              className={`px-4 py-2 text-[15px] font-normal text-[#333740] transition-colors hover:text-jci-blue ${
+                pathname === n.href ? "border-b-2 border-jci-blue text-jci-blue" : ""
               }`}
             >
               {n.label}
