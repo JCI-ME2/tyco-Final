@@ -22,17 +22,7 @@ export function CemSystemsHeader() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur">
-      <div className="border-b border-border bg-background">
-        <nav className="mx-auto flex h-11 max-w-[1400px] items-center justify-end gap-0 px-6 text-[15px] text-foreground" aria-label="Utility navigation">
-          {[['Contact an expert', '/'], ['Investors', '/'], ['Careers', '/'], ['Media Center', '/']].map(([label, href], index) => (
-            <span key={label} className="flex items-center">
-              <Link href={href} className="px-4 py-1 hover:text-jci-blue">{label}</Link>
-              {index < 3 && <span aria-hidden="true" className="text-jci-blue">|</span>}
-            </span>
-          ))}
-        </nav>
-      </div>
-      <div className="mx-auto flex min-h-16 max-w-[1400px] items-center gap-6 px-6">
+      <div className="mx-auto flex h-16 max-w-[1400px] items-center gap-6 px-6">
         <Link href="/cem-systems" className="flex items-center shrink-0">
           <Image
             src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/jci-logo-pages.png`}
@@ -44,7 +34,7 @@ export function CemSystemsHeader() {
         </Link>
         <OurBrandsMenu />
 
-        <nav className="ml-4 hidden items-center gap-2 overflow-x-auto lg:flex">
+        <nav className="ml-4 hidden items-center gap-1 lg:flex overflow-x-auto">
           {navItems.map((n) => (
             <Link
               key={n.label}
