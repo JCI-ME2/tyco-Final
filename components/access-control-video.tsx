@@ -18,7 +18,7 @@ export function AccessControlVideo({
               className="absolute inset-0 h-full w-full border-0"
               src={
                 frameId
-                  ? `https://jci-me2.github.io/videoframes/#${frameId}`
+                  ? `https://jci-me2.github.io/videoframes/?v=${encodeURIComponent(frameId)}`
                   : frameTitle
                     ? `https://jci-me2.github.io/videoframes/?title=${encodeURIComponent(frameTitle)}`
                     : `https://www.youtube-nocookie.com/embed/${youtubeId}`
