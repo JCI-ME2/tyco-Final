@@ -12,14 +12,16 @@ export function AccessControlVideo({
   return (
     <section className="flex w-full justify-center bg-background px-6">
       <div className="w-full overflow-hidden rounded-sm shadow-sm md:w-[60%]">
-        {frameId || youtubeId ? (
-          <div className="w-full aspect-video rounded-xl overflow-hidden p-0 m-0 bg-transparent">
+        {frameId || frameTitle || youtubeId ? (
+          <div className="relative aspect-video w-full overflow-hidden rounded-lg">
             <iframe
-              className="w-full h-full border-0 block"
+              className="absolute inset-0 h-full w-full border-0"
               src={
                 frameId
-                  ? `https://jci-me2.github.io/videoframes/?v=${encodeURIComponent(frameId)}`
-                  : `https://www.youtube-nocookie.com/embed/${youtubeId}`
+                  ? `https://jci-me2.github.io/videoframes/#${frameId}`
+                  : frameTitle
+                    ? `https://jci-me2.github.io/videoframes/?title=${encodeURIComponent(frameTitle)}`
+                    : `https://www.youtube-nocookie.com/embed/${youtubeId}`
               }
               title={frameTitle || "Video"}
               scrolling="no"
