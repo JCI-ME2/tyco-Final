@@ -8,6 +8,19 @@ function withBasePath(url: string) {
   return url.startsWith("/") ? `${process.env.NEXT_PUBLIC_BASE_PATH || ""}${url}` : url;
 }
 
+async function downloadPdf(url: string) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Unable to download ${url}`);
+  const blobUrl = URL.createObjectURL(await response.blob());
+  const link = document.createElement("a");
+  link.href = blobUrl;
+  link.download = url.split("/").pop() || "datasheet.pdf";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(blobUrl);
+}
+
 const ENTRAPASS_DATASHEET = "/datasheets/EntraPass-Global.pdf";
 const MAGLOCK_DATASHEET_MODELS = new Set([
   "ICS-A10001", "ICS-A10002", "ICS-A10004", "ICS-A10005", "ICS-A10010", "ICS-A10020",
@@ -266,6 +279,12 @@ export function ProductSelector<T extends Record<string, string>>({
                         <a
                           href={withBasePath(datasheetUrl)}
     download
+    onClick={(event) => {
+      if (datasheetUrl.startsWith("/")) {
+        event.preventDefault();
+        void downloadPdf(withBasePath(datasheetUrl));
+      }
+    }}
 
                           className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
                           title="Open product datasheet PDF"
