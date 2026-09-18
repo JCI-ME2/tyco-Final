@@ -14,6 +14,19 @@ function withBasePath(url: string) {
   return url.startsWith("/") ? `${process.env.NEXT_PUBLIC_BASE_PATH || ""}${url}` : url;
 }
 
+async function downloadPdf(url: string) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Unable to download ${url}`);
+  const blobUrl = URL.createObjectURL(await response.blob());
+  const link = document.createElement("a");
+  link.href = blobUrl;
+  link.download = url.split("/").pop() || "datasheet.pdf";
+  document.body.appendChild(link);
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(blobUrl);
+}
+
 const EXACQ_DATASHEET_BY_MODEL: Record<string, string> = {
   "EVIP-01": "/datasheets/Pro.pdf", "EVENIP-01": "/datasheets/Ent.pdf",
   "EDGE": "/datasheets/Edge.pdf", "EDGEP": "/datasheets/Edge.pdf", "EVIP-EVENIP": "/datasheets/Ent.pdf",
@@ -208,6 +221,12 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
                       <a
                         href={withBasePath(datasheetUrl)}
     download
+    onClick={(event) => {
+      if (datasheetUrl.startsWith("/")) {
+        event.preventDefault();
+        void downloadPdf(withBasePath(datasheetUrl));
+      }
+    }}
 
                         className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
                         title="Open datasheet PDF"
