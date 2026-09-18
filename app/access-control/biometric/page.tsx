@@ -5,7 +5,7 @@ import { biometric } from "@/data/access-control";
 export default function BiometricPage() {
   return (
     <>
-      <AccessControlVideo youtubeId="0qDc7zO7lLo" />
+      <AccessControlVideo frameId="biometric-access" frameTitle="Biometric Access" />
       <ProductSelector
       category="Biometric"
       title="Biometric Readers"

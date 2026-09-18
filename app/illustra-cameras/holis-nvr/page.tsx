@@ -4,7 +4,7 @@ import { AccessControlVideo } from "@/components/access-control-video";
 export default function IllustraCamerasHolisNvrPage() {
   return (
     <>
-      <AccessControlVideo youtubeId="88JvhJVklX4" />
+      <AccessControlVideo frameId="holis-nvr" frameTitle="Holis NVR" />
       <VideoProductSelector
         sheet="Holis NVR"
         category="Holis NVR"

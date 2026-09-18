@@ -5,7 +5,7 @@ import { magLocks } from "@/data/access-control";
 export default function MagLocksPage() {
   return (
     <>
-      <AccessControlVideo youtubeId="yIlEQkDewE0" />
+      <AccessControlVideo frameId="maglocks" frameTitle="Maglocks" />
       <ProductSelector
       category="MagLocks"
       title="Magnetic Locks"

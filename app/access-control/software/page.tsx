@@ -5,7 +5,7 @@ import { software } from "@/data/access-control";
 export default function SoftwarePage() {
   return (
     <>
-      <AccessControlVideo youtubeId="36Oc-v3ZEDU" />
+      <AccessControlVideo frameId="access-control-software" frameTitle="Access Control Software" />
       <ProductSelector
       category="Software"
       title="EntraPass Software"

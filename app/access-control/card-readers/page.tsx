@@ -5,7 +5,7 @@ import { cardReaders } from "@/data/access-control";
 export default function CardReadersPage() {
   return (
     <>
-      <AccessControlVideo youtubeId="8CFmAHK-hRk" />
+      <AccessControlVideo frameId="card-readers" frameTitle="Card Readers" />
       <ProductSelector
       category="Card Readers"
       title="Card Readers"
