@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
-const isProductionBuild = process.env.NODE_ENV === 'production'
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true'
 const githubPagesPath = '/tyco-presales'
 
 const nextConfig = {
   output: 'export',
   trailingSlash: false,
-  basePath: isProductionBuild ? githubPagesPath : '',
-  assetPrefix: isProductionBuild ? githubPagesPath : undefined,
+  basePath: isGithubActions ? githubPagesPath : '',
+  assetPrefix: isGithubActions ? githubPagesPath : undefined,
   images: {
     unoptimized: true,
   },
