@@ -24,6 +24,8 @@ export function AccessControlVideo({
                     : `https://www.youtube-nocookie.com/embed/${youtubeId}`
               }
               title={frameTitle || "Video"}
+              scrolling="no"
+              loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
