@@ -10,12 +10,12 @@ export function AccessControlVideo({
   frameId?: string;
 }) {
   return (
-    <section className="flex w-full justify-center bg-background px-6">
-      <div className="w-full overflow-hidden rounded-sm shadow-sm md:w-[60%]">
+    <section className="flex w-full justify-center bg-background">
+      <div className="w-full max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden p-0 m-0 bg-transparent border-0 shadow-none">
         {frameId || frameTitle || youtubeId ? (
-          <div className="relative aspect-video w-full overflow-hidden rounded-lg">
+          <div className="relative w-full h-full overflow-hidden p-0 m-0">
             <iframe
-              className="absolute inset-0 h-full w-full border-0"
+              className="w-full h-full border-0 block p-0 m-0"
               src={
                 frameId
                   ? `https://jci-me2.github.io/videoframes/#${frameId}`
