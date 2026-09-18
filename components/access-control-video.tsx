@@ -10,10 +10,10 @@ export function AccessControlVideo({
   frameId?: string;
 }) {
   return (
-    <section className="flex w-full justify-center bg-background px-6">
-      <div className="w-full overflow-hidden rounded-sm shadow-sm md:w-[60%]">
+    <section className="flex w-full justify-center bg-background p-0">
+      <div className="w-full overflow-hidden rounded-none shadow-none">
         {frameId || frameTitle || youtubeId ? (
-          <div className="relative aspect-video w-full overflow-hidden rounded-lg">
+          <div className="relative aspect-video w-full overflow-hidden rounded-none">
             <iframe
               className="absolute inset-0 h-full w-full border-0"
               src={
