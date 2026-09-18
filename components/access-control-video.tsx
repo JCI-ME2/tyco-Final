@@ -6,7 +6,7 @@ export function AccessControlVideo({ src, youtubeId }: { src?: string; youtubeId
           <div className="aspect-video w-full">
             <iframe
               className="h-full w-full"
-              src={`https://jci-me2.github.io/videoframes/${youtubeId}.html`}
+              src={`https://jci-me2.github.io/videoframes/?v=${encodeURIComponent(youtubeId)}`}
               title="Illustra Cameras video"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
