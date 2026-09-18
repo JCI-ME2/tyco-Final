@@ -11,7 +11,7 @@ const categories = [
 export default function VideoSolutionsIndex() {
   return (
     <>
-      <AccessControlVideo youtubeId="uN9ir5An00g" />
+      <AccessControlVideo frameId="exacq-main-features" frameTitle="Exacq main features" />
 
       <section className="mx-auto max-w-[1400px] px-6 py-12">
         <h2 className="text-2xl font-semibold text-foreground">Pick a Category to Build Your Order</h2>
