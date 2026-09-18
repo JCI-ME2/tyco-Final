@@ -265,8 +265,8 @@ export function ProductSelector<T extends Record<string, string>>({
                       {datasheetUrl ? (
                         <a
                           href={withBasePath(datasheetUrl)}
-                          target="_blank"
-                          rel="noopener noreferrer"
+    download
+
                           className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
                           title="Open product datasheet PDF"
                         >

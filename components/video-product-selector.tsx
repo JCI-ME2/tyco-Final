@@ -207,8 +207,8 @@ export function VideoProductSelector({ sheet, category, filterColumns, showBanne
                     {datasheetUrl ? (
                       <a
                         href={withBasePath(datasheetUrl)}
-                        target="_blank"
-                        rel="noopener noreferrer"
+    download
+
                         className="inline-flex items-center gap-1.5 font-mono text-base font-bold tracking-wide text-brand hover:underline"
                         title="Open datasheet PDF"
                       >
