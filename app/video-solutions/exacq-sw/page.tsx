@@ -4,7 +4,7 @@ import { AccessControlVideo } from "@/components/access-control-video";
 export default function ExacqSwPage() {
   return (
     <>
-      <AccessControlVideo youtubeId="8fLuO2xw-es" />
+      <AccessControlVideo frameId="exacq-software" frameTitle="Exacq Software" />
       <VideoProductSelector
         sheet="Exacq SW"
         category="Exacq Software"

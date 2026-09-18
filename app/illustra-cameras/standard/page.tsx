@@ -4,7 +4,7 @@ import { AccessControlVideo } from "@/components/access-control-video";
 export default function IllustraStandardPage() {
   return (
     <>
-      <AccessControlVideo youtubeId="S1xZoTt94Ro" />
+      <AccessControlVideo frameId="illustra-standard" frameTitle="Illustra Standard" />
       <VideoProductSelector
         sheet="Illustra Standard"
         category="Illustra Standard"

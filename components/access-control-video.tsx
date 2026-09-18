@@ -1,13 +1,31 @@
-export function AccessControlVideo({ src, youtubeId }: { src?: string; youtubeId?: string }) {
+export function AccessControlVideo({
+  src,
+  youtubeId,
+  frameTitle,
+  frameId,
+}: {
+  src?: string;
+  youtubeId?: string;
+  frameTitle?: string;
+  frameId?: string;
+}) {
   return (
     <section className="flex w-full justify-center bg-background px-6">
       <div className="w-full overflow-hidden rounded-sm shadow-sm md:w-[60%]">
-        {youtubeId ? (
-          <div className="aspect-video w-full">
+        {frameId || frameTitle || youtubeId ? (
+          <div className="relative aspect-video w-full overflow-hidden rounded-lg">
             <iframe
-              className="h-full w-full"
-              src={`https://www.youtube-nocookie.com/embed/${youtubeId}`}
-              title="Illustra Cameras video"
+              className="absolute inset-0 h-full w-full border-0"
+              src={
+                frameId
+                  ? `https://jci-me2.github.io/videoframes/#${frameId}`
+                  : frameTitle
+                    ? `https://jci-me2.github.io/videoframes/?title=${encodeURIComponent(frameTitle)}`
+                    : `https://www.youtube-nocookie.com/embed/${youtubeId}`
+              }
+              title={frameTitle || "Video"}
+              scrolling="no"
+              loading="lazy"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />

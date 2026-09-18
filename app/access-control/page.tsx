@@ -15,7 +15,7 @@ const categories = [
 export default function AccessControlIndex() {
   return (
     <>
-      <AccessControlVideo youtubeId="Ut4sEDLgnlc" />
+      <AccessControlVideo frameId="access-control" frameTitle="Access Control" />
 
       <section className="mx-auto max-w-[1400px] px-6 py-12">
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">

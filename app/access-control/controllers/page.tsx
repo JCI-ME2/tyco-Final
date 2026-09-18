@@ -5,7 +5,7 @@ import { controllers } from "@/data/access-control";
 export default function ControllersPage() {
   return (
     <>
-      <AccessControlVideo youtubeId="BOyCGcTGaVQ" />
+      <AccessControlVideo frameId="controllers" frameTitle="Controllers" />
       <ProductSelector
       category="Controllers"
       title="Controllers"
